@@ -1,0 +1,11 @@
+usr/bin/gedit
+/usr/lib/*/gedit/gedit-bugreport.sh /usr/share/gedit/
+usr/lib/*/gedit/girepository-1.0/
+usr/lib/*/gedit/plugins/*.plugin
+usr/lib/*/gedit/plugins/*.so
+usr/lib/*/gedit/plugins/*/*.py
+usr/lib/*/gedit/*.so
+usr/lib/python*
+usr/share/applications/org.gnome.gedit.desktop
+usr/share/dbus-1/
+usr/share/appdata/org.gnome.gedit.appdata.xml

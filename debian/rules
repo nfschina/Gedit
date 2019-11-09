@@ -1,0 +1,31 @@
+#!/usr/bin/make -f
+-include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
+
+# Parallel breaks i18n https://bugzilla.gnome.org/770100
+
+%:
+	dh $@ --no-parallel --with gir,gnome,python3
+
+override_dh_auto_configure:
+	dh_auto_configure -- --enable-gtk-doc
+
+override_dh_python3:
+	dh_python3
+	dh_python3 /usr/lib/$(DEB_HOST_MULTIARCH)/gedit/plugins
+	dh_python3 /usr/share/gedit/plugins
+
+override_dh_girepository:
+	dh_girepository	-ldebian/tmp/usr/share/gedit/gir-1.0 \
+		/usr/lib/$(DEB_HOST_MULTIARCH)/gedit/girepository-1.0
+
+override_dh_install:
+	# remove cruft
+	find debian/tmp -name '*.la' -delete
+	rm -rf debian/tmp/usr/lib/*/gedit/plugins/*/__pycache__/
+	# remove gnome-text-editor symlink, it's registered in the
+	# debian alternatives system instead. See postinst.
+	rm -f debian/tmp/usr/bin/gnome-text-editor
+	dh_install --fail-missing

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="gedit Reference Manual" link="index.html" author="" name="gedit" version="2" language="c">
+  <chapters>
+    <sub name="gedit" link="ch01.html">
+      <sub name="GeditApp" link="gedit-GeditApp.html"/>
+      <sub name="GeditAppActivatable" link="gedit-GeditAppActivatable.html"/>
+      <sub name="GeditCommands" link="gedit-GeditCommands.html"/>
+      <sub name="GeditDocument" link="gedit-GeditDocument.html"/>
+      <sub name="GeditEncodingsComboBox" link="gedit-GeditEncodingsComboBox.html"/>
+      <sub name="gedit-menu-extension" link="gedit-gedit-menu-extension.html"/>
+      <sub name="GeditMessageBus" link="gedit-GeditMessageBus.html"/>
+      <sub name="GeditMessage" link="gedit-GeditMessage.html"/>
+      <sub name="GeditProgressInfoBar" link="gedit-GeditProgressInfoBar.html"/>
+      <sub name="GeditStatusbar" link="gedit-GeditStatusbar.html"/>
+      <sub name="GeditTab" link="gedit-gedit-tab.html"/>
+      <sub name="GeditView" link="gedit-gedit-view.html"/>
+      <sub name="GeditViewActivatable" link="gedit-GeditViewActivatable.html"/>
+      <sub name="GeditWindow" link="gedit-gedit-window.html"/>
+      <sub name="GeditWindowActivatable" link="gedit-GeditWindowActivatable.html"/>
+      <sub name="gedit-debug" link="gedit-gedit-debug.html"/>
+      <sub name="gedit-utils" link="gedit-gedit-utils.html"/>
+    </sub>
+    <sub name="Object Hierarchy" link="object-tree.html"/>
+    <sub name="Index of all symbols" link="api-index-full.html"/>
+    <sub name="Index of deprecated symbols" link="api-index-deprecated.html"/>
+    <sub name="Index of new symbols in 3.14" link="api-index-3-14.html"/>
+  </chapters>
+  <functions/>
+</book>

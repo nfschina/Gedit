@@ -1,0 +1,3801 @@
+# TeliuTe <teliute@163.com>, 2009, 2011.
+# Colin Zhao <lonely.ibm@gmail.com>, 2011.
+# Wylmer Wang <wantinghard@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit-master-help\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-30 05:18+0000\n"
+"PO-Revision-Date: 2013-09-19 19:08+0800\n"
+"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"TeliuTe <teliute@163.com>, 2009, 2011\n"
+"Colin Zhao <lonely.ibm@gmail.com>, 2011\n"
+"wancheng zhang <wancheng.com.cn@gmail.com>, 2012"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "link"
+msgid "gedit Text Editor"
+msgstr "文本编辑器"
+
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
+msgid "gedit Text Editor"
+msgstr "文本编辑器"
+
+#. (itstool) path: credit/name
+#: C/index.page:13 C/gedit-change-color-scheme.page:9
+#: C/gedit-change-default-font.page:9 C/gedit-close-file.page:9
+#: C/gedit-create-new-file.page:9 C/gedit-edit-as-root.page:9
+#: C/gedit-files-basic.page:9 C/gedit-full-screen.page:9
+#: C/gedit-open-files-from-sidepane.page:10 C/gedit-open-files.page:13
+#: C/gedit-open-on-server.page:9 C/gedit-open-recent.page:9
+#: C/gedit-plugin-guide.page:9 C/gedit-plugins-change-case.page:14
+#: C/gedit-plugins-doc-stats.page:14 C/gedit-plugins-external-tools.page:15
+#: C/gedit-plugins-file-browser.page:14
+#: C/gedit-plugins-insert-date-time.page:14 C/gedit-plugins-install.page:8
+#: C/gedit-plugins-modelines.page:13 C/gedit-plugins-pyconsole.page:9
+#: C/gedit-plugins-quick-open.page:10 C/gedit-plugins-snippets.page:9
+#: C/gedit-plugins-sort.page:13 C/gedit-printing.page:9
+#: C/gedit-quickstart.page:11 C/gedit-replace.page:10 C/gedit-save-file.page:9
+#: C/gedit-search.page:10 C/gedit-shortcut-keys.page:10
+#: C/gedit-spellcheck.page:11 C/gedit-syntax-highlighting.page:9
+#: C/gedit-tabs-moving.page:9 C/gedit-tabs.page:10
+#: C/gedit-undo-recent-action.page:9
+#: C/gedit-view-open-files-in-sidepane.page:10
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: credit/name
+#: C/index.page:17 C/gedit-plugins-snippets.page:13
+#: C/gedit-plugins-sort.page:17 C/gedit-printing-order.page:14
+#: C/gedit-printing.page:13 C/gedit-printing-select.page:13
+#: C/gedit-quickstart.page:15 C/gedit-replace.page:18
+#: C/gedit-save-file.page:13 C/gedit-search.page:18
+#: C/gedit-shortcut-keys.page:26 C/gedit-spellcheck.page:19
+#: C/gedit-syntax-highlighting.page:13 C/gedit-tabs-moving.page:17
+#: C/gedit-tabs.page:18 C/gedit-undo-recent-action.page:17
+#: C/gedit-view-open-files-in-sidepane.page:18
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: page/title
+#: C/index.page:25
+msgid "<_:media-1/> gedit Text Editor"
+msgstr "<_:media-1/> 文本编辑器"
+
+#. (itstool) path: page/p
+#: C/index.page:29
+msgid ""
+"Welcome to the <app>gedit</app> help guide. For a quick introduction into "
+"both <app>gedit's</app> most basic features, as well as some advanced "
+"keyboard shortcuts, visit the <link xref=\"gedit-quickstart\">Get started "
+"with gedit</link> and <link xref=\"gedit-shortcut-keys\">Shortcut keys</"
+"link> pages."
+msgstr ""
+"欢迎阅读 <app>文本编辑器</app> 帮助指导。要查看 <app>文本编辑器</app> 基本功能的简要介"
+"绍，请转到“<link xref=\"gedit-quickstart\">开始使用 文本编辑器</link>”页面；如果想"
+"对一些高效的快捷键有所了解，请转到“<link xref=\"gedit-shortcut-keys\">快捷键"
+"</link>”页面。"
+
+#. (itstool) path: page/p
+#: C/index.page:35
+msgid ""
+"Other help topics are grouped together into sections below. Enjoy using "
+"<app>gedit</app>!"
+msgstr "本页上还分组列出了其他帮助主题。祝您愉快地使用 <app>文本编辑器</app>！"
+
+#. (itstool) path: section/title
+#: C/index.page:39
+msgid "Working With Files"
+msgstr "文件操作"
+
+#. (itstool) path: section/title
+#: C/index.page:44
+msgid "Configure gedit"
+msgstr "配置文本编辑器"
+
+#. (itstool) path: section/title
+#: C/index.page:48
+msgid "gedit Plugins"
+msgstr "文本编辑器插件"
+
+#. (itstool) path: section/title
+#: C/index.page:52
+msgid "Printing with gedit"
+msgstr "使用文本编辑器打印"
+
+#. (itstool) path: page/title
+#: C/gedit-change-color-scheme.page:14
+msgid "Change the color scheme"
+msgstr "更改配色方案"
+
+#. (itstool) path: page/p
+#: C/gedit-change-color-scheme.page:16
+msgid ""
+"<app>gedit</app> includes several different color schemes, allowing you to "
+"change the appearance of the main text window."
+msgstr "<app>文本编辑器</app>包含多种不同配色方案，允许您更改主文本窗口的外观。"
+
+#. (itstool) path: page/p
+#: C/gedit-change-color-scheme.page:19
+msgid "To change the color scheme, complete the following steps:"
+msgstr "要更改配色方案，请执行以下步骤："
+
+#. (itstool) path: item/p
+#: C/gedit-change-color-scheme.page:21 C/gedit-change-default-font.page:23
+#| msgid ""
+#| "Select <guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Font &amp; "
+#| "Colors</gui></guiseq>."
+msgid ""
+"Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui>Font &amp; Colors</gui></guiseq>."
+msgstr ""
+"选择 <guiseq><gui style=\"menu\">文本编辑器</gui> <gui style=\"menuitem"
+"\">首选项</gui> <gui>字体和颜色</gui></guiseq>。"
+
+#. (itstool) path: item/p
+#: C/gedit-change-color-scheme.page:24
+msgid "Choose your desired color scheme."
+msgstr "选择您想使用的配色方案。"
+
+#. (itstool) path: page/p
+#: C/gedit-change-color-scheme.page:27
+msgid "The new color scheme will be applied immediately."
+msgstr "新的配色方案会立即生效。"
+
+#. (itstool) path: section/title
+#: C/gedit-change-color-scheme.page:30
+msgid "Use a Custom Color Scheme"
+msgstr "使用自定义的颜色方案"
+
+#. (itstool) path: section/p
+#: C/gedit-change-color-scheme.page:35
+msgid ""
+"You can also use color schemes that have been created by others, or create "
+"and use your own color schemes."
+msgstr "您也可以使用其他人创建的配色方案，或者使用自己的颜色方案。"
+
+#. (itstool) path: section/p
+#: C/gedit-change-color-scheme.page:37
+msgid ""
+"Instructions on how to install custom color schemes, as well as examples of "
+"color schemes that you can download and use, are available on the <link href="
+"\"http://live.gnome.org/GtkSourceView/StyleSchemes\">gedit wiki</link>."
+msgstr ""
+"关于如何安装自定义配色方案的说明，以及您可以下载并使用的配色方案，可以在 "
+"<link href=\"http://live.gnome.org/GtkSourceView/StyleSchemes\">文本编辑器 wiki</"
+"link> 上找到。"
+
+#. (itstool) path: credit/years
+#: C/gedit-change-default-font.page:11
+msgid "2011 2012 2013"
+msgstr "2011 2012 2013"
+
+#. (itstool) path: page/title
+#: C/gedit-change-default-font.page:15
+msgid "Change the default font"
+msgstr "更改默认字体"
+
+#. (itstool) path: page/p
+#: C/gedit-change-default-font.page:17
+msgid ""
+"<app>gedit</app> will use the system fixed-width font by default, but you "
+"can change the default <app>gedit</app> font to suit your preferences."
+msgstr ""
+"<app>文本编辑器</app>默认使用系统等宽字体，您可以根据个人习惯修改<app>文本编辑器</app>"
+"的默认字体"
+
+#. (itstool) path: steps/title
+#: C/gedit-change-default-font.page:22
+msgid "To change the default font in <app>gedit</app>:"
+msgstr "要更改<app>文本编辑器</app>默认字体："
+
+#. (itstool) path: item/p
+#: C/gedit-change-default-font.page:26
+msgid ""
+"Uncheck the box next to the phrase, \"Use the system fixed-width font.\""
+msgstr "取消选中“使用系统等宽字体”旁的复选框。"
+
+
+#. (itstool) path: item/p
+#: C/gedit-change-default-font.page:31
+#| msgid ""
+#| "Choose your desired font, and use the <gui>slider</gui> to set the "
+#| "default font size."
+msgid ""
+"After you have chosen a new font, use the <gui>slider</gui> under the list "
+"of fonts to set the default font size."
+msgstr "选择您需要的字体后，使用字体列表下方的<gui>滑动条</gui>调整默认字体的大小"
+
+#. (itstool) path: item/p
+#: C/gedit-change-default-font.page:33
+msgid "Click <gui>Select</gui>, and then click <gui>Close</gui>."
+msgstr "点击<gui>选择</gui>，然后点击<gui>关闭</gui>"
+
+#. (itstool) path: page/title
+#: C/gedit-close-file.page:14
+msgid "Close a file"
+msgstr "关闭文件"
+
+#. (itstool) path: page/p
+#: C/gedit-close-file.page:16
+msgid ""
+"To close a file in <app>gedit</app>, select <guiseq><gui>File</gui> "
+"<gui>Close</gui></guiseq>. Alternately, you can click the small \"X\" that "
+"appears on the right-side of the file's tab, or press <keyseq><key>Ctrl</"
+"key> <key>W</key></keyseq>."
+msgstr ""
+"要在 <app>文本编辑器</app> 中关闭一个文件，点菜单 <guiseq><gui>文件</gui><gui>关闭"
+"</gui></guiseq>。另外，您也可以点击这个文件所在标签右侧的“X”，或者按组合键 "
+"<keyseq><key>Ctrl</key><key>W</key></keyseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-close-file.page:20
+msgid ""
+"Any one of these actions will close a file in <app>gedit</app>. If your file "
+"contains changes that have not been saved, <app>gedit</app> will prompt you "
+"to save those changes before closing the file."
+msgstr ""
+"上述的任何一个操作都会关闭文件，如果您的文件中发生了变化而没有保存，"
+"<app>文本编辑器</app> 会在关闭前提示您保存更改。"
+
+#. (itstool) path: page/title
+#: C/gedit-create-new-file.page:14
+msgid "Create a new file"
+msgstr "创建新文件"
+
+#. (itstool) path: page/p
+#: C/gedit-create-new-file.page:16
+#| msgid ""
+#| "The easiest way to create a new file in <app>gedit</app>, is to click the "
+#| "icon that looks like a blank piece of paper with a \"plus\" sign next to "
+#| "it. If you prefer, you may also select <guiseq><gui>File</gui><gui>New</"
+#| "gui></guiseq>, or press <keyseq><key>Ctrl</key><key>N</key></keyseq>."
+msgid ""
+"The easiest way to create a new file in <app>gedit</app>, is to click the "
+"icon in the toolbar that looks like a blank piece of paper. If you prefer, "
+"you may also select <guiseq><gui>File</gui><gui>New</gui></guiseq>, or press "
+"<keyseq><key>Ctrl</key><key>N</key></keyseq>."
+msgstr ""
+"点击 <app>文本编辑器</app> 的工具栏上，一个带有“+”号的空白页图标按钮，就可以很方便"
+"创建一个新文件。您也可以点菜单 <guiseq><gui>文件</gui><gui>新建</gui></"
+"guiseq> 或者按组合键 <keyseq><key>Ctrl</key><key>N</key></keyseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-create-new-file.page:21
+msgid ""
+"Any one of these actions will create a new file in the <app>gedit</app> "
+"window. If you have other files open in <app>gedit</app>, the new file that "
+"you create will appear as a new tab to the right of those files."
+msgstr ""
+"这些操作都会在 <app>文本编辑器</app> 窗口中创建一个新文件，如果窗口中已经打开有文"
+"件，那么新文件会在那个文件的右边新建一个标签。"
+
+#. (itstool) path: page/title
+#: C/gedit-edit-as-root.page:14
+#| msgid "Edit a file as the root (administative) user"
+msgid "Edit a file as the root user"
+msgstr "以 root(管理员)身份编辑文件"
+
+#. (itstool) path: note/p
+#: C/gedit-edit-as-root.page:17
+msgid ""
+"Editing files as the root user is potentially dangerous, and may break your "
+"system in bad ways. Take great care when editing files as the root user."
+msgstr ""
+"以 root 身份编辑文件可能带来潜在危险，会因操作失误而损坏系统，请特别小心使用 "
+"root 身份编辑文件。"
+
+#. (itstool) path: page/p
+#: C/gedit-edit-as-root.page:22
+msgid ""
+"To edit files as the root user, launch <app>gedit</app> from the terminal by "
+"entering:"
+msgstr "要以 root 身份编辑文件，在终端运行下列命令："
+
+#. (itstool) path: page/code
+#: C/gedit-edit-as-root.page:24
+#, no-wrap
+msgid "sudo gedit"
+msgstr "sudo gedit"
+
+#. (itstool) path: page/p
+#: C/gedit-edit-as-root.page:26
+msgid ""
+"Using the <cmd>sudo</cmd> command, you will need to successfully enter your "
+"password before <app>gedit</app> will open."
+msgstr "使用  <cmd>sudo</cmd> 命令，正确输入自己的密码后，打开 <app>文本编辑器</app>。"
+
+#. (itstool) path: page/p
+#: C/gedit-edit-as-root.page:29
+msgid ""
+"As an alternative to the <cmd>sudo</cmd> command, you may obtain "
+"administrative privileges by entering:"
+msgstr "作为 <cmd>sudo</cmd> 命令的替代，您也可以通过输入下列命令来获取管理员权限："
+
+#. (itstool) path: page/code
+#: C/gedit-edit-as-root.page:31
+#, no-wrap
+msgid "su -"
+msgstr "su -"
+
+#. (itstool) path: page/p
+#: C/gedit-edit-as-root.page:33
+msgid ""
+"You would then launch <app>gedit</app> using the <cmd>gedit</cmd> command."
+msgstr "然后您就可以运行并使用 <app>文本编辑器</app>。"
+
+#. (itstool) path: note/p
+#: C/gedit-edit-as-root.page:37
+#| msgid ""
+#| "Once you have opened <app>gedit</app> with administrative privileges, the "
+#| "application will retain those privileges until you close it."
+msgid ""
+"Once you have opened <app>gedit</app> with administrative privileges, "
+"<app>gedit</app> will keep those privileges until you close it."
+msgstr ""
+"一旦您以管理员身份打开 <app>文本编辑器</app>，在您关闭程序前，它将一直具备管理员权"
+"限。"
+
+#. (itstool) path: page/title
+#: C/gedit-files-basic.page:14
+msgid "File basics: Open, close, and save files"
+msgstr "文件操作基础：打开、关闭和保存"
+
+#. (itstool) path: page/p
+#: C/gedit-files-basic.page:16
+msgid ""
+"If you are new to <app>gedit</app>, these topics will help you with "
+"creating, saving, and opening and closing files."
+msgstr "如果您才接触 <app>文本编辑器</app>，这一章将会帮助您创建、保存、打开和关闭文件。"
+
+#. (itstool) path: page/title
+#: C/gedit-full-screen.page:14
+msgid "Use fullscreen mode"
+msgstr "使用全屏模式"
+
+#. (itstool) path: page/p
+#: C/gedit-full-screen.page:16
+msgid ""
+"When working with a large document, you may find it helpful to work in "
+"<app>gedit's</app> fullscreen mode. Using fullscreen mode will hide the "
+"<gui>menu bar</gui>, <gui>tab bar</gui> and the <gui>tool bar</gui>, "
+"presenting you with more of your text and allowing you to better focus on "
+"your tasks."
+msgstr ""
+"当打开一个很大的文档时，您会发现使用 <app>文本编辑器</app> 的全屏模式很有用处，这"
+"时会隐藏 <gui>菜单栏</gui>、<gui>标签栏</gui> 和 <gui>工具栏</gui>，从而可以"
+"显示更多的文本内容，让您方便地编辑文档。"
+
+#. (itstool) path: section/title
+#: C/gedit-full-screen.page:23
+msgid "Turn on fullscreen mode"
+msgstr "开启全屏模式"
+
+#. (itstool) path: section/p
+#: C/gedit-full-screen.page:24
+#| msgid ""
+#| "To turn on fullscreen mode, select <guiseq><gui>View</"
+#| "gui><gui>Fullscreen</gui></guiseq>, or press <key>F11</key>. "
+#| "<app>gedit's</app> menu, title, and tab-bars will hide, and you will only "
+#| "be presented with the text of your current file."
+msgid ""
+"To turn on fullscreen mode, select <guiseq><gui>View</gui> <gui>Fullscreen</"
+"gui></guiseq>, or press <key>F11</key>. <app>gedit's</app> menu, title, and "
+"tab-bars will hide, and you will only be presented with the text of your "
+"current file."
+msgstr ""
+"要进入全屏模式，点菜单 <guiseq><gui>查看</gui><gui>全屏</gui></guiseq>或者按 "
+"<key>F11</key> 键，<app>文本编辑器</app> 的菜单、标题栏和标签栏将会隐藏，只显示当"
+"前文档的内容。"
+
+#. (itstool) path: section/p
+#: C/gedit-full-screen.page:28
+msgid ""
+"If you need to perform an action from the <app>gedit</app> menu while "
+"working in fullscreen mode, move your mouse pointer to the top of the "
+"screen. The <app>gedit</app> menu bar will reappear, and you can select your "
+"desired action."
+msgstr ""
+"如果在全屏模式下，您想要运行 <app>文本编辑器</app> 的菜单命令，把鼠标移动到屏幕顶"
+"部，就会显示 <app>文本编辑器</app> 的菜单栏，然后您就可以选择相应的菜单命令。"
+
+#. (itstool) path: note/p
+#: C/gedit-full-screen.page:34
+msgid ""
+"To switch between open tabs while in fullscreen mode, press either "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>PgUp</key></keyseq> or "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>PgDn</key></keyseq>."
+msgstr ""
+"要在全屏模式下，切换不同的标签，按组合键 <keyseq><key>Ctrl</key><key>Alt</"
+"key><key>PgUp</key></keyseq> 或 <keyseq><key>Ctrl</key><key>Alt</"
+"key><key>PgDn</key></keyseq>。"
+
+#. (itstool) path: section/title
+#: C/gedit-full-screen.page:42
+msgid "Turn off fullscreen mode"
+msgstr "关闭全屏模式"
+
+
+#. (itstool) path: section/p
+#: C/gedit-full-screen.page:45
+msgid ""
+"You can also move your mouse cursor to the top of the screen, and wait for "
+"the <gui>menu bar</gui> to appear. When the <gui>menu bar</gui> appears, "
+"select <gui>Leave Fullscreen</gui>."
+msgstr ""
+"要关闭全屏模式返回到 <app>文本编辑器</app> 窗口模式，把鼠标指针移到窗口顶部，出现"
+"<gui>菜单栏</gui>，然后点<gui>离开全屏</gui>。"
+
+#. (itstool) path: page/title
+#: C/gedit-open-files-from-sidepane.page:15
+msgid "View and open files from the side pane"
+msgstr "从侧边栏查看和打开文件"
+
+#. (itstool) path: page/p
+#: C/gedit-open-files-from-sidepane.page:16
+msgid ""
+"The most common way to switch between files in <app>gedit</app> is by using "
+"the tabs at the top of the <app>gedit</app> window. In some cases, though, "
+"particularly when you are working with a large number of open files, you may "
+"find it easier to use the <app>side pane</app>."
+msgstr ""
+"在 <app>文本编辑器</app> 中切换文件最常用的方法是，点击窗口上的标签栏。而在某些情"
+"况下，比如当您要操作大量文件时，您会发现使用<app>侧边栏</app>会更方便些。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-files-from-sidepane.page:23
+#| msgid ""
+#| "To activate the <app>side pane</app>, select <guiseq><gui>View</"
+#| "gui><gui>Side Pane</gui></guiseq>, or just press the <key>F9</key> key."
+msgid ""
+"To activate the <app>side pane</app>, select <guiseq><gui>View</gui> "
+"<gui>Side Pane</gui></guiseq>, or just press the <key>F9</key> key."
+msgstr ""
+"要激活<app>侧边栏</app>，点菜单 <guiseq><gui>查看</gui><gui>侧边栏</gui></"
+"guiseq>，或者按 <key>F9</key> 键。"
+
+#. (itstool) path: note/p
+#: C/gedit-open-files-from-sidepane.page:29
+msgid ""
+"You can toggle the <gui>side pane</gui> open or closed by pressing <key>F9</"
+"key> at any time."
+msgstr "您可以在任何时候，按 <key>F9</key> 来切换<gui>侧边栏</gui>的显示。"
+
+#. (itstool) path: section/title
+#: C/gedit-open-files-from-sidepane.page:36
+#: C/gedit-plugins-file-browser.page:32
+msgid "Opening files from the side pane"
+msgstr "从侧边栏打开文件"
+
+#. (itstool) path: section/p
+#: C/gedit-open-files-from-sidepane.page:37
+#| msgid ""
+#| "To open files from the <app>side pane</app>, first open the <app>side "
+#| "pane</app> by selecting <guiseq><gui>View</gui><gui>Side Pane</gui></"
+#| "guiseq>, then click on the <gui>file-browser</gui> icon at the bottom of "
+#| "the pane."
+msgid ""
+"To open files from the <app>side pane</app>, first open the <app>side pane</"
+"app> by selecting <guiseq><gui>View</gui> <gui>Side Pane</gui></guiseq>, "
+"then click on the <gui>file-browser</gui> icon at the bottom of the pane."
+msgstr ""
+"要从<app>侧边栏</app>中打开文件，首先要打开<app>侧边栏</app>，点菜单 "
+"<guiseq><gui>查看</gui><gui>侧边栏</gui></guiseq>，然后点面板底部的<gui>文件"
+"浏览器</gui>图标。"
+
+#. (itstool) path: section/p
+#: C/gedit-open-files-from-sidepane.page:46
+#: C/gedit-plugins-file-browser.page:42
+msgid ""
+"This will activate the <em>file-browser</em> mode of the <app>side pane</"
+"app>. You can then use the navigation buttons at the top of the pane to "
+"locate and open your desired files."
+msgstr ""
+"这将会激活<app>侧边栏</app>的<em>文件浏览器</em>模式，您可以使用面板顶部的访"
+"问按钮来定位文件的路径。"
+
+#. (itstool) path: section/title
+#: C/gedit-open-files-from-sidepane.page:54
+msgid "Using the side pane to switch between open files"
+msgstr "使用侧边栏来切换各个打开的文件"
+
+#. (itstool) path: section/p
+#: C/gedit-open-files-from-sidepane.page:55
+msgid ""
+"Once you have several files open, you can use the side pane to switch "
+"between open files. To activate the file browser portion of the <app>side "
+"pane</app>, click on the <gui>file</gui> icon at the bottom of the <gui>side "
+"pane</gui>."
+msgstr ""
+"当您打开多个文件时，可以使用侧边栏来切换各个文件，要激活<app>侧边栏</app>的文"
+"件浏览功能，点击<gui>侧边栏</gui>底部的<gui>文件</gui>按钮图标。"
+
+#. (itstool) path: section/p
+#: C/gedit-open-files-from-sidepane.page:64
+msgid ""
+"Clicking on any file name in the <gui>side pane</gui> will open that file "
+"for editing."
+msgstr "点击<gui>侧边栏</gui>中的文件名，就会在工作区中显示它。"
+
+#. (itstool) path: page/title
+#: C/gedit-open-files.page:18
+msgid "Open a file or set of files"
+msgstr "打开一个文件或一组文件。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-files.page:20
+msgid ""
+"To open a file in <app>gedit</app>, click the <gui>Open</gui> button, or "
+"press <keyseq><key>Ctrl</key><key>O</key></keyseq>."
+msgstr ""
+"要在 <app>文本编辑器</app> 中打开一个文件，点击 <gui>打开</gui>按钮，或者按组合键 "
+"<keyseq><key>Ctrl</key><key>O</key></keyseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-files.page:22
+msgid ""
+"This will cause the <gui>Open Files</gui> dialog to appear. Use your mouse "
+"or keyboard to select the file that you wish to open, and then click "
+"<gui>Open</gui>. The file that you've selected will open in a new tab."
+msgstr ""
+"然后会出现<gui>打开</gui>对话框，用鼠标或键盘选择想要打开的文件，然后点<gui>"
+"打开</gui>按钮，选中的文件将会在新标签页打开。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-files.page:25
+msgid ""
+"To close the <gui>Open Files</gui> dialog without opening a file, click "
+"<gui>Cancel</gui>."
+msgstr ""
+"要关闭 <gui>打开文件</gui> 对话框，而不打开任何文件，请点击<gui>取消</gui>按"
+"钮。"
+
+#. (itstool) path: note/p
+#: C/gedit-open-files.page:28
+msgid ""
+"You can use the <key>Ctrl</key> and <key>Shift</key> keys to open more than "
+"one file at a time. If you hold down the <key>Ctrl</key> key while you "
+"select multiple files, clicking <gui>Open</gui> will open each of the files "
+"that you have selected."
+msgstr ""
+"您也可以用 <key>Ctrl</key> 和 <key>Shift</key> 键，一次选择打开多个文件，如果"
+"按住 <key>Ctrl</key> 键选择多个文件，点<gui>打开</gui>会打开所有点过的文件。"
+
+#. (itstool) path: note/p
+#: C/gedit-open-files.page:35
+msgid ""
+"Holding down the <key>Shift</key> while you select multiple files will open "
+"the first file that you select, the last file that you select, and all of "
+"the files in between."
+msgstr ""
+"按住 <key>Shift</key> 键选择多个文件，会打开从第一个到最后一个之间连续的所有"
+"文件。"
+
+#. (itstool) path: page/title
+#: C/gedit-open-on-server.page:14
+msgid "Open a file that is located on a server"
+msgstr "打开位于服务器上的文件"
+
+#. (itstool) path: page/p
+#: C/gedit-open-on-server.page:16
+msgid ""
+"Prior to opening a file on a server from within <app>gedit</app>, you need "
+"to know some technical information about the server. For example, you will "
+"need to know the IP Address or URL of the server, and may need to know what "
+"kind of server it is (e.g., HTTP, FTP, etc.)."
+msgstr ""
+"要用 <app>文本编辑器</app> 打开存放于服务器上的文件，您首先需要了解服务器的相关技"
+"术信息，例如，您需要知道服务器的 IP 地址或 URL，还要知道是哪一种服务器(比如 "
+"HTTP、FTP 等等)。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-on-server.page:21
+msgid ""
+"Also, some types of servers impose restrictions on what you can do with "
+"files stored on the server. For example, you may be able to open a file from "
+"a server, but may need to save any changes to the file locally, on your own "
+"computer."
+msgstr ""
+"还有，一些类型的服务器限制了文件存储。例如，您可以打开服务器上的一个文件，但"
+"是您只能将修改过的文件存储在本地计算机上。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-on-server.page:26
+msgid ""
+"With these caveats in mind, perform the following steps to open a file from "
+"a server using <app>gedit</app>:"
+msgstr "了解这些信息后，您可以在 <app>文本编辑器</app> 中，按下列步骤打开服务器上的文件："
+
+#. (itstool) path: item/p
+#: C/gedit-open-on-server.page:30
+msgid ""
+"Choose <guiseq><gui>File</gui><gui>Open</gui></guiseq> to display the "
+"<gui>Open Files</gui> dialog."
+msgstr ""
+"点菜单 <guiseq><gui>文件</gui><gui>打开</gui></guiseq> 命令，显示 <gui>打开文"
+"件</gui> 对话框。"
+
+#. (itstool) path: item/p
+#: C/gedit-open-on-server.page:32
+msgid ""
+"Select the <gui>Pencil</gui> icon near the top of the <gui>Open Files</gui> "
+"dialog."
+msgstr "在<gui>打开</gui>对话框的左上角，点击<gui>铅笔</gui>图标。"
+
+#. (itstool) path: item/p
+#: C/gedit-open-on-server.page:34
+msgid "Enter the IP Address or URL of the appropriate server."
+msgstr "输入服务器的 IP 地址或 URL。"
+
+#. (itstool) path: item/p
+#: C/gedit-open-on-server.page:36
+msgid "Find and select the file that you wish to open."
+msgstr "查找并选择您想打开的文件。"
+
+#. (itstool) path: item/p
+#: C/gedit-open-on-server.page:37
+msgid ""
+"Use the Character coding drop-down list to select the appropriate character "
+"coding."
+msgstr "在字符编码下拉列表中，选择合适的字符编码。"
+
+#. (itstool) path: item/p
+#: C/gedit-open-on-server.page:39 C/gedit-plugins-quick-open.page:43
+msgid "Click <gui>Open</gui>."
+msgstr "点 <gui>打开</gui>。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-on-server.page:42
+msgid ""
+"Valid types of URI include http:, ftp:, file:, and all of the methods "
+"supported by <app>gvfs</app>."
+msgstr "有效的 URI 包括 http:、ftp:、file: 和所有 <app>gvfs</app> 支持的格式。"
+
+#. (itstool) path: note/p
+#: C/gedit-open-on-server.page:46
+msgid ""
+"Files from some types of URI are opened as read-only, and any changes you "
+"make must be saved to a different location. For example, HTTP only allows "
+"files to be read. Files opened from FTP are read-only because not all FTP "
+"servers may correctly work with saving remote files."
+msgstr ""
+"某些类型的 URI 会以只读方式打开，当您更改后必须另存到其他位置。例如， HTTP 只"
+"允许读取文件，从 FTP 上打开的文件一般也是只读，因为并不是所有 FTP 服务器能够"
+"远程保存文件。"
+
+#. (itstool) path: page/title
+#: C/gedit-open-recent.page:14
+msgid "Reopen a recently-used file"
+msgstr "重新打开最近使用的文件"
+
+#. (itstool) path: page/p
+#: C/gedit-open-recent.page:16
+msgid ""
+"By default, <app>gedit</app> provides easy access to five of your most "
+"recently-used files. Here is how you can open a recently-used file:"
+msgstr ""
+"默认情况下，<app>文本编辑器</app> 提供快速访问最近使用的五个文件，用这个方法可以打"
+"开最近使用的文件："
+
+#. (itstool) path: item/p
+#: C/gedit-open-recent.page:19
+msgid ""
+"Click the downward-facing arrow to the right of the <gui>Open</gui> button."
+msgstr "点击<gui>打开</gui>按钮旁边的下拉箭头按钮。"
+
+#. (itstool) path: item/p
+#: C/gedit-open-recent.page:21
+msgid ""
+"<app>gedit</app> will display a list of the five most-recently used files."
+msgstr "<app>文本编辑器</app> 会列出最近访问的五个文件。"
+
+#. (itstool) path: item/p
+#: C/gedit-open-recent.page:23
+msgid "Select the desired file, and it will open in a new tab."
+msgstr "选择想要打开的文件，然后就会在新标签中打开它。"
+
+#. (itstool) path: note/p
+#: C/gedit-open-recent.page:26
+#| msgid ""
+#| "To adjust the number of recently-used files that gedit displays, you will "
+#| "need to use the <app>gconf-editor</app> application."
+msgid ""
+"To adjust the number of recently-used files that gedit displays, you will "
+"need to use the <app>dconf-editor</app> application."
+msgstr "要更改显示最近访问的文件数，您需要使用 <app>dconf-editor</app> 程序。"
+
+#. (itstool) path: item/p
+#: C/gedit-open-recent.page:30
+#| msgid ""
+#| "Launch <app>gconf-editor</app> and select <guiseq><gui>apps</"
+#| "gui><gui>gedit-2</gui><gui>preferences</gui><gui>ui</gui><gui>recents</"
+#| "gui></guiseq>."
+msgid ""
+"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>preferences</gui><gui>ui</gui> <gui>max-recents</"
+"gui></guiseq>."
+msgstr ""
+"启动 <app>dconf-editor</app> 并选择 <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>文本编辑器</gui><gui>preferences</gui><gui>ui</gui> <gui>max-recents</"
+"gui></guiseq>"
+
+#. (itstool) path: item/p
+#: C/gedit-open-recent.page:33
+#| msgid ""
+#| "Double-click on the number next to <gui>max_recents</gui> and change the "
+#| "number to your desired value."
+msgid ""
+"Double-click on the number next to <gui>max-recents</gui> and change the "
+"number to your desired value."
+msgstr "双击 <gui>max_recents</gui> 旁边的数字，然后输入想要的数字。"
+
+#. (itstool) path: page/title
+#: C/gedit-plugin-guide.page:14
+msgid "Configure and use gedit Plugins"
+msgstr "配置和使用文本编辑器插件"
+
+#. (itstool) path: page/p
+#: C/gedit-plugin-guide.page:15
+msgid ""
+"You can do more with <app>gedit</app> by using plugins. Several plugins are "
+"installed by default, but a large number of other plugins are available "
+"separately."
+msgstr ""
+"您可以通过插件让<app>文本编辑器</app>做更多事，一些插件已经默认安装好，但还有更"
+"多可用的插件。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugin-guide.page:19
+msgid ""
+"Many Linux distributions make a group of these plugins available as a "
+"<app>gedit-plugins</app> package. Install the <app>gedit-plugins</app> "
+"package to make these extra plugins available to <app>gedit</app>."
+msgstr ""
+"许多 Linux 发行版会制作一个像 <app>gedit-plugins</app> 这样的软件包，安装这"
+"个 <app>gedit-plugins</app> 包，可以在 <app>文本编辑器</app> 中使用更多的外部插"
+"件。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugin-guide.page:24
+msgid "Default gedit Plugins"
+msgstr "默认的 文本编辑器 插件"
+
+#. (itstool) path: section/title
+#: C/gedit-plugin-guide.page:28
+msgid "Additional gedit Plugins"
+msgstr "额外的 文本编辑器 插件"
+
+#. (itstool) path: credit/name
+#: C/gedit-plugins-change-case.page:9 C/gedit-plugins-doc-stats.page:10
+#: C/gedit-plugins-external-tools.page:11 C/gedit-plugins-file-browser.page:10
+#: C/gedit-plugins-insert-date-time.page:9 C/gedit-plugins-install.page:12
+#: C/gedit-plugins-modelines.page:9 C/gedit-plugins-sort.page:9
+#: C/gedit-replace.page:14 C/gedit-search.page:14 C/gedit-tabs-moving.page:13
+#: C/gedit-tabs.page:14 C/gedit-undo-recent-action.page:13
+#: C/gedit-view-open-files-in-sidepane.page:14
+msgid "Daniel Neel"
+msgstr "Daniel Neel"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-change-case.page:17
+msgid "Change the case of selected text"
+msgstr "更改选中文本的大小写"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-change-case.page:20
+msgid "Change case"
+msgstr "改变大小写"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-change-case.page:22
+#| msgid ""
+#| "This plugin helps you to change the case of selected portions of text. "
+#| "You can use it to change text to be all lower case, all upper case, to "
+#| "invert the case, or apply title case. To enable this plugin, select "
+#| "<guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Plugins</"
+#| "gui><gui>Change Case</gui></guiseq>."
+msgid ""
+"This plugin helps you to change the case of selected portions of text. You "
+"can use it to change text to be all lower case, all upper case, to invert "
+"the case, or apply title case. To enable this plugin, select <guiseq><gui "
+"style=\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</gui> "
+"<gui>Plugins</gui><gui>Change Case</gui></guiseq>."
+msgstr ""
+"这个插件帮助您更改选中文本的大小写，您可以将文本全部改为小写字母，全部改为大"
+"写字母，大小写翻转，或者让字首大写。要启用此插件，点菜单 <guiseq><gui "
+"style=\"menu\">文本编辑器</gui><gui style=\"menuitem\">首选项</gui> "
+"<gui>插件</gui><gui>更改大小写</gui></guiseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-change-case.page:28
+msgid ""
+"Once the <em>Change Case</em> plugin is enabled, you can use it by "
+"completing the following steps:"
+msgstr "一旦启用了<em>更改大小写</em>插件，您可以按下列步骤来使用它："
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-change-case.page:32
+msgid "Highlight the portion of text that you want to change."
+msgstr "选中您想更改的文本内容。"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-change-case.page:33
+#| msgid "Select <guiseq><gui>Edit</gui><gui>Change Case</gui></guiseq>"
+msgid ""
+"Select <guiseq><gui style=\"menu\">gedit</gui><gui>Change Case</gui></guiseq>"
+msgstr "点菜单 <guiseq><gui style=\"menu\">文本编辑器</gui><gui>更改大小写</gui></guiseq>"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-change-case.page:35
+msgid "Choose your desired text-formatting option."
+msgstr "选择您想使用的格式选项。"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-change-case.page:38
+msgid "The updates to the text formatting will take place immediately."
+msgstr "文本格式的更改会立即生效。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-change-case.page:41
+msgid ""
+"The <gui>Invert Case</gui> option will convert all lower case letters to "
+"upper case, and will convert all upper case letters to lower case."
+msgstr "<gui>反转大小写</gui> 选项把小写字母改成大写，把大写字母改成小写。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-change-case.page:43
+msgid ""
+"The <gui>Title Case</gui> option will convert the first letter of each word "
+"to upper case. All other letters will be converted to lower case."
+msgstr ""
+"<gui>字首大写</gui>选项将会把每个单词的第一个字母改成大写，其他字母会转成小"
+"写。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-change-case.page:49
+msgid ""
+"If you have not highlighted any text, the <em>Change Case</em> feature will "
+"be grayed-out. You need to select a portion of text before you use the "
+"<em>Change Case</em> feature."
+msgstr ""
+"如果您没有选中任何的文本内容，<em>更改大小写</em>将变成灰色不可用状态。因此，"
+"在使用此项功能前，您必须要选中文本内容。"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-doc-stats.page:17
+msgid "View document statistics"
+msgstr "查看文档统计"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-doc-stats.page:20
+msgid "Document statistics"
+msgstr "文档统计"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-doc-stats.page:22
+#| msgid ""
+#| "The <em>Document Statistics</em> plugin can show you various statistics "
+#| "about your current document. To enable this plugin, select "
+#| "<guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Plugins</"
+#| "gui><gui>Document Statisics</gui></guiseq>."
+msgid ""
+"The <em>Document Statistics</em> plugin shows you various statistics about "
+"your current document. To enable this plugin, select <guiseq><gui style="
+"\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</"
+"gui><gui>Document Statistics</gui></guiseq>."
+msgstr ""
+"<em>文档统计</em>插件可以显示当前文档的多项信息，要启用此插件，点菜单 <guiseq><gui style="
+"\"menu\">文本编辑器</gui><gui style=\"menuitem\">首选项</gui> <gui>插件</"
+"gui><gui>文档统计</gui></guiseq>。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-doc-stats.page:28
+msgid "Using Document Statistics"
+msgstr "使用文档统计"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-doc-stats.page:30
+#| msgid ""
+#| "Once the plugin is enabled, use it by selecting <guiseq><gui>Tools</"
+#| "gui><gui>Document Statistics</gui></guiseq>. A window will display the "
+#| "statistical information of your document, including the number of words, "
+#| "lines, characters, non-space characters, and the size of your file in "
+#| "bytes."
+msgid ""
+"Once the plugin is enabled, use it by selecting <guiseq><gui>Tools</gui> "
+"<gui>Document Statistics</gui></guiseq>. A window will display the "
+"statistical information of your document, including the number of words, "
+"lines, characters, non-space characters, and the size of your file in bytes."
+msgstr ""
+"一旦启用此插件，点菜单 <guiseq><gui>工具</gui><gui>文档统计</gui></guiseq>，"
+"就会出现一个窗口，显示文档的统计信息，包括单词数、行数、字符数和非空格的字符"
+"数，以及文件的字节数。"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-doc-stats.page:36
+msgid ""
+"You can also use <em>Document Statistics</em> to show you information about "
+"just a portion of your document. To do this, use the mouse pointer to select "
+"the portion of text that you want to examine, and then select "
+"<guiseq><gui>Tools</gui><gui>Document Statistics</gui></guiseq>. <app>Gedit</"
+"app> will display information for both your entire document, and for the "
+"portion of text that you highlighted."
+msgstr ""
+"您还可以让<em>文档统计</em>只显示部分文档的信息，要做到这一点，用鼠标选中想要"
+"统计的文本，然后点菜单 <guiseq><gui>工具</gui><gui>文档统计</gui></guiseq>，"
+"<app>文本编辑器</app> 除了显示整个文档的信息外，还会显示您选中这部分文档的信息。"
+
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-external-tools.page:22
+msgid "External tools"
+msgstr "外部工具"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-external-tools.page:24
+#| msgid ""
+#| "The <em>External Tools</em> plugin can help simplify repetitive tasks. "
+#| "Specifically, it extends <app>gedit</app> by helping you to run scripts "
+#| "on your working files, and by allowing <app>gedit</app> to interact with "
+#| "other programs on your computer. To enable the <app>External Tools</app> "
+#| "plugin, select <guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Plugins</"
+#| "gui><gui>External Tools</gui></guiseq>."
+msgid ""
+"The <em>External Tools</em> plugin can help simplify repetitive tasks. "
+"Specifically, it extends <app>gedit</app> by helping you to run scripts on "
+"your working files, and by allowing <app>gedit</app> to interact with other "
+"programs on your computer. To enable the <app>External Tools</app> plugin, "
+"select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Preferences</gui><gui>Plugins</gui> <gui>External Tools</gui></guiseq>."
+msgstr ""
+"<em>外部工具</em>插件可用于简单的重复任务，尤其是，它可以在您编辑的文档上执行"
+"脚本，并且允许 <app>文本编辑器</app> 与系统中的其他程序交互作用。要启用<app>外部工"
+"具</app>，点菜单 <guiseq><gui style=\"menu\">文本编辑器</gui> <gui style=\"menuitem"
+"\">首选项</gui><gui>插件</gui> <gui>外部工具</gui></guiseq>。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-external-tools.page:33
+msgid "Configure the external tools plugin"
+msgstr "配置外部工具插件"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-external-tools.page:35
+msgid ""
+"Once you have enabled the plugin, you will need to configure it to suit your "
+"needs. The configuration options are available by selecting "
+"<guiseq><gui>Tools</gui><gui>Manage External Tools</gui></guiseq>."
+msgstr ""
+"一旦启用此插件，您得按需要来配置它。配置选项可以点菜单 <guiseq><gui>工具</"
+"gui><gui>管理外部工具</gui></guiseq>。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-external-tools.page:40
+msgid ""
+"This plugin is for advanced users, and requires knowledge of scripting to be "
+"used effectively. Use this plugin with care, as mistakes with your scripts "
+"can affect your work in unintended ways."
+msgstr ""
+"这个插件是为高级用户设计的，需要运行脚本的知识。使用此插件要特别小心，脚本的"
+"错误会无意中影响您的工作。"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-file-browser.page:17
+msgid "Use the side pane to browse and open files"
+msgstr "使用侧边栏浏览和打开文件"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-file-browser.page:20
+msgid "File browser pane"
+msgstr "文件浏览器面板"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-file-browser.page:22
+msgid ""
+"Depending on how you use <app>gedit</app>, you may find it helpful to use "
+"the <app>File Browser pane</app> plugin. This plugin embeds a <app>file "
+"browser</app> in the side pane, giving you easy access to your frequently-"
+"used files."
+msgstr ""
+"依据您的 <app>文本编辑器</app> 使用习惯，您可能会发现<app>文件浏览器面板</app>插件"
+"非常有用，这个插件在侧面板内放一个<app>文件浏览器</app>，让您很方便地存取频繁"
+"使用的文件。"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-file-browser.page:27
+#| msgid ""
+#| "You can enable the <gui>Side Pane</gui> by selecting <guiseq><gui>Edit</"
+#| "gui><gui>Preferences</gui><gui>Plugins</gui><gui>File Browser Pane</gui></"
+#| "guiseq>."
+msgid ""
+"You can enable the <gui>Side Pane</gui> by selecting <guiseq><gui style="
+"\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</"
+"gui><gui>File Browser Pane</gui></guiseq>."
+msgstr ""
+"要启用<gui>侧边栏</gui> ，点菜单 <guiseq><gui style="
+"\"menu\">文本编辑器</gui><gui style=\"menuitem\">首选项</gui> <gui>插件</"
+"gui><gui>文件浏览器面板</gui></guiseq>。"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-file-browser.page:33
+msgid ""
+"To activate and use the <gui>side pane</gui>, select <guiseq><gui>View</"
+"gui><gui>Side pane</gui></guiseq> (or just press <key>F9</key>), and then "
+"click on the <gui>file-browser</gui> icon at the bottom of the pane."
+msgstr ""
+"要激活<gui>侧边栏</gui>，点菜单 <guiseq><gui>查看</gui><gui>侧边栏</gui></"
+"guiseq>(或者按 <key>F9</key>)，然后点侧边栏底部的<gui>文件浏览器</gui>图标。"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-insert-date-time.page:17
+msgid "Insert the current date/time at the cursor position"
+msgstr "在光标位置插入当前日期/时间"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-insert-date-time.page:20
+msgid "Insert date/time"
+msgstr "插入日期/时间"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-insert-date-time.page:22
+#| msgid ""
+#| "As this name of this plugin suggests, the <gui>Insert Date/Time</gui> "
+#| "plugin allows you to insert the date and/or time at the current cursor "
+#| "position. To enable this plugin, select <guiseq><gui>Edit</"
+#| "gui><gui>Preferences</gui><gui>Plugins</gui><gui>Insert Date/Time</gui></"
+#| "guiseq>. To use the plugin, press <guiseq><gui>Edit</gui><gui>Insert Date "
+#| "and Time</gui></guiseq>."
+msgid ""
+"As this name of this plugin suggests, the <gui>Insert Date/Time</gui> plugin "
+"allows you to insert the date and/or time at the current cursor position. To "
+"enable this plugin, select <guiseq><gui style=\"menu\">gedit</gui> <gui "
+"style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Insert Date/"
+"Time</gui></guiseq>. To use the plugin, press <guiseq> <gui style=\"menu"
+"\">Edit</gui><gui>Insert Date and Time</gui></guiseq>."
+msgstr ""
+"根据插件名称就可以知道，<gui>插入日期/时间</gui>插件可以在光标处插入日期和/或"
+"时间。要启用此插件，点菜单 <guiseq><gui style=\"menu\">文本编辑器</gui> <gui "
+"style=\"menuitem\">首选项</gui><gui>插件</gui> <gui>插入日期/时间</gui></guiseq>"
+"。要使用此插件，点菜单 <guiseq> <gui style=\"menu"
+"\">编辑</gui><gui>插入日期和时间</gui></guiseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-insert-date-time.page:29
+#| msgid ""
+#| "By default, the <gui>Insert Date/Time</gui> plugin will prompt you to "
+#| "choose your preferred date/time format each time that you use the plugin. "
+#| "However, you can choose your own default date and time format by "
+#| "selecting <guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Plugins</"
+#| "gui><gui>Insert Date/Time</gui><gui>Configure</gui></guiseq>."
+msgid ""
+"By default, the <gui>Insert Date/Time</gui> plugin will prompt you to choose "
+"your preferred date/time format each time that you use the plugin. However, "
+"you can choose your own default date and time format by selecting "
+"<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</"
+"gui> <gui>Plugins</gui><gui>Insert Date/Time</gui><gui>Configure</gui></"
+"guiseq>."
+msgstr ""
+"默认情况下，<gui>插入日期/时间</gui>插件会提示您选择一种日期/时间格式。当然，"
+"您也可以在 <guiseq><gui style=\"menu\">文本编辑器</gui><gui style=\"menuitem\">首选项</"
+"gui> <gui>插件</gui><gui>插入日期/时间</gui><gui>配置</gui></"
+"guiseq> 中，选择一个默认日期和时间格式。"
+
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-install.page:18
+msgid "Additional gedit plugins"
+msgstr "额外的 文本编辑器 插件"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-install.page:20
+msgid ""
+"Installing third-party plugins gives you extra functionality that isn't "
+"available in default <app>gedit</app> plugins, or even the extra plugins "
+"that are part of the <app>gedit-plugins</app> package. An online list of "
+"third-party plugins is <link href=\"http://live.gnome.org/Gedit/"
+"Plugins#third_party\">kept here</link>."
+msgstr ""
+"安装不包括在 <app>文本编辑器</app> 默认的第三方插件，可以让您获得更多的功能。在 "
+"<link href=\"http://live.gnome.org/Gedit/Plugins#third_party\">这儿</link> 有"
+"一个在线的第三方插件列表。"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-install.page:36
+msgid ""
+"Place the plugin files into the <file>/home/<var>username</var>/.local/share/"
+"gedit/plugins</file> directory."
+msgstr ""
+"将插件放到 <file>/home/<var>用户名</var>/.local/share/gedit/plugins</file> 目录下。"
+
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-install.page:41
+msgid ""
+"After you have placed the plugin files into the correct directory, the "
+"plugin will appear in the Preferences menu. Select <guiseq><gui>Edit </"
+"gui><gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>[Name "
+"of Plugin]</gui></guiseq> to enable the plugin."
+msgstr ""
+"在您将插件文件复制到正确的文件夹后，插件将会出现在首选项菜单中。选择<guiseq><gui>编辑 </"
+"gui><gui style=\"menuitem\">首选项</gui><gui>插件</gui> <gui>[插件名]</gui></guiseq>"
+"启用插件"
+"。"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-install.page:45
+msgid "Click <gui>Close</gui>."
+msgstr "点 <gui>关闭</gui>。"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-install.page:48
+msgid ""
+"After you have enabled the plugin, it should be available for you to use."
+msgstr "在启用插件后，就可以使用了。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-install.page:52
+msgid ""
+"The <file>.local</file> directory is hidden by default. To view it and other "
+"hidden files, select <guiseq><gui>View</gui><gui>Show Hidden Files</gui></"
+"guiseq>, or press <keyseq><key>Ctrl</key><key>H</key></keyseq>."
+msgstr ""
+"<file>.local</file> 目录是默认隐藏的。要显示它及其他隐藏文件，点菜"
+"单 <guiseq><gui>查看</gui><gui>显示隐藏文件</gui></guiseq> 或者按组合键 "
+"<keyseq><key>Ctrl</key><key>H</key></keyseq>。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-install.page:59
+msgid ""
+"If the directory <file>.local/share/gedit/plugins/</file> is not present on "
+"your system, you will need to create it."
+msgstr ""
+"如果在系统中，文件夹 <file>.local/share/gedit/plugins/</file> 不存在，就需要"
+"您自己创建它。"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-modelines.page:16
+msgid "Emacs, Kate and Vim-style modelines support for gedit"
+msgstr "Emacs、Kate 和 Vim-风格的模式行支持"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-modelines.page:19
+msgid "Modelines"
+msgstr "模式行"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-modelines.page:21
+msgid ""
+"The <app>Modelines</app> plugin allows <app>gedit</app> to analyze the lines "
+"of text at the start and end of a file, and then apply a set of document "
+"preferences to the file. The <app>Modelines</app> plugin supports a subset "
+"of the options used by the <app>Emacs</app>, <app>Kate</app> and <app>Vim</"
+"app> text editors."
+msgstr ""
+"<app>模式行</app>插件允许 <app>文本编辑器</app> 分析文件中开始行和结束行，然后为文"
+"件设置文档选项，<app>模式行</app>插件支持 <app>Emacs</app>、<app>Kate</app> "
+"和 <app>Vim</app> 文本编辑器选项的子集。"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-modelines.page:27
+#| msgid ""
+#| "To enable the <app>Modelines</app> plugin, select <guiseq><gui>Edit</"
+#| "gui><gui>Preferences</gui><gui>Plugins</gui><gui>Modelines</gui></guiseq>."
+msgid ""
+"To enable the <app>Modelines</app> plugin, select <guiseq><gui style=\"menu"
+"\">gedit</gui> <gui style=\"menuitem\">Preferences</gui><gui>Plugins</"
+"gui><gui>Modelines</gui></guiseq>."
+msgstr ""
+"要启用<app>模式行</app>插件，点菜单 <guiseq><gui style=\"menu"
+"\">文本编辑器</gui> <gui style=\"menuitem\">首选项</gui><gui>插件</"
+"gui><gui>模式行</gui></guiseq>。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-modelines.page:31
+msgid "General Modeline Options"
+msgstr "常规模式行选项"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-modelines.page:32
+msgid "The following options can be set using <app>gedit</app> modelines:"
+msgstr "下列选项可用于 <app>文本编辑器</app> 模式行设置："
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:34
+msgid "Tab width"
+msgstr "Tab 制表符宽度"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:35
+msgid "Indent width"
+msgstr "缩进宽度"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:36
+msgid "Inserting spaces instead of tabs"
+msgstr "插入空格而不是制表符"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:37
+msgid "Text Wrapping"
+msgstr "文本换行"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:38
+msgid "Right margin width"
+msgstr "右边距宽度"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-modelines.page:42
+msgid ""
+"Preferences set using modelines take precedence over the ones specified in "
+"the preference dialog."
+msgstr "使用 modelines 设置的选项，会覆盖在首选项对话框里设定的选项。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-modelines.page:48
+msgid "Emacs Modelines"
+msgstr "Emacs Modelines"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-modelines.page:50
+msgid ""
+"The first two lines of a document are scanned for <app>Emacs</app> "
+"modelines, and <app>gedit</app> supports the following <app>Emacs</app> "
+"modeline options:"
+msgstr ""
+"对 <app>Emacs</app> 模式行扫描文档开头的两行，<app>文本编辑器</app> 支持下列 "
+"<app>Emacs</app> 模式行选项："
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:54
+msgid "Tab-width"
+msgstr "Tab 制表符宽度"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:55
+msgid "Indent-offset"
+msgstr "缩进"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:56
+msgid "Indent-tabs-mode"
+msgstr "Tab 缩排模式"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:57
+msgid "Text auto-wrap"
+msgstr "文本自动缩进"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-modelines.page:59
+msgid ""
+"For more information on <app>Emacs</app> modelines, visit the <link href="
+"\"http://www.gnu.org/software/emacs/manual/emacs.html\">GNU Emacs Manual</"
+"link>."
+msgstr ""
+"更多关于 <app>Emacs</app> 模式行的相关信息，请访问 <link href=\"http://www."
+"gnu.org/software/emacs/manual/emacs.html\">GNU Emacs 手册</link>。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-modelines.page:65
+msgid "Kate Modelines"
+msgstr "Kate Modelines"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-modelines.page:67
+msgid ""
+"The first and last ten lines a document are scanned for <app>Kate</app> "
+"modelines, and <app>gedit</app> supports the following <app>Kate</app> "
+"modeline options:"
+msgstr ""
+"对 <app>Kate</app> 模式行扫描文档开头和最后十行，<app>文本编辑器</app> 支持下列 "
+"<app>Kate</app> 模式行选项："
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:72
+msgid "tab-width"
+msgstr "Tab 制表符宽度"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:73
+msgid "indent-width"
+msgstr "缩进宽度"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:74
+msgid "space-indent"
+msgstr "空格缩进"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:75
+msgid "word-wrap"
+msgstr "词缩进"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:76
+msgid "word-wrap-column"
+msgstr "按列缩进词"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-modelines.page:79
+msgid ""
+"For more information about <app>Kate</app> modelines, visit the <link href="
+"\"http://kate-editor.org/\">Kate website</link>."
+msgstr ""
+"更多关于 <app>Kate</app> 模式行的相关信息，请访问 <link href=\"http://kate-"
+"editor.org/\">Kate 网站</link>。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-modelines.page:84
+msgid "Vim Modelines"
+msgstr "Vim Modelines"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-modelines.page:85
+msgid ""
+"The first and last three lines a document are scanned for <app>Vim</app> "
+"modelines, and <app>gedit</app> supports the following <app>Vim</app> "
+"modeline options:"
+msgstr ""
+"对 <app>Vim</app> 模式行扫描文档开头和最后的三行，<app>文本编辑器</app> 支持下列 "
+"<app>Vim</app> 模式行选项："
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:90
+msgid "et (expandtab)"
+msgstr "et (expandtab)"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:91
+msgid "ts (tabstop)"
+msgstr "ts (tabstop)"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:92
+msgid "sw (shiftwidth)"
+msgstr "sw (shiftwidth)"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:93
+msgid "wrap"
+msgstr "缩进"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-modelines.page:94
+msgid "textwidth"
+msgstr "文本宽度"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-modelines.page:97
+msgid ""
+"For more information on <app>Vim</app> modelines, visit the <link href="
+"\"http://www.vim.org/\">Vim website</link>."
+msgstr ""
+"更多关于 <app>Vim</app> 模式行的信息，请访问 <link href=\"http://www.vim.org/"
+"\">Vim 网站</link>。"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-pyconsole.page:12
+msgid "Add an interactive Python console to the bottom pane"
+msgstr "在底部面板添加一个交互式的 Python 控制台"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-pyconsole.page:15
+msgid "Python console"
+msgstr "Python 控制台"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-pyconsole.page:17
+#| msgid ""
+#| "You can add a Python console to the bottom pane, allowing you to test "
+#| "Python scripts without leaving <app>gedit</app>. To enable the Python "
+#| "console, select <guiseq><gui>Edit</gui><gui>Preferences</"
+#| "gui><gui>Plugins</gui><gui>Python Console</gui></guiseq>."
+msgid ""
+"You can add a Python console to the bottom pane, allowing you to test Python "
+"scripts without leaving <app>gedit</app>. To enable the Python console, "
+"select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Preferences</gui><gui>Plugins</gui> <gui>Python Console</gui></guiseq>."
+msgstr ""
+"您可以在底部面板添加一个 Python 控制台，从而不需要离开<app>文本编辑器</app> 就可以"
+"测试 Python 脚本。要启用 Python 控制台，点菜单 <guiseq><gui style=\"menu\">文本编辑器</gui> <gui "
+"style=\"menuitem"
+"\">首选项</gui><gui>插件</gui> <gui>Python 控制台</gui></guiseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-pyconsole.page:23
+msgid ""
+"Once the Python console is enabled, you can open it by selecting "
+"<guiseq><gui>View</gui><gui>Bottom Pane</gui></guiseq>, or just press "
+"<keyseq><key>Shift</key><key>F9</key></keyseq>."
+msgstr ""
+"一旦启用 Python 控制台，您就可以通过点菜单 <guiseq><gui>查看</gui><gui>底部面"
+"板</gui></guiseq>，或者按组合键 <keyseq><key>Shift</key><key>F9</key></"
+"keyseq> 来打开它。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-pyconsole.page:27
+msgid ""
+"If you have also enabled the <gui>Embeded Terminal</gui> plugin, the "
+"<gui>Python Console</gui> will appear as a separate tab in the bottom pane."
+msgstr ""
+"如果您同时还启用了<gui>内部终端</gui>插件，<gui>Python 控制台</gui>将会出现在"
+"底部面板的另一个标签中。"
+
+#. (itstool) path: credit/name
+#: C/gedit-plugins-quick-open.page:14
+#: C/gedit-plugins-zeitgeist-dataprovider.page:10 C/gedit-search.page:22
+msgid "Shobha Tyagi"
+msgstr "Shobha Tyagi"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-quick-open.page:18
+msgid "Quickly open a file or set of files"
+msgstr "快速打开一个文件或一组文件。"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-quick-open.page:21
+msgid "Quick open"
+msgstr "快速打开"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-quick-open.page:23
+msgid ""
+"As the name of this plugin would imply, the <app>Quick Open</app> plugin "
+"helps you to open files more quickly than using the usual ways of opening "
+"files. To enable this plugin, select <guiseq><gui style=\"menu\">gedit</gui> "
+"<gui>Preferences</gui><gui>Plugins</gui><gui>Quick Open</gui></guiseq>."
+msgstr ""
+"要在 <app>gedit</app> 中使用拼写检查功能，首先需要您启用拼写插件。要启用此插"
+"件，点菜单 <guiseq><gui style=\"menu\">文本编辑器</gui> "
+"<gui>首选项</gui><gui>插件</gui><gui>快速打开</gui></guiseq>。"
+
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-quick-open.page:36
+msgid "Use your mouse to select the file or files that you want to open."
+msgstr "用鼠标选择您想打开的文件。"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-quick-open.page:49
+#| msgid "Print the current document"
+msgid "The directory of the currently opened document"
+msgstr "当前打开文档的目录"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gedit-plugins-snippets.page:64
+msgctxt "_"
+msgid ""
+"external ref='figures/gedit-html-snippet.png' "
+"md5='1f02c599b116ed209e6fb79e3e63b9ca'"
+msgstr ""
+"external ref='figures/gedit-html-snippet.png' "
+"md5='1f02c599b116ed209e6fb79e3e63b9ca'"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-snippets.page:17
+msgid "Use snippets to quickly insert often-used pieces of text"
+msgstr "使用片断功能快速插入常用文本短语"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-snippets.page:20
+msgid "Snippets"
+msgstr "片段"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-snippets.page:29
+#| msgid "Snippets Plugin"
+msgid "Enable Snippets Plugin"
+msgstr "启用片段插件"
+
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-snippets.page:35 C/gedit-plugins-sort.page:44
+#: C/gedit-plugins-zeitgeist-dataprovider.page:29 C/gedit-spellcheck.page:36
+#| msgid ""
+#| "Select <guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Font &amp; "
+#| "Colors</gui></guiseq>."
+msgid ""
+"Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+"点菜单 <guiseq><gui style=\"menu\">文本编辑器</gui> <gui style=\"menuitem"
+"\">首选项</gui> <gui style=\"tab\">插件</gui></guiseq>。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-snippets.page:47
+msgid "Browse Snippets"
+msgstr "浏览片段"
+
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-snippets.page:52
+msgid ""
+"Select <guiseq><gui style=\"menu\">Tools</gui> <gui style=\"menuitem"
+"\">Manage Snippets</gui></guiseq>."
+msgstr ""
+"点菜单 <guiseq><gui style=\"menu\">工具</gui> <gui style=\"menuitem"
+"\">管理片段</gui></guiseq>"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-snippets.page:76
+msgid "Using Snippets"
+msgstr "使用片段"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-snippets.page:108
+msgid "Adding Snippets"
+msgstr "添加片段"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-snippets.page:115
+#| msgid "Select <guiseq><gui>Edit</gui><gui>Change Case</gui></guiseq>"
+msgid ""
+"Select <guiseq style=\"menu\"><gui style=\"menuitem\">Tools</gui> <gui style="
+"\"menuitem\">Manage Snippets</gui></guiseq>."
+msgstr ""
+"选择 <guiseq style=\"menu\"><gui style=\"menuitem\">工具</gui> <gui style="
+"\"menuitem\">管理片段</gui></guiseq>。"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugins-sort.page:21
+msgid "Sort lines of text into alphabetical order"
+msgstr "对多行文字按字母顺序"
+
+#. (itstool) path: page/title
+#: C/gedit-plugins-sort.page:24
+msgid "Sort"
+msgstr "排序"
+
+#. (itstool) path: page/p
+#: C/gedit-plugins-sort.page:26
+msgid ""
+"The Sort plugin arranges selected lines of text into alphabetical order."
+msgstr "排序插件，可以按字母顺序排列选中的文本行。"
+
+#. (itstool) path: note/p
+#: C/gedit-plugins-sort.page:30
+msgid ""
+"You cannot use the <gui>Undo</gui> feature to correct a <gui>Sort</gui> "
+"operation, so we recommend that you save the file immediately before "
+"performing the sort. If you make a mistake with the sort, you can revert to "
+"the previously-saved version of the file by selecting <guiseq><gui>File</"
+"gui><gui>Revert</gui></guiseq>."
+msgstr ""
+"由于<gui>排序</gui>无法使用<gui>撤消</gui>命令恢复，所以建议您在执行排序前保"
+"存文件，如果您发现排序操作产生错误，可以通过点菜单  <guiseq><gui>文件</"
+"gui><gui>还原</gui></guiseq> 命令，恢复为之前保存的文件。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-sort.page:38
+#| msgid "Sort Plugin"
+msgid "Enable Sort Plugin"
+msgstr "启用排序插件"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-sort.page:40
+#| msgid "Load the Sort plugin."
+msgid "To enable the <app>Sort</app> plugin:"
+msgstr "要启用<app>排序</app>插件："
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-sort.page:49
+msgid "Select <gui style=\"menuitem\">Sort</gui> to enable the plugin."
+msgstr "选择 <gui style=\"menuitem\">排序</gui> 来启用该插件。"
+
+#. (itstool) path: section/title
+#: C/gedit-plugins-sort.page:56
+#| msgid "Sort Plugin"
+msgid "Using Sort Plugin"
+msgstr "使用排序插件"
+
+#. (itstool) path: section/p
+#: C/gedit-plugins-sort.page:58
+#| msgid "Load the Sort plugin."
+msgid "To use the <gui>Sort</gui> plugin:"
+msgstr "要使用<gui>排序</gui>插件："
+
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-sort.page:69
+#| msgid ""
+#| "The Sort dialog will open, allowing you to choose between several sorting "
+#| "options:"
+msgid ""
+"The <gui>Sort</gui> dialog will open, allowing you to choose between several "
+"sorting options:"
+msgstr "在出来的<gui>排序</gui>对话框中，有几个选项可供选择："
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-sort.page:73
+#| msgid ""
+#| "<em>Reverse order</em> will arrange the text in reverse alphabetical "
+#| "order."
+msgid ""
+"<gui>Reverse order</gui> will arrange the text in reverse alphabetical order."
+msgstr "<gui>逆序</gui> 按照相反字母顺序排序。"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-sort.page:77
+#| msgid ""
+#| "<em>Remove duplicates</em> will remove duplicate values from the list."
+msgid ""
+"<gui>Remove duplicates</gui> will remove duplicate values from the list."
+msgstr "<gui>删除重复内容</gui> 删除列表中重复的行。"
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-sort.page:81
+#| msgid "<em>Ignore case</em> will ignore case sensitivity."
+msgid "<gui>Ignore case</gui> will ignore case sensitivity."
+msgstr "<gui>忽略大小写</gui> 不区分字母的大小写。"
+
+
+#. (itstool) path: item/p
+#: C/gedit-plugins-sort.page:91
+msgid "To perform the sort operation, click <gui>Sort</gui>."
+msgstr "要执行排序操作，点击 <gui>排序</gui> 按钮。"
+
+#. (itstool) path: credit/name
+#: C/gedit-printing-order.page:10 C/gedit-printing-select.page:9
+msgid "Phil Bull"
+msgstr "Phil Bull"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:31
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui></guiseq>."
+msgstr ""
+"选择 <guiseq><gui style=\"menu\">文件</gui> <gui style=\"menuitem\">打印</"
+"gui></guiseq>。"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:35
+msgid ""
+"In the <gui style=\"tab\">General</gui> tab of the Print dialog under <gui "
+"style=\"group\">Copies</gui>, check <gui style=\"checkbox\">Reverse</gui>."
+msgstr ""
+"在打印对话框的 <gui style=\"tab\">常规</gui> 标签页的 <gui "
+"style=\"group\">副本</gui>选项中，勾选 <gui style=\"checkbox\">逆序</gui>。"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:55
+msgid ""
+"Click <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui></guiseq>."
+msgstr ""
+"点击 <guiseq><gui style=\"menu\">文件</gui> <gui style=\"menuitem\">打印</"
+"gui></guiseq>。"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:35
+msgid ""
+"In the <gui style=\"tab\">General</gui> tab of the Print dialog under <gui "
+"style=\"group\">Copies</gui> check <gui style=\"checkbox\">Collate</gui>."
+msgstr ""
+"在打印对话框的 <gui style=\"tab\">常规</gui> 标签页的 <gui "
+"style=\"group\">副本</gui>选项中，勾选 <gui style=\"checkbox\">逐份</gui>。"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:35
+msgid "Collate"
+msgstr "逐份打印"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:35
+msgid "Reverse"
+msgstr "逆序打印"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:35
+msgid "To Collate:"
+msgstr "设置逐份打印"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:35
+msgid ""
+"If you are printing more than one copy of the document, the print outs "
+"will be grouped by page number by default. (e.g. The copies of page one come "
+"out, then the copies of page two, etc.) Collating will make each copy come "
+"out with its pages grouped together."
+msgstr ""
+"如果文件被打印不止一份，打印结果默认是以页码进行分组的。（例如：页码为1的打印结果先出来，然后是"
+"页码为2的打印结果。等等）选择逐份将会使输出结果以文档按页码进行分组。"
+
+#. (itstool) path: item/p
+#: C/gedit-printing-order.page:35
+msgid ""
+"Printers usually print the first page first, and the last page last, so "
+"the pages end up in reverse order when you pick them up. To reverse the "
+"order:"
+msgstr ""
+"打印机通常先打印第一页，最后打印最后一页，如果你选择逆序打印，打印结果的顺序会反过来，"
+"选择逆序打印："
+
+#. (itstool) path: page/title
+#: C/gedit-printing.page:19
+#| msgid "Printing a Document"
+msgid "Printing documents"
+msgstr "打印文档"
+
+#. (itstool) path: note/p
+#: C/gedit-printing.page:22
+msgid ""
+"Printing with <app>gedit</app> requires that you have connected and "
+"configured your printer. If you have not done this, please consult the <link "
+"href=\"help:gnome-help/printing\">printing help for GNOME</link>."
+msgstr ""
+"在 <app>文本编辑器</app> 中使用打印，需要您连接并配置好打印机，如果您还没有准备"
+"好，请查阅<link href=\"help:gnome-help/printing\">GNOME 打印帮助</link>。"
+
+
+#. (itstool) path: section/title
+#: C/gedit-printing.page:30
+#| msgid "Print preview"
+msgid "Print Preview"
+msgstr "打印预览"
+
+#. (itstool) path: section/title
+#: C/gedit-printing.page:52
+#| msgid "Printing to paper"
+msgid "Printing To Paper"
+msgstr "打印到纸张"
+
+#. (itstool) path: section/title
+#: C/gedit-printing.page:91
+#| msgid "Printing to paper"
+msgid "Printing To File"
+msgstr "打印到文件"
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:103
+#| msgid "Printing is enabled for the following file formats:"
+msgid ""
+"Printing is enabled for the following file formats, you may select from:"
+msgstr "打印允许使用下列文件格式："
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:107
+msgid "Portable Document Format (.pdf)"
+msgstr "便携式文档格式(.pdf)"
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:110
+msgid "PostScript (.ps)"
+msgstr "PostScript文件 (.ps)"
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:113
+msgid "Scalable Vector Graphic (.svg)"
+msgstr "可缩放矢量图形(.svg)"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gedit-quickstart.page:27
+msgctxt "_"
+msgid ""
+"external ref='figures/gedit3-screen.png' "
+"md5='baa64a3be5bdf495e2331383fa76bda3'"
+msgstr "外部的 ref='figures/gedit3-screen.png' "
+"md5='baa64a3be5bdf495e2331383fa76bda3'"
+
+#. (itstool) path: page/title
+#: C/gedit-quickstart.page:21
+msgid "Get started with gedit"
+msgstr "开始使用文本编辑器"
+
+#. (itstool) path: page/p
+#: C/gedit-quickstart.page:22
+msgid ""
+"<app>gedit</app> is a full-featured text editor for the GNOME desktop "
+"environment. You can use it to prepare simple notes and documents, or you "
+"can use some of its advanced features, making it your own software "
+"development environment."
+msgstr ""
+"<app>文本编辑器</app> 具备 GNOME 桌面环境的全部特性，您可以使用它书写简单的便笺和"
+"文档，也可以使用它的高级特性，让它成为一个软件开发平台。"
+
+#. (itstool) path: page/p
+#: C/gedit-quickstart.page:29
+msgid ""
+"Once <app>gedit</app> launches, you can start writing right away. To save "
+"your text, just click <gui>Save</gui>."
+msgstr ""
+"一旦打开了 <app>文本编辑器</app> 文本编辑器，您就可以开始书写内容，要保存文件，请"
+"点击<gui>保存</gui>按钮。"
+
+#. (itstool) path: page/p
+#: C/gedit-quickstart.page:32
+msgid ""
+"To learn about additional <app>gedit</app> features and to get assistance "
+"with performing additional tasks, explore <link xref=\"index\">the other "
+"portions</link> of the <app>gedit</app> help."
+msgstr ""
+"要学习 <app>文本编辑器</app> 的额外特性，进行别的任务，请访问 <app>文本编辑器</app> 帮"
+"助的 <link xref=\"index\">其他部分</link>。"
+
+#. (itstool) path: page/title
+#: C/gedit-replace.page:24
+msgid "Replace text"
+msgstr "替换文本"
+
+#. (itstool) path: page/p
+#: C/gedit-replace.page:26
+msgid ""
+"Editing text can be time consuming. To save time, <app>gedit</app> includes "
+"a <app>Replace</app> function that helps you to find and replace portions of "
+"text."
+msgstr ""
+"修改文本是比较费时的，为了节省时间，<app>文本编辑器</app> 提供了一个 <app>替换</"
+"app> 功能，来帮助您查找并替换文本。"
+
+#. (itstool) path: steps/title
+#: C/gedit-replace.page:31
+msgid "Replace text in <app>gedit</app>"
+msgstr "在 <app>文本编辑器</app> 中替换文本"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:33
+#| msgid ""
+#| "Open the Replace tool by clicking <guiseq><gui>Search</gui><gui>Replace</"
+#| "gui></guiseq> or press <keyseq><key>Ctrl</key><key>H</key></keyseq>."
+msgid ""
+"Open the Replace tool by clicking <guiseq><gui style=\"menu\">Search</gui> "
+"<gui style=\"menuitem\">Replace</gui></guiseq> or press <keyseq><key>Ctrl</"
+"key><key>H</key></keyseq>."
+msgstr ""
+"点菜单 <guiseq><gui style=\"menu\">搜索</gui><gui style=\"menuitem\">替换</gui><"
+"/guiseq> 命令打开替换工具，也可"
+"以按组合键 <keyseq><key>Ctrl</key><key>H</key></keyseq>。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:39
+msgid "Enter the text that you wish to replace into the 'Search for:' field."
+msgstr "在“搜索”输入框中，输入您想要替换的文本。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:43
+msgid "Enter the new, replacement text into the 'Replace with:' field."
+msgstr "在“替换为”输入框中，输入想替换成的文本。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:46
+msgid ""
+"Once you have entered the original and replacement text, select your desired "
+"replacement options:"
+msgstr "输入要替换的文本后，接着选择合适的替换选项："
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:50
+msgid ""
+"To replace <em>only</em> the next matching portion of text, click "
+"<gui>Replace</gui>."
+msgstr "要替换文档中的<em>一个</em>匹配项，点 <guibutton>替换</guibutton>。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:54
+msgid ""
+"To replace <em>all occurrences</em> of the searched-for text, click "
+"<gui>Replace All</gui>."
+msgstr "要替换文档中的<em>所有</em>匹配项，点 <guibutton>替换全部</guibutton>。"
+
+#. (itstool) path: note/p
+#: C/gedit-replace.page:62
+msgid ""
+"Use the <gui>Replace All</gui> function with care. <gui>Replace All</gui> "
+"works on the entirety of your text file, and does not allow you to highlight "
+"portions of text where the replace function will be performed."
+msgstr ""
+"使用 <gui>全部替换</gui> 功能要仔细，它会替换文档中的所有项目，并且不会高亮显"
+"示被替换的文本。"
+
+#. (itstool) path: section/title
+#: C/gedit-replace.page:69
+msgid "More options"
+msgstr "更多选项"
+
+#. (itstool) path: item/title
+#: C/gedit-replace.page:72
+msgid "Match case"
+msgstr "区分大小写"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:73
+msgid ""
+"The <em>Match case</em> option allows you to specify whether you want your "
+"search to be case-sensitive. If this option is selected, searches will be "
+"case-sensitive. If not, searches will not be case-sensitive."
+msgstr ""
+"<em>区分大小写</em> 选项可以指定搜索时是否考虑大小写。选中此项搜索时将会区分"
+"字母的大小写，如果不选中，则不区分字母大小写。"
+
+#. (itstool) path: item/title
+#: C/gedit-replace.page:78
+msgid "Match entire word only"
+msgstr "匹配整个单词"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:79
+msgid ""
+"Use this option to search for a specific word without including fragments of "
+"other words. For example, if you searched for the word 'and' with this "
+"option selected, the word 'and' would be matched, but the words 's<em>and</"
+"em>' and 'comm<em>and</em>er' would not be matched."
+msgstr ""
+"使用此选项，将会搜索完整的字词，不包括词语的片段，例如，您要搜索“文档”，并且"
+"选中此选项，那么单独的“文档”会被搜索到，而“本<em>文档</em>”和“在<em>文档</em>"
+"中”都不会被搜索到。"
+
+#. (itstool) path: item/title
+#: C/gedit-replace.page:86
+msgid "Search backwards"
+msgstr "反向搜索"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:87
+msgid ""
+"This command behaves identically to the Find Previous command. If you wish "
+"to step through search results from end to beginning, select this option."
+msgstr "这个命令会让查找改变方向，如果您想让搜索从后往前进行，那么就可以选中此项。"
+
+#. (itstool) path: item/title
+#: C/gedit-replace.page:92
+msgid "Wrap around"
+msgstr "回绕模式"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:93
+msgid ""
+"With the <app>wrap around</app> option enabled, <app>gedit</app> will re-"
+"start the search/replace action at the top of the file after it has reached "
+"the bottom of the file. This ensures that your search/replace action is made "
+"across your entire file."
+msgstr ""
+"选中<app>回到文档头部继续搜索</app>选项，当查找/替换到文档结尾时，会跳到开头"
+"重新进行，这将确保查找/替换文档的所有内容。"
+
+#. (itstool) path: page/title
+#: C/gedit-save-file.page:20
+msgid "Save a file"
+msgstr "保存文件"
+
+#. (itstool) path: page/p
+#: C/gedit-save-file.page:22
+#| msgid ""
+#| "To save a file in <app>gedit</app>, click on the disk-drive icon with the "
+#| "word <gui>Save</gui> next to it. You may also select <guiseq><gui>File</"
+#| "gui><gui>Save</gui></guiseq>, or just press <keyseq><key>Ctrl</"
+#| "key><key>S</key></keyseq>."
+msgid ""
+"To save a file in <app>gedit</app>, click on the disk-drive icon with the "
+"word <gui style=\"button\">Save</gui> next to it. You may also select "
+"<guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Save</gui></"
+"guiseq>, or just press <keyseq><key>Ctrl</key><key>S</key></keyseq>."
+msgstr ""
+"要保存当前文档，点击工具栏上的一个小磁盘图标，旁边写着 <gui style=\"button\">保存</gui>。您也"
+"可以点菜单 <guiseq><gui style=\"menu\">文件</gui> <gui style=\"menuitem\">保存</gui></"
+"guiseq> 命令，或者按组合键 <keyseq><key>Ctrl</key><key>S</key></keyseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-save-file.page:26
+msgid ""
+"If you are saving a new file, the <gui>Save File</gui> dialog will appear, "
+"and you can select a name for the file, as well as the directory where you "
+"would like the file to be saved."
+msgstr ""
+"如果您是第一次保存，会出现一个 <gui>另存为</gui> 对话框，您可以选择文件存储的"
+"位置，输入文件的名称。"
+
+#. (itstool) path: page/title
+#: C/gedit-search.page:28
+msgid "Search for text"
+msgstr "搜索文本"
+
+#. (itstool) path: page/p
+#: C/gedit-search.page:30
+msgid ""
+"The Find tool can help you find specific sequences of text within in your "
+"file."
+msgstr "搜索工具可以帮您查找文档中指定的文本。"
+
+#. (itstool) path: steps/title
+#: C/gedit-search.page:34
+msgid "Finding text"
+msgstr "查找文本"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:43
+msgid "Type the text you wish to search for in the <gui>search window</gui>."
+msgstr "在 <gui>搜索窗口</gui> 中输入您想要查找的文本。"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:47
+msgid ""
+"As you type, <app>gedit</app> will begin highlighting the portions of text "
+"that match what you have entered."
+msgstr "在您输入的同时，<app>文本编辑器</app> 就会高亮显示文档中的匹配项。"
+
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:55
+msgid ""
+"Click on the <gui style=\"button\">up</gui> or <gui style=\"button\">down</"
+"gui> facing arrows next to the <gui>search window</gui>."
+msgstr ""
+"点击<gui>搜索窗口</gui>旁的<gui style=\"button\">上</gui><gui style=\"button\">下</gui>"
+"的箭头。"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:60
+msgid ""
+"Press the <key>up arrow</key> or <key>down arrow</key> keys on your keyboard."
+msgstr "按键盘上的<key>↑</key>或<key>↓</key>键。"
+
+#. (itstool) path: list/title
+#: C/gedit-search.page:79
+msgid "Search tips"
+msgstr "搜索技巧"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:105
+msgid ""
+"The text that you've searched for will remain highlighted by gedit, even "
+"after you have completed your search. To remove the highlight, click "
+"<guiseq><gui>Search</gui><gui>Clear Highlight</gui></guiseq>, or press "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>K</key></keyseq>."
+msgstr ""
+"您搜索的文本会保持高亮状态，甚至搜索完毕还会高亮。要取消高亮状态，点菜单 "
+"<guiseq><gui>搜索</gui><gui>清除突出显示</gui></guiseq>，或者按组合键 "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>K</key></keyseq>。"
+
+#. (itstool) path: credit/name
+#: C/gedit-shortcut-keys.page:14
+msgid "Paolo Borelli"
+msgstr "Paolo Borelli"
+
+#. (itstool) path: credit/name
+#: C/gedit-shortcut-keys.page:17
+msgid "Jesse van den Kieboom"
+msgstr "Jesse van den Kieboom"
+
+#. (itstool) path: credit/name
+#: C/gedit-shortcut-keys.page:20
+msgid "Steve Frécinaux"
+msgstr "Steve Frécinaux"
+
+#. (itstool) path: credit/name
+#: C/gedit-shortcut-keys.page:23
+msgid "Ignacio Casal Quinteiro"
+msgstr "Ignacio Casal Quinteiro"
+
+#. (itstool) path: page/title
+#: C/gedit-shortcut-keys.page:32
+msgid "Shortcut keys"
+msgstr "快捷键"
+
+#. (itstool) path: page/p
+#: C/gedit-shortcut-keys.page:34
+msgid ""
+"Use <gui>shortcut keys</gui> to perform common tasks more quickly than with "
+"the mouse and menus. The following tables list all of <app>gedit's</app> "
+"shortcut keys."
+msgstr ""
+"使用<gui>快捷键</gui>执行常用任务，比用鼠标和菜单要快。下表列出了 "
+"<app>文本编辑器</app> 的常用快捷键。"
+
+#. (itstool) path: table/title
+#: C/gedit-shortcut-keys.page:53
+msgid "Tab-related Shortcut keys"
+msgstr "标签相关的快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:56 C/gedit-shortcut-keys.page:97
+#: C/gedit-shortcut-keys.page:143 C/gedit-shortcut-keys.page:225
+#: C/gedit-shortcut-keys.page:246 C/gedit-shortcut-keys.page:283
+#: C/gedit-shortcut-keys.page:312
+msgid "To Do This"
+msgstr "操作"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:57 C/gedit-shortcut-keys.page:98
+#: C/gedit-shortcut-keys.page:144 C/gedit-shortcut-keys.page:226
+#: C/gedit-shortcut-keys.page:247 C/gedit-shortcut-keys.page:284
+#: C/gedit-shortcut-keys.page:313
+msgid "Press This"
+msgstr "快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:62
+msgid "Switch to the next tab to the left"
+msgstr "切换到左边的标签"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:63
+msgid "<keyseq><key>Ctrl</key><key>Alt</key> <key>PageUp</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Alt</key> <key>PageUp</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:67
+msgid "Switch to the next tab to the right"
+msgstr "切换到右边的标签"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:68
+msgid "<keyseq><key>Ctrl</key><key>Alt</key> <key>PageDown</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Alt</key> <key>PageDown</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:72
+msgid "Close tab"
+msgstr "关闭标签"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:73 C/gedit-shortcut-keys.page:130
+msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:76
+msgid "Save all tabs"
+msgstr "保存全部标签"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:77
+msgid "<keyseq><key>Ctrl</key><key>Shift</key> <key>L</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key> <key>L</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:81
+msgid "Close all tabs"
+msgstr "关闭全部标签"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:82
+msgid "<keyseq><key>Ctrl</key><key>Shift</key> <key>W</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key> <key>W</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:86
+msgid "Jump to <var>n</var>th tab"
+msgstr "跳到第 <var>n</var> 个标签"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:87
+msgid "<keyseq><key>Alt</key><key> <var>n</var></key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key> <var>n</var></key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/gedit-shortcut-keys.page:94
+msgid "Shortcut keys for working with files"
+msgstr "文件操作的快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:103
+msgid "Create a new document"
+msgstr "创建新文档"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:104
+msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:107
+msgid "Open a document"
+msgstr "打开文档"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:108
+msgid "<keyseq><key>Ctrl</key><key>O</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>O</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:111
+msgid "Save the current document"
+msgstr "保存当前文档"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:112
+msgid "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:115
+msgid "Save the current document with a new filename"
+msgstr "文件另存为"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:116
+msgid "<keyseq><key>Ctrl</key><key>Shift</key> <key>S</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key> <key>S</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:120
+msgid "Print the current document"
+msgstr "打印当前文档"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:121
+msgid "<keyseq><key>Ctrl </key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Ctrl </key><key>P</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:124
+msgid "Print preview"
+msgstr "打印预览"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:125
+msgid "<keyseq><key>Ctrl</key><key>Shift</key> <key>P</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key> <key>P</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:129
+msgid "Close the current document"
+msgstr "关闭当前文档"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:133
+msgid "Quit gedit"
+msgstr "退出文本编辑器"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:134
+msgid "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/gedit-shortcut-keys.page:140
+msgid "Shortcut keys for editing files"
+msgstr "编辑文档的快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:150
+msgid "<key>Home</key>"
+msgstr "<key>Home</key>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:154
+msgid "<key>End</key>"
+msgstr "<key>End</key>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:158
+msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
+
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:162
+msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
+
+
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:166
+msgid "<keyseq><key>Alt</key><key>Right Arrow</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>→</key></keyseq>"
+
+
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:170
+msgid "<keyseq><key>Alt</key><key>Left Arrow</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>←</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:173
+msgid "Undo the last action"
+msgstr "撤销上一次操作"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:174
+msgid "<keyseq><key>Ctrl</key><key>Z</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Z</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:177
+msgid "Redo the last undone action"
+msgstr "重做上一次撤销的操作"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:178
+msgid "<keyseq><key>Ctrl</key><key>Shift</key> <key>Z</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key> <key>Z</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:182
+msgid "Cut the selected text or region and place it on the clipboard"
+msgstr "剪切选中的文本或文本块，并放到剪贴板中"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:184
+msgid "<keyseq><key>Ctrl</key><key>X</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>X</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:187
+msgid "Copy the selected text or region onto the clipboard"
+msgstr "复制选中的文本或文本块，并放到剪贴板中"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:188
+msgid "<keyseq><key>Ctrl</key><key>C</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>C</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:191
+msgid "Paste the contents of the clipboard"
+msgstr "从剪贴板中粘贴内容"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:192
+msgid "<keyseq><key>Ctrl</key><key>V</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>V</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:195
+msgid "Select all text in the file"
+msgstr "全部选中"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:196
+msgid "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:199
+msgid "Delete the current line"
+msgstr "删除当前行"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:200
+msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:203
+msgid "Move the selected line up one line"
+msgstr "将选中的行上移一行"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:204
+msgid "<keyseq><key>Alt</key><key>Up Arrow</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>↑</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:207
+msgid "Move the selected line down one line"
+msgstr "将选中的行下移一行"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:208
+msgid "<keyseq><key>Alt</key><key>Down Arrow</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>↓</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:211
+#| msgid "Adding tabs"
+msgid "Add a tab stop"
+msgstr "添加制表符"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:212
+msgid "<keyseq><key>Tab</key></keyseq>"
+msgstr "<keyseq><key>Tab</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:215
+msgid "Remove a tab stop"
+msgstr "删除制表符"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:216
+msgid "<keyseq><key>Shift</key><key>Tab</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Tab</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/gedit-shortcut-keys.page:222
+msgid "Shortcut keys for showing and hiding panes"
+msgstr "显示和隐藏面板的快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:231
+msgid "Show / hide the side pane"
+msgstr "显示/隐藏侧边栏"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:232
+msgid "<key>F9</key>"
+msgstr "<key>F9</key>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:235
+msgid "Show / hide the bottom pane."
+msgstr "显示/隐藏底部面板。"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:236
+msgid "<keyseq><key>Ctrl</key><key>F9</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>F9</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/gedit-shortcut-keys.page:243
+msgid "Shortcut keys for searching"
+msgstr "搜索的快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:252
+msgid "Find a string"
+msgstr "查找字符串"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:253
+msgid "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:256
+msgid "Find the next instance of the string"
+msgstr "查找下一个匹配的字符串"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:257
+msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:261
+msgid "<keyseq><key>Ctrl</key><key>Shift</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key><key>G</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:264
+msgid "Search and Replace"
+msgstr "查找和替换"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:265
+msgid "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
+
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:269
+msgid "<keyseq><key>Ctrl</key><key>Shift</key> <key>K</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key> <key>K</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:273
+msgid "Goto line"
+msgstr "跳转到行"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:274
+msgid "<keyseq><key>Ctrl</key><key>I</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>I</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/gedit-shortcut-keys.page:280
+msgid "Shortcut keys for tools"
+msgstr "使用工具的快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:289
+msgid "Check spelling"
+msgstr "检查拼写"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:290
+msgid "<keyseq><key>Shift</key><key>F7</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>F7</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:293
+msgid "Remove trailing spaces (with plugin)"
+msgstr "删除尾部空格(使用插件)"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:294
+msgid "<keyseq><key>Alt</key><key>F12</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>F12</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:297
+msgid "Run \"make\" in the current directory (with plugin)"
+msgstr "在当前文件夹运行“make”命令(用插件)"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:298
+msgid "<key>F8</key>"
+msgstr "<key>F8</key>"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:301
+msgid "Directory listing (with plugin)"
+msgstr "文件夹列表(使用插件)"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:302
+msgid "<keyseq><key>Ctrl</key><key>Shift</key> <key>D</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key> <key>D</key></keyseq>"
+
+#. (itstool) path: table/title
+#: C/gedit-shortcut-keys.page:309
+msgid "Shortcut keys for user help"
+msgstr "帮助的快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:318
+msgid "Open the gedit user guide"
+msgstr "打开使用指南"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:319
+msgid "<key>F1</key>"
+msgstr "<key>F1</key>"
+
+
+#. (itstool) path: page/title
+#. (itstool) path: section/title
+#: C/gedit-spellcheck.page:28 C/gedit-spellcheck.page:49
+msgid "Spell-check your document"
+msgstr "拼写检查"
+
+
+#. (itstool) path: item/p
+#: C/gedit-spellcheck.page:55
+msgid ""
+"Select <guiseq><gui style=\"menu\">Tools</gui> <gui style=\"menuitem\">Check "
+"Spelling</gui></guiseq>."
+msgstr ""
+"选择<guiseq><gui style=\"menu\">工具</gui><gui style=\"menuitem\">检查拼写</gui><"
+"/guiseq>。"
+
+#. (itstool) path: page/title
+#: C/gedit-syntax-highlighting.page:19
+msgid "Turn on syntax highlighting"
+msgstr "打开语法高亮显示"
+
+#. (itstool) path: section/title
+#: C/gedit-syntax-highlighting.page:22
+msgid "Syntax highlighting"
+msgstr "语法高亮显示"
+
+#. (itstool) path: section/p
+#: C/gedit-syntax-highlighting.page:23
+msgid ""
+"<app>gedit</app> provides syntax highlighting for a wide range of markup, "
+"programming, and scientific languages. If <app>gedit</app> recognizes the "
+"syntax being used when you open a file, it will automatically highlight the "
+"text."
+msgstr ""
+"<app>文本编辑器</app> 支持广泛的高亮语法，像标记语言、程序语言和科学语言等等，如"
+"果 <app>文本编辑器</app> 识别出打开的文件，它将会自动显示高亮文本。"
+
+#. (itstool) path: section/p
+#: C/gedit-syntax-highlighting.page:28
+#| msgid ""
+#| "If your syntax or language is not highlighted upon startup, you can "
+#| "select the appropriate syntax or language by clicking <guiseq><gui>View</"
+#| "gui><gui>Highlight Mode</gui></guiseq>, and then choosing the desired "
+#| "syntax. Alternately, you can select the syntax name from a list at the "
+#| "bottom of the <app>gedit</app> window."
+msgid ""
+"If your syntax or language is not highlighted upon startup, you can select "
+"the appropriate syntax or language by clicking <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Highlight Mode</gui></guiseq>, and "
+"then choosing the desired syntax. Alternately, you can select the syntax "
+"name from a list at the bottom of the <app>gedit</app> window."
+msgstr ""
+"如果打开一种文件格式或语言后，没有显示高亮语法，您可以通过点菜单 "
+"<guiseq><gui style=\"menu\">查看</gui><gui style=\"menuitem\">突出显示模式</gui><"
+"/guiseq> 来选择一种高亮格式。"
+"或者，您还可以从 <app>文本编辑器</app> 窗口底部的格式列表中选择。"
+
+#. (itstool) path: page/title
+#: C/gedit-tabs-moving.page:23
+msgid "Move and re-order tabs"
+msgstr "移动和重排标签顺序"
+
+#. (itstool) path: page/p
+#: C/gedit-tabs-moving.page:24
+msgid ""
+"Tabs in <app>gedit</app> can be moved, making it easier to work with your "
+"files. Tabs can be can re-ordered within the same window, moved outside of "
+"<app>gedit</app> (creating a new <app>gedit</app> window), and moved from "
+"one window to another."
+msgstr ""
+"<app>文本编辑器</app> 中的标签可以移动，这样文件操作就更加方便，同一个窗口内的标签"
+"可以重新排序，也可以移出 <app>文本编辑器</app>(创建一个新的 <app>文本编辑器</app> 窗"
+"口)，并且可以从一个窗口移到另外一个窗口中。"
+
+#. (itstool) path: section/title
+#: C/gedit-tabs-moving.page:30
+msgid "Change the order of tabs in the gedit window"
+msgstr "在窗口中改变标签顺序"
+
+#. (itstool) path: section/p
+#: C/gedit-tabs-moving.page:32
+msgid "To change the ordering of tabs in a window:"
+msgstr "要更改窗口中标签的顺序："
+
+#. (itstool) path: item/p
+#: C/gedit-tabs-moving.page:36 C/gedit-tabs-moving.page:57
+#: C/gedit-tabs-moving.page:83
+msgid "Click and hold the mouse button on the tab."
+msgstr "在标签上点击并按住鼠标按钮"
+
+#. (itstool) path: item/p
+#: C/gedit-tabs-moving.page:39
+#| msgid "Move the tab to the desired position among the other tabs"
+msgid "Move the tab to the desired position among the other tab."
+msgstr "拖动标签到想要的位置。"
+
+#. (itstool) path: item/p
+#: C/gedit-tabs-moving.page:42 C/gedit-tabs-moving.page:63
+#: C/gedit-tabs-moving.page:92
+msgid "Release the mouse button."
+msgstr "松开鼠标按钮。"
+
+#. (itstool) path: section/p
+#: C/gedit-tabs-moving.page:46
+msgid ""
+"The tab will be placed in the position closest to where you release the tab, "
+"immediately beside other opened tabs."
+msgstr "标签将会放在您松手位置标签的旁边，立即插在其他打开标签的中间。"
+
+#. (itstool) path: section/title
+#: C/gedit-tabs-moving.page:52
+msgid "Move a tab, creating a new gedit window"
+msgstr "移动标签，创建一个新的 文本编辑器 窗口"
+
+
+#. (itstool) path: item/p
+#: C/gedit-tabs-moving.page:60
+msgid "Drag the tab out of the <app>gedit</app> window."
+msgstr "将标签拖出<app>文本编辑器</app>窗口。"
+
+#. (itstool) path: section/p
+#: C/gedit-tabs-moving.page:67
+msgid ""
+"or, while the tab to be moved is open, choose <guiseq><gui>Documents </"
+"gui><gui>Move to New Window</gui></guiseq>"
+msgstr ""
+"或者，标签打开后，点菜单 <guiseq><gui>文档</gui><gui>移动到新窗口</gui></"
+"guiseq>。"
+
+
+#. (itstool) path: section/title
+#: C/gedit-tabs-moving.page:77
+msgid "Move a tab to another gedit window"
+msgstr "将标签移到其他 文本编辑器 窗口中"
+
+#. (itstool) path: section/p
+#: C/gedit-tabs-moving.page:79
+msgid "If you want to move a tab from one window to another:"
+msgstr "如果您想将标签从一个窗口移动到另一个窗口中："
+
+#. (itstool) path: item/p
+#: C/gedit-tabs-moving.page:86
+#| msgid "Drag the tab to the new window"
+msgid "Drag the tab to the new window."
+msgstr "拖动标签到新窗口。"
+
+#. (itstool) path: item/p
+#: C/gedit-tabs-moving.page:89
+#| msgid "Place it beside other tabs in the new window"
+msgid "Place it beside other tabs in the new window."
+msgstr "将它放在新窗口的其他标签旁边。"
+
+
+#. (itstool) path: section/p
+#: C/gedit-tabs-moving.page:105
+#| msgid ""
+#| "See <link xref=\"gedit-shortcut-keys#gedit-tab-shortcuts\"/> for "
+#| "shortcuts to make it easier to manage your tabs."
+msgid ""
+"See the <link xref=\"gedit-shortcut-keys\">tab-related shortcut keys</link> "
+"table to make it easier to manage your tabs."
+msgstr "了解<link xref=\"gedit-shortcut-keys\">与标签相关的快捷键</link>来更容易地管理标签。"
+
+#. (itstool) path: page/title
+#: C/gedit-tabs.page:24
+msgid "Add and remove tabs"
+msgstr "添加和删除标签"
+
+#. (itstool) path: page/p
+#: C/gedit-tabs.page:25
+msgid ""
+"Working with tabs in <app>gedit</app> allows you to keep an eye on several "
+"files in a single window. The tab that is larger than the other tabs "
+"indicates the file that is currently open. The smaller tabs indicate other "
+"files that are available to work on."
+msgstr ""
+"在 <app>文本编辑器</app> 中使用标签，可以让您在一个窗口中同时操作多个文件，当前窗"
+"口中显示的文档标签要比别的标签稍大些，较小的标签指示其他可用的文件。"
+
+#. (itstool) path: section/title
+#: C/gedit-tabs.page:31
+msgid "Adding tabs"
+msgstr "添加标签"
+
+#. (itstool) path: section/p
+#: C/gedit-tabs.page:32
+#| msgid ""
+#| "To add a new tab, create a new file with <keyseq><key>Ctrl</key><key>N</"
+#| "key></keyseq>. The tab will be added to the right side of any other tabs."
+msgid ""
+"To add a new tab, create a new file with <keyseq><key>Ctrl</key> <key>N</"
+"key></keyseq>. The tab will be added to the right side of any other tabs."
+msgstr ""
+"要添加一个新标签，按组合键  <keyseq><key>Ctrl</key><key>N</key></keyseq>，新"
+"出来的标签将会放在标签栏的最右边。"
+
+#. (itstool) path: section/title
+#: C/gedit-tabs.page:38
+msgid "Removing tabs"
+msgstr "删除标签"
+
+#. (itstool) path: section/p
+#: C/gedit-tabs.page:39
+#| msgid ""
+#| "To remove a tab, click the <guiseq><gui>X</gui></guiseq> on the tab's "
+#| "right side. To remove all open tabs, press <keyseq><key>Ctrl</"
+#| "key><key>Shift</key><key>W</key></keyseq>"
+msgid ""
+"To remove a tab, click the <gui style=\"button\">×</gui> on the tab's right "
+"side. To remove all open tabs, press <keyseq><key>Ctrl</key> <key>Shift</"
+"key><key>W</key></keyseq>."
+msgstr ""
+"要移除一个标签，点击标签右边的 <gui style=\"button\">X</gui> 按钮，要关闭所有"
+"打开的标签，按组合键 <keyseq><key>Ctrl</key><key>Shift</key><key>W</key></"
+"keyseq>。"
+
+#. (itstool) path: page/title
+#: C/gedit-undo-recent-action.page:23
+msgid "Undo a recent action"
+msgstr "撤销上一次操作"
+
+#. (itstool) path: page/p
+#: C/gedit-undo-recent-action.page:25
+msgid ""
+"If you make a mistake while using <app>gedit</app>, you can undo it by "
+"pressing <keyseq><key>Ctrl</key><key>Z</key></keyseq>, or by clicking "
+"<guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem\">Undo</gui></"
+"guiseq>. Doing so will cause <app>gedit</app> to undo one set of similar "
+"actions."
+msgstr ""
+"<app>文本编辑器</app> 每次撤消一步，当您按 <keyseq><key>Ctrl</key><key>Z</key></"
+"keyseq> 组合键，或者点菜单 <guiseq><gui>编辑</gui><gui>撤消</gui></guiseq> 命"
+"令时。"
+
+
+#. (itstool) path: page/title
+#: C/gedit-view-open-files-in-sidepane.page:24
+msgid "View a list of files in the side pane"
+msgstr "在侧边栏中查看文件列表"
+
+#. (itstool) path: page/p
+#: C/gedit-view-open-files-in-sidepane.page:26
+msgid ""
+"Keeping track of a large number of files using tabs can be difficult. One "
+"way of managing large numbers of files is viewing them in a side pane. Side "
+"panes allow you to view more files at a time than is possible using tabs "
+"alone."
+msgstr ""
+"用标签页对一大堆文件进行操作一定会让人苦不堪言。如果需要管理的文件数量众多的"
+"话，将它们放在侧边栏中查看是一个不错的选择。和仅仅使用标签页相比，使用侧边栏"
+"可以一次让用户看到更多的文件。"
+
+#. (itstool) path: page/p
+#: C/gedit-view-open-files-in-sidepane.page:31
+#| msgid ""
+#| "To view a list of open files in a side pane, click <guiseq><gui>View</"
+#| "gui><gui>Side Pane</gui></guiseq>. A pane will appear to the left of the "
+#| "workspace with a listing of all currently open files. Clicking a file in "
+#| "the side pane will display that file in the workspace."
+msgid ""
+"To view a list of open files in a side pane, click <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Side Pane</gui></guiseq>. A pane will "
+"appear to the left of the workspace with a listing of all currently open "
+"files. Clicking a file in the side pane will display that file in the "
+"workspace."
+msgstr ""
+"要在侧边栏中查看已打开文件的列表，请单击<guiseq><gui style=\"menu\">“查看”</gui><gui "
+"style=\"menuitem\">“侧边"
+"栏”</gui></guiseq>。此时工作区的左边会出现一个窗格，列出所有当前已打开的文"
+"件。在侧边栏中单击某个文件后，工作区内将会显示此文件。"
+
+
+#. (itstool) path: page/p
+#: C/gedit-view-open-files-in-sidepane.page:37
+#| msgid ""
+#| "The side pane also contains a <app>File Browser</app> view. If the pane "
+#| "displays a file directory instead of currently open files, click <media "
+#| "type=\"image\" mime=\"image/png\" src=\"figures/gedit-side-pane2.png"
+#| "\">documents icon</media> at the bottom of the pane to switch to the "
+#| "<app>Documents</app> view."
+msgid ""
+"The side pane also contains a <app>File Browser</app> view. If the pane "
+"displays a file directory instead of currently open files, click <_:media-1/"
+"> at the bottom of the pane to switch to the <app>Documents</app> view."
+msgstr ""
+"同时，侧边栏还包含了<app>“文件浏览器”</app>视图。如果侧边栏中显示的是文件目录"
+"而非当前已打开的文件，请单击窗格底部的<_:media-1/>切换到<app>“文档”</app>视图。"
+
+#. (itstool) path: note/p
+#: C/gedit-view-open-files-in-sidepane.page:44
+msgid ""
+"The side pane only displays files that are open in the current window. When "
+"multiple windows are open, only the files in the current window will be "
+"displayed in the side pane."
+msgstr ""
+"侧边栏中只显示当前窗口内已打开的文件。如果打开了多个窗口，那么只有当前窗口中"
+"的文件会显示在侧边栏中。"
+
+#. (itstool) path: p/link
+#: C/legal.xml:3
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr ""
+
+
+#. (itstool) path: p/link
+#: C/legal.xml:3
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "知识共享署的ShareAlike 3.0的本地化许可协议"
+
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "本项工作的许可范围在 <_:link-1/> 之下。"
+
+
+#. (itstool) path: info/desc
+#: C/gedit-quickstart.page:9
+msgid "A brief introduction to gedit."
+msgstr "文本编辑器的简要介绍。"
+
+#. (itstool) path: info/desc
+#: C/gedit-shortcut-keys.page:9
+msgid "Use keyboard shortcuts to help you work more quickly."
+msgstr "使用键盘快捷键来帮助您更有效地工作。"
+
+#. (itstool) path: info/desc
+#: C/gedit-files-basic.page:7
+msgid "Learn the basics of how to work with files in gedit."
+msgstr "学会在文本编辑器中操作文档的基本方法。"
+
+#. (itstool) path: info/desc
+#: C/gedit-tabs.page:10
+msgid "Create or close tabs in the gedit window."
+msgstr "在文本编辑器新建或关闭窗口标签。"
+
+#. (itstool) path: info/desc
+#: C/gedit-tab-groups.page:11
+msgid "Group similar tabs together."
+msgstr "把类似的标签组合在一起。"
+
+#. (itstool) path: page/title
+#: C/gedit-tab-groups.page:23
+msgid "Organize files in grouped tabs"
+msgstr "组织分组标签中的文件"
+
+#. (itstool) path: info/desc
+#: C/gedit-tabs-moving.page:10
+msgid "Change the position of a tab in the gedit window."
+msgstr "改变文本编辑器窗口标签的位置。"
+
+#. (itstool) path: info/desc
+#: C/gedit-edit-as-root.page:7
+msgid "Use administrative privileges to edit a file."
+msgstr "使用管理员权限来编辑文件。"
+
+#. (itstool) path: info/desc
+#: C/gedit-search.page:8
+msgid "Find a portion of text within a file."
+msgstr "在文件中查找文本的一部分。"
+
+#. (itstool) path: info/desc
+#: C/gedit-replace.page:8
+msgid "Replace portions of text in a file."
+msgstr "在文件中替换文本的一部分。"
+
+#. (itstool) path: info/desc
+#: C/gedit-undo-recent-action.page:8
+msgid "Revert a recent change to one of your files."
+msgstr "回滚最新的修改，恢复到文件原来的内容。"
+
+#. (itstool) path: info/desc
+#: C/gedit-open-files-from-sidepane.page:8
+msgid "Use gedit's side pane as a file browser."
+msgstr "利用文本编辑器的侧边栏作为文件浏览器。"
+
+#. (itstool) path: info/desc
+#: C/gedit-full-screen.page:8
+msgid "Set gedit to use the entire screen."
+msgstr "设置文本编辑器为使用全屏模式。"
+
+#. (itstool) path: info/desc
+#: C/gedit-syntax-highlighting.page:7
+msgid "Highlight your text to make it easier to read."
+msgstr "让文本高亮显示以使阅读更容易。"
+
+#. (itstool) path: info/desc
+#: C/gedit-change-color-scheme.page:8
+msgid "Change the text and background colors in gedit."
+msgstr "改变文本编辑器中的文本和背景的颜色。"
+
+#. (itstool) path: info/desc
+#: C/gedit-change-default-font.page:6
+msgid "Use a custom font for your text in gedit."
+msgstr "为您的文本定制一种字体。"
+
+#. (itstool) path: page/title
+#: C/gedit-plugin-guide.page:16
+msgid "Configure and use gedit plugins"
+msgstr "配置和使用文本编辑器插件"
+
+#. (itstool) path: info/desc
+#: C/gedit-plugin-guide.page:7
+msgid "Use plugins to customize how gedit works for you."
+msgstr "使用插件来自定义文本编辑器而为您服务。"
+
+#. (itstool) path: info/desc
+#: C/gedit-printing.page:7
+msgid "Print the files that you create with gedit."
+msgstr "打印您用文本编辑器创建的文件。"
+
+#. (itstool) path: page/p
+#: C/gedit-quickstart.page:30
+msgid ""
+"Once <app>gedit</app> launches, you can start writing right away. To save "
+"your text, just click the <gui>Save</gui> icon in the <app>gedit</app> "
+"toolbar."
+msgstr ""
+"一旦 <app>文本编辑器</app> 被开启，您将可以立即开始在上面编写。为了保存您的文本，"
+"您只需要在 <app>文本编辑器</app> 上面的工具栏点击 <gui>保存</gui> 按钮。"
+
+#. (itstool) path: info/desc
+#: C/index.page:11
+msgid "Home page of the gedit help guide."
+msgstr "文本编辑器帮助文档的首页。"
+
+#. (itstool) path: info/desc
+#: C/gedit-close-file.page:7
+msgid "Exit from the file you are using."
+msgstr "退出您正在使用的文件。"
+
+#. (itstool) path: info/desc
+#: C/gedit-open-files.page:12
+msgid "Open files to start working on them."
+msgstr "打开文件并在之上工作。"
+
+#: C/gedit-shortcut-keys.page:352
+msgid "Action"
+msgstr "操作的响应"
+
+#: C/gedit-shortcut-keys.page:353
+msgid "Keyboard shortcut"
+msgstr "键盘快捷键"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:86
+msgid "Reopen the most recently closed tab"
+msgstr "重新打开最近关闭的标签"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:95
+msgid "New tab group"
+msgstr "新建标签组"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:99
+msgid "Previous tab group"
+msgstr "切换到前面的标签组"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:103
+msgid "Next tab group"
+msgstr "切换到下一个标签组"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:119
+msgid "Create a new document in a new window"
+msgstr "在新的窗口新建一个新的文档"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:123
+msgid "Create a new document in a new tab"
+msgstr "在新的标签新建一个新的文档"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:131
+msgid "Open the <gui>Quick Open</gui> window"
+msgstr "打开 <gui>快速打开</gui> 窗口"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:173
+msgid "Move to the beginning of the current line"
+msgstr "移动到当前行的行首"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:177
+msgid "Move to the end of the current line"
+msgstr "移动到当前行的行尾"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:181
+msgid "Move to the beginning of the document"
+msgstr "移动到文档的最开始处"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:185
+msgid "Move to the end of the document"
+msgstr "移动到文档的末尾"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:189
+msgid "Move the selected word right one word"
+msgstr "移动到选定单词的右边一个单词"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:193
+msgid "Move the selected word left one word"
+msgstr "移动到选定单词的左边一个单词"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:243
+msgid "Convert the selected text to upper case"
+msgstr "把选中的文本都转成大写"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:247
+msgid "Convert the selected text to lower case"
+msgstr "把选中的文本都转成小写"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:251
+msgid "Toggle case of the selected text"
+msgstr "所选文本的大小写调换"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:271
+msgid "Show / hide the bottom pane"
+msgstr "显示/隐藏底部面板"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:276
+msgid "Open the file menu"
+msgstr "打开文件菜单栏"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:300
+msgid "Find the previous instance of the string"
+msgstr "查找前一个匹配的字符串"
+
+#. (itstool) path: td/p
+#: C/gedit-shortcut-keys.page:308
+msgid "Clear highlight"
+msgstr "清除突出显示"
+
+#. (itstool) path: info/desc
+#: C/gedit-create-new-file.page:8
+msgid "Open a new file for editing."
+msgstr "打开一个新文件以用于编辑。"
+
+#. (itstool) path: page/p
+#: C/gedit-create-new-file.page:24
+msgid ""
+"The easiest way to create a new file in <app>gedit</app>, is to click the "
+"<gui>Create a new document</gui> button on the left side of the toolbar, or "
+"press <keyseq><key>Ctrl</key><key>T</key></keyseq>."
+msgstr ""
+"在<app>文本编辑器</app>中新建文件最简单的方法是点击 <gui>新建文档</gui> "
+"的按钮于工具栏的左侧，或者按组合键 <keyseq><key>Ctrl</key><key>T</key></keyseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-files.page:31
+msgid ""
+"This will cause the <gui>Open</gui> dialog to appear. Use your mouse or "
+"keyboard to select the file that you wish to open, and then click <gui>Open</"
+"gui>. The file that you've selected will open in a new tab."
+msgstr ""
+"这个操作会弹出 <gui>打开</gui> 的确认对话框。如果您确定想要打开文件则选择并点击"
+"<gui>打开</gui> 按钮。您选中的文件将会在新的标签页中打开。"
+
+#. (itstool) path: page/p
+#: C/gedit-open-files.page:34
+msgid ""
+"To close the <gui>Open</gui> dialog without opening a file, click "
+"<gui>Cancel</gui>."
+msgstr ""
+"而如果您在 <gui>打开</gui> 对话框不想打开文件了，则点击 <gui>取消</gui> 即可。"
+
+#. (itstool) path: info/desc
+#: C/gedit-open-on-server.page:7
+msgid "Access files that are stored on a different computer."
+msgstr "访问存储在其他电脑中的文件。"
+
+#. (itstool) path: info/desc
+#: C/gedit-open-recent.page:7
+msgid "Access files that you have updated recently."
+msgstr "访问您最近处理过的文件。"
+
+#. (itstool) path: info/desc
+#: C/gedit-save-file.page:8
+msgid "Save your file to work on it later."
+msgstr "保存文件以确保后续可以在之上工作。"
+
+#. (itstool) path: page/p
+#: C/gedit-save-file.page:29
+msgid ""
+"To save a file in <app>gedit</app>, click on the <gui style=\"button\">Save "
+"the current file</gui> button with the disk-drive icon on the right side of "
+"the toolbar or just press <keyseq><key>Ctrl</key><key>S</key></keyseq>."
+msgstr ""
+"为了在 <app>文本编辑器</app>中保存文件，点击 <gui style=\"button\">保存当前文件</gui>"
+"按钮，该按钮在工具条右侧并带有磁盘驱动器的图标；或者按组合键"
+"<keyseq><key>Ctrl</key><key>S</key></keyseq>。"
+
+#. (itstool) path: page/p
+#: C/gedit-save-file.page:32
+msgid ""
+"If you are saving a new file, the <gui>Save As</gui> dialog will appear, and "
+"you can select a name for the file, as well as the directory where you would "
+"like the file to be saved."
+msgstr ""
+"若您在保存一个新文件， <gui>另存为</gui> 对话框将会出现，您可以为该文件选择一个保存目录，"
+"同时也可以修改这个保存到指定目录的文件的文件名。"
+
+#. (itstool) path: section/p
+#: C/gedit-tabs.page:46
+msgid ""
+"To add a new tab, create a new file with <keyseq><key>Ctrl</key> <key>T</"
+"key></keyseq>. The tab will be added to the right side of any other tabs."
+msgstr ""
+"为了添加一个新标签，使用组合键 <keyseq><key>Ctrl</key> <key>T</key></keyseq> 来"
+"创建一个新文件。该新添标签会显示于其他标签的右侧。"
+
+#. (itstool) path: section/p
+#: C/gedit-tabs-moving.page:62
+msgid "To create a new window from an existing tab:"
+msgstr "通过已经存在的标签来创建一个新窗口:"
+
+#. (itstool) path: note/p
+#: C/gedit-tabs-moving.page:77
+msgid ""
+"To move a tab into a new window when <app>gedit</app> is maximized, drag the "
+"tab onto the top bar at the top of the screen."
+msgstr ""
+"在 <app>文本编辑器</app>最大化的时候，通过拖动标签到视窗顶部栏以达到让标签移动到"
+"新窗口的目的。"
+
+#. (itstool) path: note/p
+#: C/gedit-tabs-moving.page:104
+msgid ""
+"You may find it easier to move a tab from one window to another by dragging "
+"the tab to the <gui>Activities</gui> hot-corner of <gui>GNOME Shell</gui>. "
+"This will reveal each of the open <app>gedit</app> windows. You can then "
+"release the tab on the desired <app>gedit</app> window."
+msgstr ""
+"通过拖动标签到 <gui>GNOME Shell</gui> 的<gui>活动</gui>热角，您会发现移动标签从"
+"一个窗口到另一个窗口很容易。这会展现出每一个打开的 <app>文本编辑器</app> 窗口，然后您"
+"可以释放标签到您所希望的 <app>文本编辑器</app> 窗口上。"
+
+#. (itstool) path: page/p
+#: C/gedit-tab-groups.page:25
+msgid ""
+"If you are working with multiple tabs in <app>gedit</app> you can group "
+"them, making it easier to keep your opened files organized. Adding a new tab "
+"group will divide the <app>gedit</app> window in two panes, open a new "
+"\"Untitled Document\" in the new pane, and make it active. You can open "
+"files into that tab group and move tabs from one tab group to another."
+msgstr ""
+"如果您在<app>文本编辑器</app>的多标签下工作，您可以将它们分组，这样有助于已打开"
+"的文件易于组织。增加一个新的标签组会把<app>文本编辑器</app>分割成两个窗格，在新的窗格里"
+"打开一个新的无标题文档，并且使之激活状态。您可以进入标签组打开文件并且从一个标签组到另一个"
+"标签组地移动标签。"
+
+#. (itstool) path: section/title
+#: C/gedit-tab-groups.page:32
+msgid "Open a new tab group in the gedit window"
+msgstr "在文本编辑器窗口打开一个新的标签组"
+
+#. (itstool) path: section/p
+#: C/gedit-tab-groups.page:34
+msgid "To open a new tab group you can:"
+msgstr "为了打开一个新的标签组，您可以："
+
+#. (itstool) path: item/p
+#: C/gedit-tab-groups.page:38
+msgid ""
+"Go to <guiseq><gui>Documents</gui><gui>New Tab Group</gui></guiseq> in the "
+"main menu."
+msgstr ""
+"去到主菜单里面的 <guiseq><gui>文档</gui><gui>新标签组</gui></guiseq> 。"
+
+#. (itstool) path: item/p
+#: C/gedit-tab-groups.page:42
+msgid ""
+"Use the <keyseq><key>Ctrl</key><key>Alt</key><key>N</key></keyseq> shortcut."
+msgstr ""
+"使用 <keyseq><key>Ctrl</key><key>Alt</key><key>N</key></keyseq> 快捷键组合。"
+
+#. (itstool) path: section/p
+#: C/gedit-tab-groups.page:47
+msgid ""
+"This action will divide the <app>gedit</app> window in two panes, and the "
+"pane with the new tab group will be placed on the right of the active tab. "
+"You can move the handle right or left assigning more or less space of "
+"<app>gedit</app> window between panes according to your needs."
+msgstr ""
+"此行为将会把 <app>文本编辑器</app> 窗口切分成两个窗格，具备新标签组的一边将会放在活跃标签 "
+"的右边。根据您的需求，您可以用左右移动柄状物的方法在窗格间调整间距。"
+
+
+#. (itstool) path: section/p
+#: C/gedit-tab-groups.page:52
+msgid ""
+"You can open as much tab groups in <app>gedit</app> window as your screen "
+"allows, but you will have to move the handle in order to see them correctly."
+msgstr ""
+"根据屏幕的允许，您可以在 <app>文本编辑器</app> 窗口尽可能多地打开标签组，但为了可以正确看到 "
+"它们，您将不得不移动柄状物。"
+
+#. (itstool) path: section/p
+#: C/gedit-tab-groups.page:56
+msgid ""
+"To close a tab group pane just close all the tabs that are opened inside it."
+msgstr ""
+"若要关闭标签组窗格，请关闭其内部打开的所有标签。"
+
+#. (itstool) path: section/title
+#: C/gedit-tab-groups.page:62
+msgid "Move through tab groups"
+msgstr "通过移动标签组"
+
+#. (itstool) path: section/p
+#: C/gedit-tab-groups.page:64
+msgid "To move forward (on the next) tab group:"
+msgstr "向前移动到下一个标签组："
+
+#. (itstool) path: item/p
+#: C/gedit-tab-groups.page:68
+msgid ""
+"Go to <guiseq><gui>Documents</gui><gui>Next Tab Group</gui></guiseq> in the "
+"main menu."
+msgstr ""
+"去到主菜单里面的 <guiseq><gui>文档</gui><gui>下一个标签组</gui></guiseq> 。"
+
+#. (itstool) path: item/p
+#: C/gedit-tab-groups.page:72
+msgid ""
+"Use the <keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Page down</"
+"key></keyseq> shortcut."
+msgstr ""
+"使用 <keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Page "
+"down</key></keyseq>快捷键组合。"
+
+#. (itstool) path: section/p
+#: C/gedit-tab-groups.page:77
+msgid "To move backward (on the previous) tab group:"
+msgstr "向后移动到前一个标签组:"
+
+#. (itstool) path: item/p
+#: C/gedit-tab-groups.page:81
+msgid ""
+"Go to <guiseq><gui>Documents</gui><gui>Previous Tab Group</gui></guiseq> in the main menu."
+msgstr ""
+"去到主菜单里面的 <guiseq><gui>文档</gui><gui>前一个标签组</gui></guiseq>。"
+
+#. (itstool) path: item/p
+#: C/gedit-tab-groups.page:85
+msgid ""
+"Use the <keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Page up</"
+"key></keyseq> shortcut."
+msgstr ""
+"使用 <keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Page "
+"up</key></keyseq>快捷键组合。"
+
+#. (itstool) path: section/title
+#: C/gedit-tab-groups.page:93
+msgid "Move a tab to another tab group"
+msgstr "把一个标签移动到另一个标签组"
+
+#. (itstool) path: section/p
+#: C/gedit-tab-groups.page:95
+msgid "If you want to move a tab from one tab group to another:"
+msgstr "如果您想要把一个标签从某个标签组移动到另外一个标签组:"
+
+#. (itstool) path: item/p
+#: C/gedit-tab-groups.page:102
+msgid "Drag the tab to another tab group pane."
+msgstr "把标签拖拽到另一个标签组的窗格。"
+
+#. (itstool) path: item/p
+#: C/gedit-tab-groups.page:105
+msgid "Place it beside other tabs in the tab group."
+msgstr "把它放到标签组其他标签的旁边"
+
+#. (itstool) path: section/p
+#: C/gedit-tab-groups.page:112
+msgid ""
+"See the <link xref=\"gedit-shortcut-keys\">tab-related shortcut keys</link> "
+"table to make it easier to manage your tab groups."
+msgstr ""
+"查看 <link xref=\"gedit-shortcut-keys\">标签相关的快捷键"
+"</link> 表使得更容易地管理您的标签组。"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:37
+msgid ""
+"Open the <gui>search window</gui> by clicking <guiseq><gui style=\"menu"
+"\">Menu Button</gui> <gui style=\"menuitem\">Find…</gui> </guiseq> or "
+"pressing <keyseq><key>Ctrl</key><key>F</key></keyseq>. This will move your "
+"cursor to the start of the <gui>search window</gui>."
+msgstr ""
+"打开 <gui>搜索窗口</gui> 用点击 <guiseq><gui style="
+"\"menu\">菜单按钮</gui><gui style=\"menuitem\">查找…</gui> </guiseq> 的方式"
+"或者按快捷键组合 <keyseq><key>Ctrl</key><key>F</key></keyseq>。"
+"这会移动您的光标到<gui>搜索窗口</gui>的起始处。"
+
+#. (itstool) path: page/p
+#: C/gedit-search.page:53
+msgid "To scroll through the search results, do any of the following:"
+msgstr ""
+"若要滚动搜索结果，请执行下列操作:"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:65
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>G</key></keyseq> or <keyseq><key>Ctrl</"
+"key><key>Shift</key><key>G</key></keyseq>."
+msgstr ""
+"按 <keyseq><key>Ctrl</key><key>G</key></keyseq> 或 <keyseq><key>Ctrl</"
+"key><key>Shift</key><key>G</key></keyseq>快捷键组合。"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:69
+msgid ""
+"Press the <key>Ctrl</key> and use your mouse or touchpad's <key>scroll</key> "
+"feature to move up or down through the text."
+msgstr ""
+"按 <key>Ctrl</key> 键并且用鼠标或触摸板的<key>滚动</key>功能在文档中向上"
+"或向下移动。"
+
+#. (itstool) path: page/p
+#: C/gedit-search.page:74
+msgid ""
+"To close the <gui>search window</gui>, press either <key>Esc</key> or "
+"<key>Enter</key>. Pressing <key>Esc</key> will return the cursor to where it "
+"was before you began your search. Pressing <key>Enter</key> will return the "
+"cursor to the current position in the search results."
+msgstr ""
+"按<key> Esc</key>或<key>Enter</key>键关闭 <gui>搜索窗口</gui> 。"
+"按<key>Esc</key>键会让游标回到搜索开始前的位置。"
+"按<key>Enter</key>键会让游标回到搜索结果的当前位置。"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:82
+msgid ""
+"If you highlight a portion of text with your mouse, and then press "
+"<keyseq><key>Ctrl</key><key>F</key></keyseq>, the text you've highlighted "
+"will appear in the search window."
+msgstr ""
+"如果您用鼠标突出显示部分文本，然后按<keyseq><key>Ctrl</key><key>F</key></keyseq>"
+"快捷键组合, 则高亮显示的文本将出现在搜索窗口中。"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:87
+msgid ""
+"For more search options, click on the <gui style=\"button\">Magnifying "
+"Glass</gui> icon in the search window, or right-click anywhere in the search "
+"window. You can select one or more of the following search options:"
+msgstr ""
+"要获得更多搜索选项，请单击搜索窗口中的<gui style=\"button\">放大镜</gui>图标，"
+"或右击搜索窗口中的任意位置。您可以选择下列一个或多个搜索选项："
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:93
+msgid "Select <gui>Match Case</gui> to make the search case sensitive."
+msgstr "选择 <gui>区分大小写</gui> 以使搜索大小写敏感。"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:96
+msgid "Select <gui>Match Entire Word Only</gui> to search only complete words."
+msgstr "选择 <gui>匹配整个单词</gui> 以使搜索完整单词。"
+
+#. (itstool) path: item/p
+#: C/gedit-search.page:100
+msgid ""
+"Select <gui>Wrap Around</gui> to search text from top to bottom and cycle "
+"back again."
+msgstr ""
+"选择 <gui>回绕模式</gui> 以使从上到下搜索文本，并且循环往复。"
+
+#. (itstool) path: page/p
+#: C/gedit-undo-recent-action.page:33
+msgid ""
+"If you make a mistake while using <app>gedit</app>, you can undo it by "
+"pressing <keyseq><key>Ctrl</key><key>Z</key></keyseq>."
+msgstr ""
+"如果在您使用<app>文本编辑器</app>的时候有错误操作，这种情况下您可以使用"
+"快捷键组合 <keyseq><key>Ctrl</key><key>Z</key></keyseq> 撤回操作。"
+
+#. (itstool) path: note/p
+#: C/gedit-undo-recent-action.page:37
+msgid "You cannot undo a change after you have closed a <app>gedit</app> file."
+msgstr ""
+"一旦您关闭了<app>文本编辑器</app>文件，这种情况下将无法撤销您上次对文件的操作。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:48
+msgid ""
+"Open the <gui>Replace</gui> tool by clicking <guiseq><gui style=\"button"
+"\">Menu button</gui><gui style=\"menuitem\">Find and Replace…</gui></guiseq> "
+"or press <keyseq><key>Ctrl</key><key>H</key></keyseq>."
+msgstr ""
+"点击 <guiseq><gui style=\"button\">菜单按钮</gui><gui style=\"menuitem\">"
+"查找和替换…</gui></guiseq>或按<keyseq><key>Ctrl</key><key>H</key></keyseq>"
+"快捷键组合的方式来打开 <gui>替换</gui> 工具。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:54
+msgid ""
+"Enter the text that you wish to replace into the <gui>Search for:</gui> "
+"field."
+msgstr ""
+"在 <gui>查找:</gui> 输入框输入您想要替换的文本。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:58
+msgid ""
+"Enter the new, replacement text into the <gui>Replace with:</gui> field."
+msgstr "在 <gui>替换为:</gui> 输入框输入新的用来替换的文本。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:62
+msgid ""
+"Once you have entered the original and replacement text, you can add extra "
+"parameters to the search. You can also choose what you want to replace:"
+msgstr ""
+"一旦您输入了原有的和要替换的文本以后，您可以为搜索追加额外的参数。"
+"您也可以选择您想要替换什么："
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:67
+msgid "To replace <em>only</em> the next match, click <gui>Replace</gui>."
+msgstr ""
+"如果 <em>仅仅是</em> 替换下一个匹配，则只需点击<gui>Replace</gui>按钮即可。"
+
+#. (itstool) path: section/p
+#: C/gedit-replace.page:88
+msgid "If you wish, you can add some extra parameters to your search:"
+msgstr "如有必要，您可以为搜索追加额外的参数:"
+
+#. (itstool) path: section/title
+#: C/gedit-replace.page:123
+msgid "Using escape sequences"
+msgstr "使用转义序列"
+
+#. (itstool) path: section/p
+#: C/gedit-replace.page:125
+msgid ""
+"You can use <em>escape sequences</em> to search for line breaks, carriage "
+"returns, and tabs."
+msgstr ""
+"您可以使用 <em>转义序列</em> 搜索换行符、回车符和制表符。"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:131
+msgid "Newline"
+msgstr "换行符"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:135
+msgid "Carriage return"
+msgstr "回车符"
+
+#. (itstool) path: item/p
+#: C/gedit-replace.page:139
+msgid "Tab"
+msgstr "制表符"
+
+#. (itstool) path: section/p
+#: C/gedit-replace.page:143
+msgid ""
+"If you actually want to search for a <output>\\</output> (backslash) or one "
+"of the escape sequences in the text, you need to escape the backslash with "
+"an extra backslash. For example, to search for <input>\\</input>, you need "
+"to enter <input>\\\\</input> into the search or replace field. You can "
+"search for escape sequences in the same way: to search for or replace with a "
+"<input>\\n</input>, use the <input>\\\\n</input> term."
+msgstr ""
+"如果您想要在文本中搜索 <output>\\</output>(反斜杠) 这样的匹配字符或其他一个转义序列，"
+"这种情况下您需要在反斜杠前添加作为转义的反斜杠。例如，为了搜索<input>\\</input>，你"
+"需要在搜索或替换的输入框中输入<input>\\\\</input>。你可以用同样的方法搜索转义序列："
+"用<input>\\\\n</input>的形式来搜索或替换<input>\\n</input> 。"
+
+#. (itstool) path: section/p
+#: C/gedit-full-screen.page:32
+msgid ""
+"To turn on fullscreen mode, press <key>F11</key>. <app>gedit's</app> menu, "
+"title, and tab-bars will hide, and you will only be presented with the text "
+"of your current file."
+msgstr ""
+"想要开启全屏模式，按<key>F11</key>键，这时<app>文本编辑器</app>的菜单栏、标签栏和"
+"工具栏就会隐藏，仅把当前文件的文本呈现给您。"
+
+#. (itstool) path: section/p
+#: C/gedit-full-screen.page:50
+msgid ""
+"To turn off fullscreen mode and return to the standard <app>gedit</app> "
+"window, press <key>F11</key>."
+msgstr ""
+"要关闭全屏模式并返回到标准的 <app>文本编辑器</app> 窗口模式，您只需按<key>F11</key>。"
+
+#. (itstool) path: steps/title
+#: C/gedit-change-color-scheme.page:36
+msgid "To change the color scheme:"
+msgstr "更改配色方案步骤:"
+
+#. (itstool) path: item/p
+#: C/gedit-change-color-scheme.page:38
+msgid ""
+"Open the <gui style=\"menu\">gedit</gui> menu from the top bar, then select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui><gui>Font &amp; Colors</"
+"gui></guiseq>."
+msgstr ""
+"从顶部栏打开 <gui style=\"menu\">文本编辑器</gui> 菜单，然后选择 "
+"<guiseq><gui style=\"menuitem\">首选项</gui> <gui>字体 "
+"&amp; 颜色</gui></guiseq> 。"
+
+#. (itstool) path: section/p
+#: C/gedit-change-color-scheme.page:59
+msgid ""
+"Instructions on how to install custom color schemes, as well as examples of "
+"color schemes that you can download and use, are available on the <link href="
+"\"https://wiki.gnome.org/Projects/GtkSourceView/StyleSchemes\">gedit wiki</"
+"link>."
+msgstr ""
+"关于如何安装自定义颜色方案的操作指南，同时也有颜色方案下载和使用的例子，一切尽在"
+"<link href=\"https://wiki.gnome.org/Projects/GtkSourceView/StyleSchemes"
+"\">文本编辑器维基</link> 。"
+
+#. (itstool) path: item/p
+#: C/gedit-change-default-font.page:32
+msgid ""
+"Click on the current font name. <app>gedit</app> will open a font-chooser "
+"window, allowing you to see available fonts and choose the one that you "
+"prefer."
+msgstr ""
+"在当前的字体名上点击，<app>文本编辑器</app> 会打开字体选择窗口，允许你看到可选字体并选择你 "
+"喜欢的那个字体。"
+
+msgid "Text Size"
+msgstr "文本大小"
+
+msgid "Increase or decrease text size."
+msgstr "增大或减小文本大小。"
+
+#. (itstool) path: page/p
+#: C/gedit-printing.page:28
+msgid "<app>gedit</app> allows you to print both to a file and to paper."
+msgstr "<app>文本编辑器</app> 允许您打印到文件和纸张。"
+
+#. (itstool) path: section/p
+#: C/gedit-printing.page:33
+msgid ""
+"Prior to printing your document, you can preview how the printed document "
+"will look by using <gui>Print Preview</gui>. To preview the document:"
+msgstr ""
+"在打印您的文档之前，您可以通过<gui>打印预览</gui>来预览您即将打印到文档。预览文档步骤："
+
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:38
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print "
+"Preview</gui></guiseq>. Alternatively, you can press <keyseq><key>Shift</"
+"key><key>Ctrl</key> <key>P</key></keyseq>."
+msgstr ""
+"选择 <guiseq><gui style=\"menu\">文件</gui> <gui style=\"menuitem"
+"\">打印预览</gui></guiseq>。或者按快捷键组合"
+"<keyseq><key>Mayús</key><key>Ctrl</key> <key>P</key></keyseq>。"
+
+#. (itstool) path: section/p
+#: C/gedit-printing.page:45
+msgid ""
+"A preview of your document will open in the same tab as the file. You can "
+"browse this preview with help of navigation buttons and tools in the toolbar "
+"at the top of the document preview tab. To close and return to the document "
+"click <gui style=\"button\">Close Preview</gui>."
+msgstr ""
+"预览您的文件将打开在同一标签的文件。可以在文档预览标签顶部的工具栏中使用导航按钮和工具的帮助"
+"来浏览此预览。要关闭并返回文档，请单击<gui style=\"button\">关闭预览</gui>按钮。"
+
+#. (itstool) path: section/p
+#: C/gedit-printing.page:55
+msgid ""
+"You can print your documents to paper using a local or remote printer. To "
+"print a file:"
+msgstr ""
+"您可以使用本地或远程打印机打印文档到纸张。打印文件步骤如下:"
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:60
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui> <gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"点击菜单图标后点击打印机图标，进入<gui style=\"menuitem\">打印</"
+"gui> <gui style=\"tab\">常规</gui></guiseq>标签页。"
+
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui><gui style=\"menuitem\">Print</gui><gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"点击菜单图标后点击打印机图标，进入<guiseq><gui style=\"menuitem\">打印</"
+"gui> <gui style=\"tab\">常规</gui></guiseq>标签页。"
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:65
+msgid "Select the desired printer from the list of printers available."
+msgstr ""
+"从可使用的打印机列表中选择打印机。"
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:68
+msgid ""
+"You can preview the file using <gui style=\"button\">Print Preview</gui> and "
+"once you are satisfied with the settings, click <gui style=\"button\">Print</"
+"gui> to send the file to printer."
+msgstr ""
+"您可以用<gui style=\"button\">打印预览</gui>来预览文件，并且如果您对设置满意的话，请点击"
+"<gui style=\"button\">打印</gui>按钮把文件送给打印机打印。"
+
+#. (itstool) path: section/p
+#: C/gedit-printing.page:74
+msgid ""
+"Additionally, from <gui style=\"tab\">Page Setup</gui> tab: you can choose "
+"<gui style=\"group\">Layout</gui> and <gui style=\"group\">Paper</gui> "
+"options. As these settings are available throughout <app>GNOME</app> "
+"programs, please consult <link href=\"help:gnome-help/printing#paper"
+"\">Layout and Paper options</link> help."
+msgstr ""
+"此外，从<gui style=\"tab\">页面设置</gui> 标签页:你可以选择"
+"<gui style=\"group\">布局</gui> 和 <gui style=\"group\">纸张</gui>选项。"
+"由于这些设置与所有的<app>GNOME</app>关联同步，为慎重起见，请参阅"
+"<link href=\"help:gnome-help/printing#paper\">布局和纸张选项</link> "
+"的帮助文档。"
+
+#. (itstool) path: section/title
+#: C/gedit-printing.page:84
+msgid "Print Multiple Copies And Between Specified Ranges"
+msgstr "打印多个拷贝并在指定范围内打印"
+
+#. (itstool) path: section/p
+#: C/gedit-printing.page:86
+msgid ""
+"You can set <gui style=\"group\">Range</gui> and <gui style=\"group"
+"\">Copies</gui> options to help you:"
+msgstr ""
+"您可以设置 <gui style=\"group\">范围</gui> 和 <gui style="
+"\"group\">拷贝</gui> 选项来帮助您:"
+
+
+#. (itstool) path: page/title
+#: C/gedit-printing-select.page:20
+msgid "Only print certain pages"
+msgstr "只是打印某些页"
+
+#. (itstool) path: info/desc
+#: C/gedit-printing-select.page:7
+msgid "Choose the pages that you want to print."
+msgstr "选择您想要打印的页码。"
+
+#. (itstool) path: info/desc
+#: C/gedit-printing-select.page:39
+msgid ""
+"You can selectively print only certain pages from the document. For "
+"example, if you enter the page numbers \"1,3,5-7,9\", then only pages 1, 3, "
+"5, 6, 7 and 9 will be printed. To print pages of your choice:"
+msgstr ""
+"你可以选择具体的文档页进行打印。例如，输入页编号1，3,5-7,9， 打印结果为文档的第1、3、5、6、"
+"7、 9页。打印您选择的页面："
+
+#. (itstool) path: info/desc
+#: C/gedit-printing-select.page:39
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui><gui style=\"menuitem\">Print…</gui></guiseq>."
+msgstr ""
+"选择<guiseq><gui style=\"menu\">文件</gui><gui style=\"menuitem\">打印…</gui></guiseq>。"
+
+#. (itstool) path: info/desc
+#: C/gedit-printing-select.page:7
+msgid ""
+"In the <gui style=\"tab\">General</gui> tab in the Print dialog choose "
+"<gui style=\"radiobutton\">Pages</gui> from the "
+"<gui style=\"group\">Range</gui> section."
+msgstr ""
+"在<gui style=\"tab\">常规</gui>标签页的打印对话框中勾选 "
+"<gui style=\"radiobutton\">页面</gui>选项。"
+
+#. (itstool) path: info/desc
+#: C/gedit-printing-select.page:7
+msgid ""
+"Type the numbers of the pages you want to print from the document, "
+"separated by commas. Use a dash to specify a range of pages."
+msgstr ""
+"输入要打印的页码，使用逗号分割。使用破折号表示页码的范围。"
+
+#. (itstool) path: page/title
+#: C/gedit-printing-order.page:21
+msgid "Getting Copies To Print In The Correct Order"
+msgstr "获取副本以正确的顺序打印"
+
+#. (itstool) path: info/desc
+#: C/gedit-printing-order.page:7
+msgid "Set the pages to print in a certain order."
+msgstr "设置按特定顺序打印的页。"
+
+#. (itstool) path: info/desc
+#: C/gedit-printing-order.page:7
+msgid "The last page will be printed first, and so on."
+msgstr "最后一页将会被第一个打印，以此类推。"
+
+#. (itstool) path: section/p
+#: C/gedit-printing.page:94
+msgid ""
+"You can also use <app>gedit</app> to print to a file. To print your document "
+"to file of a different format:"
+msgstr ""
+"您也可以用 <app>文本编辑器</app> 打印到文件。以一种不同的格式打印文档到文件： "
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:99
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print</"
+"gui> <gui style=\"menuitem\">Print to File</gui></guiseq>."
+msgstr ""
+"点击菜单图标后点击打印机图标，进入 <gui style=\"menuitem"
+"\">打印</gui> <gui style=\"menuitem\">打印到文件</gui></"
+"guiseq>的标签页。"
+
+msgid ""
+"Select <guiseq><gui style=\"menu\">File</gui><gui style=\"menuitem\">Print</gui><gui style=\"menuitem\">Print to File</gui></guiseq>."
+msgstr ""
+"点击菜单图标后点击打印机图标，进入 <guiseq><gui style=\"menuitem"
+"\">打印</gui> <gui style=\"menuitem\">打印到文件</gui></"
+"guiseq>的标签页。"
+
+#. (itstool) path: item/p
+#: C/gedit-printing.page:119
+msgid "To print the document to file, click <gui style=\"button\">Print</gui>."
+msgstr ""
+"要将文档打印到文件，请单击 <gui style=\"button"
+"\">打印</gui>按钮。"

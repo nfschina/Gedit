@@ -1,0 +1,28 @@
+[Desktop Entry]
+_Name=Text Editor
+_Comment=Edit text files
+Exec=gedit %U
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=gedit
+Categories=GNOME;GTK;Utility;TextEditor;
+X-GNOME-DocPath=gedit/gedit.xml
+_X-GNOME-FullName=gedit Text Editor
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gedit
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.22.0
+X-GNOME-Bugzilla-ExtraInfoScript=/home/paolo/gnome/install/libexec/gedit/gedit-bugreport.sh
+Actions=new-window;new-document;
+_Keywords=Text;Editor;Plaintext;Write;
+DBusActivatable=true
+
+[Desktop Action new-window]
+_Name=New Window
+Exec=gedit --new-window
+
+[Desktop Action new-document]
+_Name=New Document
+Exec=gedit --new-document

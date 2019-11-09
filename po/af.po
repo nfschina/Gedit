@@ -1,0 +1,5780 @@
+# Afrikaans translation of gedit.
+# Copyright (C) 2004 Zuza Software Foundation
+# This file is distributed under the same license as the gedit package.
+# Zuza Software Foundation <info@translate.org.za>, 2004
+# F Wolff <friedel@translate.org.za>, 2008, 2011.
+# Petrus Potgieter <petrus@potgieter.org>, 2009, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit 2.6-branch\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=gedit&component=general\n"
+"POT-Creation-Date: 2011-03-02 17:35+0000\n"
+"PO-Revision-Date: 2011-04-02 00:42+0200\n"
+"Last-Translator: F Wolff <friedel@translate.org.za>\n"
+"Language-Team: translate-discuss-af@lists.sourceforge.net\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.0-beta4\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/gedit.desktop.in.in.h:1
+msgid "Edit text files"
+msgstr "Redigeer tekslêers"
+
+#: ../data/gedit.desktop.in.in.h:2 ../gedit/gedit-print-job.c:805
+msgid "Text Editor"
+msgstr "Teksredigeerder"
+
+#: ../data/gedit.desktop.in.in.h:3
+msgid "gedit"
+msgstr "gedit"
+
+#: ../data/gedit.desktop.in.in.h:4
+msgid "gedit Text Editor"
+msgstr "gedit-teksredigeerder"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:1
+msgid ""
+"A custom font that will be used for the editing area. This will only take "
+"effect if the \"Use Default Font\" option is turned off."
+msgstr ""
+"'n Doelgemaakte font wat vir die redigeerbare gebied gebruik sal word. Dit "
+"sal eers in werking tree as die \"Gebruik verstekfont\"-opsie buite werking "
+"gestel word."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:2
+msgid "Active plugins"
+msgstr "Aktiewe inproppe"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:3
+msgid "Automatic indent"
+msgstr "Outomatiese inkeping"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:4
+msgid "Automatically Detected Encodings"
+msgstr "Outomaties bespeurde enkoderings"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:5
+msgid "Autosave"
+msgstr "Outostoor"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:6
+msgid "Autosave Interval"
+msgstr "Outostoor-interval"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:7
+msgid "Body Font for Printing"
+msgstr "Lyffont vir drukwerk"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:8
+msgid "Create Backup Copies"
+msgstr "Maak rugsteunkopieë"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:9
+msgid "Display Line Numbers"
+msgstr "Wys reëlnommers"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:10
+msgid "Display Right Margin"
+msgstr "Wys regterkantlyn"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:11
+msgid "Editor Font"
+msgstr "Redigeerfont"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:12
+msgid "Enable Search Highlighting"
+msgstr "Aktiveer verligting van soektogte"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:13
+msgid "Enable Syntax Highlighting"
+msgstr "Aktiveer sintaksverligting"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:14
+msgid "Encodings shown in menu"
+msgstr "Enkoderings in kieslys vertoon"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:15
+msgid "Header Font for Printing"
+msgstr "Kopreëlfont vir drukwerk"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:16
+msgid "Highlight Current Line"
+msgstr "Verlig huidige reël"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:17
+msgid "Highlight Matching Brackets"
+msgstr "Verlig passende hakies"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:18
+msgid ""
+"If this value is 0, then no line numbers will be inserted when printing a "
+"document. Otherwise, gedit will print line numbers every such number of "
+"lines."
+msgstr ""
+"As hierdie waarde 0 is, sal geen reëlnommers ingevoeg word wanneer 'n "
+"dokument gedruk word nie. Andersins sal gedit reëlnommers by elke soveel "
+"reëls druk."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:19
+msgid "Insert spaces"
+msgstr "Voeg spasies in"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:20
+msgid "Line Number Font for Printing"
+msgstr "Reëlnommerfont vir drukwerk"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:21
+msgid "Line Wrapping Mode"
+msgstr "Reëlvoumodus"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:22
+msgid ""
+"List of VFS schemes gedit supports in write mode. The 'file' scheme is "
+"writable by default."
+msgstr ""
+"Lys van VFS-skemas wat gedit ondersteun in skryfmodus. Die \"lêer\" skema is "
+"skryfbaar by verstek."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:23
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .gedit-plugin file for obtaining the \"Location\" of a given plugin."
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:24
+msgid ""
+"List of encodings shown in the Character Encoding menu in open/save file "
+"selector. Only recognized encodings are used."
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:25
+msgid "Maximum Number of Undo Actions"
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:26
+msgid "Maximum Recent Files"
+msgstr "Maksimum onlangse lêers"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:27
+msgid ""
+"Maximum number of actions that gedit will be able to undo or redo. Use \"-1\" "
+"for unlimited number of actions."
+msgstr ""
+"Maksimale aantal aksies wat gedit sal kan ontdoen of herdoen. Gebruik \"-1\" "
+"vir 'n onbeperkte aantal aksies."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:28
+msgid ""
+"Maximum number of actions that gedit will be able to undo or redo. Use \"-1\" "
+"for unlimited number of actions. Deprecated since 2.12.0"
+msgstr ""
+"Maksimale aantal aksies wat gedit sal kan ontdoen of herdoen. Gebruik \"-1\" "
+"vir 'n onbeperkte aantal aksies. In onbruik sedert 2.12.0."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:29
+msgid "Notebook Show Tabs Mode"
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:30
+msgid ""
+"Number of minutes after which gedit will automatically save modified files. "
+"This will only take effect if the \"Autosave\" option is turned on."
+msgstr ""
+"Aantal minute waarna gedit gewysigde lêers outomaties sal stoor. Dit sal "
+"eers in werking tree indien die \"Outostoor\"-opsie in werking gestel word."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:31
+msgid "Print Header"
+msgstr "Druk kopreël"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:32
+msgid "Print Line Numbers"
+msgstr "Druk reëlnommers"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:33
+msgid "Print Syntax Highlighting"
+msgstr "Druk sintaksverligting"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:34
+msgid "Printing Line Wrapping Mode"
+msgstr "Drukreëlvoumodus"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:35
+msgid "Restore Previous Cursor Position"
+msgstr "Stel vorige wyserposisie terug"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:36
+msgid "Right Margin Position"
+msgstr "Regterkantlyn-posisie"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:37
+msgid "Side panel is Visible"
+msgstr "Kantpaneel is sigbaar"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:38
+msgid "Smart Home End"
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:39
+msgid ""
+"Sorted list of encodings used by gedit for automatically detecting the "
+"encoding of a file. \"CURRENT\" represents the current locale encoding. Only "
+"recognized encodings are used."
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:40
+msgid ""
+"Specifies how the cursor moves when the HOME and END keys are pressed. Use "
+"\"disabled\" to always move at the start/end of the line, \"after\" to move to "
+"the start/end of the line the first time the keys are pressed and to the "
+"start/end of the text ignoring whitespaces the second time the keys are "
+"pressed, \"before\" to move to the start/end of the text before moving to the "
+"start/end of the line and \"always\" to always move to the start/end of the "
+"text instead of the start/end of the line."
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:41
+msgid ""
+"Specifies how to wrap long lines for printing. Use \"none\" for no wrapping, "
+"\"word\" for wrapping at word boundaries, and \"char\" for wrapping at "
+"individual character boundaries. Note that the values are case-sensitive, so "
+"make sure they appear exactly as mentioned here."
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:42
+msgid ""
+"Specifies how to wrap long lines in the editing area. Use \"none\" for no "
+"wrapping, \"word\" for wrapping at word boundaries, and \"char\" for wrapping at "
+"individual character boundaries. Note that the values are case-sensitive, "
+"so make sure they appear exactly as mentioned here."
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:43
+msgid ""
+"Specifies the font to use for a document's body when printing documents."
+msgstr ""
+"Spesifiseer watter font vir 'n dokument se lyf gebruik moet word wanneer "
+"dokumente gedruk word."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:44
+msgid ""
+"Specifies the font to use for line numbers when printing. This will only "
+"take effect if the \"Print Line Numbers\" option is non-zero."
+msgstr ""
+"Spesifiseer watter font vir reëlnommers gebruik moet word by drukwerk. Dit "
+"sal slegs in werking tree wanneer die \"Druk reëlnommers\"-opsie nie-nul is."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:45
+msgid ""
+"Specifies the font to use for page headers when printing a document. This "
+"will only take effect if the \"Print Header\" option is turned on."
+msgstr ""
+"Spesifiseer watter font vir bladsykoppe gebruik moet word by drukwerk. Dit "
+"sal eers in werking tree as die \"Druk kop\"-opsie in werking gestel word."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:46
+msgid ""
+"Specifies the maximum number of recently opened files that will be displayed "
+"in the \"Recent Files\" submenu."
+msgstr ""
+"Spesifiseer die maksimum getal onlangs geopende lêers wat in die \"Onlangse "
+"lêers\"-subkieslys vertoon sal word."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:47
+msgid ""
+"Specifies the number of spaces that should be displayed instead of Tab "
+"characters."
+msgstr ""
+"Spesifiseer die getal spasies wat vertoon moet word in plaas van "
+"keepkarakters."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:48
+msgid "Specifies the position of the right margin."
+msgstr "Spesifiseer die posisie van die regterkantlyn."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:49
+msgid ""
+"Specifies when to show the notebook tabs. Use \"never\" to never show the "
+"tabs, \"always\" to always show the tabs, and \"auto\" to show the tabs only "
+"when there is more than one tab. Note that the values are case-sensitive, so "
+"make sure they appear exactly as mentioned here."
+msgstr ""
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:50
+msgid "Status Bar is Visible"
+msgstr "Statusstaaf is sigbaar"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:51
+msgid "Style Scheme"
+msgstr "Stylskema"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:52
+msgid "Tab Size"
+msgstr "Keepgrootte"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:53
+#, fuzzy
+msgid "The ID of a GtkSourceView Style Scheme used to color the text."
+msgstr ""
+"Die ID van 'n GtkSourceView-stylskema wat gebruik word vir die tekskleure."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:54
+msgid "Toolbar is Visible"
+msgstr "Nutsbalk is sigbaar"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:55
+#, fuzzy
+msgid "Undo Actions Limit (DEPRECATED)"
+msgstr "Ontdoen aksielimiet"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:56
+msgid "Use Default Font"
+msgstr "Gebruik verstekfont"
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:57
+msgid ""
+"Whether gedit should automatically save modified files after a time "
+"interval. You can set the time interval with the \"Autosave Interval\" option."
+msgstr ""
+"Of gedit outomaties gewysigde lêers moet stoor ná 'n tydsverloop. Jy kan die "
+"tydsverloop verstel met die \"Outostoor-interval\"-opsie."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:58
+msgid ""
+"Whether gedit should create backup copies for the files it saves. You can "
+"set the backup file extension with the \"Backup Copy Extension\" option."
+msgstr ""
+"Of gedit rugsteunkopieë moet maak van die lêers wat dit stoor. Jy kan die "
+"rugsteunlêer-uitbreiding met die \"Rugsteunkopie-uitbreiding\"-opsie stel."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:59
+msgid "Whether gedit should display line numbers in the editing area."
+msgstr "Of gedit reëlnommers in die redigeerbare streek moet vertoon."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:60
+msgid "Whether gedit should display the right margin in the editing area."
+msgstr "Of gedit die regterkantlyn in die redigeerbare streek moet vertoon."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:61
+msgid "Whether gedit should enable automatic indentation."
+msgstr "Of gedit outomatiese inkeping moet aktiveer."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:62
+msgid "Whether gedit should enable syntax highlighting."
+msgstr "Of gedit sinsverligting moet aktiveer."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:63
+msgid ""
+"Whether gedit should highlight all the occurrences of the searched text."
+msgstr "Of gedit alle instansies van die soekteks moet verlig."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:64
+msgid "Whether gedit should highlight matching brackets."
+msgstr "Of gedit passende hakies moet verlig."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:65
+#, fuzzy
+msgid "Whether gedit should highlight the current line."
+msgstr "Of gedit die huidige lyntjie moet verlig."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:66
+msgid "Whether gedit should include a document header when printing documents."
+msgstr "Of gedit 'n dokumentkopreël moet insluit wanneer dit dokumente druk."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:67
+msgid "Whether gedit should insert spaces instead of tabs."
+msgstr "Of gedit spasies in plaas van keepkarakters moet invoeg."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:68
+msgid "Whether gedit should print syntax highlighting when printing documents."
+msgstr "Of gedit sinsverligting moet druk wanneer dit dokumente druk."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:69
+msgid ""
+"Whether gedit should restore the previous cursor position when a file is "
+"loaded."
+msgstr ""
+"Of gedit die vorige loperposisie moet herstel wanneer 'n lêer gelaai word."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:70
+msgid ""
+"Whether the side panel at the left of editing windows should be visible."
+msgstr "Of die sypaneel links van die redigeervensters sigbaar moet wees."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:71
+msgid ""
+"Whether the status bar at the bottom of editing windows should be visible."
+msgstr "Of die statusstaaf onderaan redigeervensters sigbaar moet wees."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:72
+msgid "Whether the toolbar should be visible in editing windows."
+msgstr "Of die nutsbalk in redigeervensters sigbaar moet wees."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:73
+msgid ""
+"Whether to use the system's default fixed width font for editing text "
+"instead of a font specific to gedit. If this option is turned off, then the "
+"font named in the \"Editor Font\" option will be used instead of the system "
+"font."
+msgstr ""
+"Of die stelsel se verstekfont in plaas van 'n font wat spesifiek aan gedit "
+"is, vir die redigeer van teks gebruik moet word. Indien hierdie opsie "
+"afgeskakel word, sal die font wat in die \"Redigeerderfont\"-opsie vermeld "
+"word, gebruik word in plaas van die stelselfont."
+
+#: ../data/org.gnome.gedit.gschema.xml.in.in.h:74
+msgid "Writable VFS schemes"
+msgstr "Skryfbare VFS-skemas"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:141
+msgid "Log Out _without Saving"
+msgstr "_Meld af sonder om te stoor"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:145
+msgid "_Cancel Logout"
+msgstr "_Kanselleer afmelding"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:152
+msgid "Close _without Saving"
+msgstr "Sluit _sonder om te stoor"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:214
+msgid "Question"
+msgstr "Vraag"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:414
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld second will be permanently "
+"lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld seconds will be permanently "
+"lost."
+msgstr[0] ""
+"As jy nie stoor nie, sal wysigings van die afgelope %ld sekonde permanent "
+"verlore wees."
+msgstr[1] ""
+"As jy nie stoor nie, sal wysigings van die afgelope %ld sekondes permanent "
+"verlore wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:423
+msgid ""
+"If you don't save, changes from the last minute will be permanently lost."
+msgstr ""
+"As jy nie stoor nie, sal wysigings van die afgelope minuut permanent verlore "
+"wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:429
+#, c-format
+msgid ""
+"If you don't save, changes from the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] ""
+"As jy nie stoor nie, sal wysigings van die afgelope minuut en %ld sekonde "
+"permanent verlore wees."
+msgstr[1] ""
+"As jy nie stoor nie, sal wysigings van die afgelope minuut en %ld sekondes "
+"permanent verlore wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:439
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld minute will be permanently "
+"lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld minutes will be permanently "
+"lost."
+msgstr[0] ""
+"As jy nie stoor nie, sal wysigings van die afgelope %ld minuut permanent "
+"verlore wees."
+msgstr[1] ""
+"As jy nie stoor nie, sal wysigings van die afgelope %ld minute permanent "
+"verlore wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:454
+msgid "If you don't save, changes from the last hour will be permanently lost."
+msgstr ""
+"As jy nie stoor nie, sal wysigings van die afgelope uur permanent verlore "
+"wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:460
+#, c-format
+msgid ""
+"If you don't save, changes from the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] ""
+"As jy nie stoor nie, sal wysigings van die afgelope uur en %d minuut "
+"permanent verlore wees."
+msgstr[1] ""
+"As jy nie stoor nie, sal wysigings van die afgelope uur en %d minute "
+"permanent verlore wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:475
+#, c-format
+msgid ""
+"If you don't save, changes from the last %d hour will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %d hours will be permanently lost."
+msgstr[0] ""
+"As jy nie stoor nie, sal wysigings van die afgelope %d uur permanent verlore "
+"wees."
+msgstr[1] ""
+"As jy nie stoor nie, sal wysigings van die afgelope %d ure permanent verlore "
+"wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:519
+#, c-format
+msgid "Changes to document \"%s\" will be permanently lost."
+msgstr "Wysigings aan dokument \"%s\" sal permanent verlore wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:524
+#, c-format
+msgid "Save changes to document \"%s\" before closing?"
+msgstr "Stoor die wysigings aan dokument \"%s\" voor afsluiting?"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:538
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:755
+msgid "Saving has been disabled by the system administrator."
+msgstr "Stoor is deur die stelseladministrateur buite werking gestel."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:706
+#, c-format
+msgid "Changes to %d document will be permanently lost."
+msgid_plural "Changes to %d documents will be permanently lost."
+msgstr[0] "Wysigings aan %d dokument sal permanent verlore wees."
+msgstr[1] "Wysigings aan %d dokumente sal permanent verlore wees."
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:714
+#, c-format
+msgid "There is %d document with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d documents with unsaved changes. Save changes before closing?"
+msgstr[0] ""
+"Daar is %d dokument met ongestoorde wysigings. Stoor wysigings voor "
+"afsluiting?"
+msgstr[1] ""
+"Daar is %d dokumente met ongestoorde wysigings. Stoor wysigings voor "
+"afsluiting?"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:733
+msgid "Docum_ents with unsaved changes:"
+msgstr "Dokum_ente met ongestoorde veranderinge:"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:735
+msgid "S_elect the documents you want to save:"
+msgstr "Ki_es die dokumente om te stoor:"
+
+#: ../gedit/dialogs/gedit-close-confirmation-dialog.c:759
+msgid "If you don't save, all your changes will be permanently lost."
+msgstr "As jy nie stoor nie, sal al die wysigings permanent verlore wees."
+
+#: ../gedit/dialogs/gedit-encodings-dialog.c:351
+msgid "Character Encodings"
+msgstr "Karakterkoderings"
+
+#: ../gedit/dialogs/gedit-encodings-dialog.c:414
+#: ../gedit/dialogs/gedit-encodings-dialog.c:475
+msgid "_Description"
+msgstr "_Beskrywing"
+
+#: ../gedit/dialogs/gedit-encodings-dialog.c:423
+#: ../gedit/dialogs/gedit-encodings-dialog.c:484
+msgid "_Encoding"
+msgstr "_Enkodering"
+
+#. ex:set ts=8 noet:
+#: ../gedit/dialogs/gedit-encodings-dialog.ui.h:1
+msgid "A_vailable encodings:"
+msgstr "B_eskikbare enkoderings:"
+
+#: ../gedit/dialogs/gedit-encodings-dialog.ui.h:2
+msgid "Character encodings"
+msgstr "Karakterkoderings"
+
+#: ../gedit/dialogs/gedit-encodings-dialog.ui.h:3
+msgid "E_ncodings shown in menu:"
+msgstr "E_nkoderings in kieslys vertoon:"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:423
+msgid "Click on this button to select the font to be used by the editor"
+msgstr ""
+"Druk dié knoppie om die font te kies wat gebruik moet word deur die "
+"redigeerder"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:438
+#, c-format
+msgid "_Use the system fixed width font (%s)"
+msgstr "Gebr_uik die stelsel se vastewydte font (%s)"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:634
+msgid "The selected color scheme cannot be installed."
+msgstr "Die geselekteerde kleurskema kon nie geïnstalleer word nie."
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:661
+msgid "Add Scheme"
+msgstr "Voeg 'n skema by"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:668
+msgid "A_dd Scheme"
+msgstr "_Voeg 'n skema by"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:676
+msgid "Color Scheme Files"
+msgstr "Kleurskemalêers"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:683
+#: ../gedit/gedit-file-chooser-dialog.c:52
+msgid "All Files"
+msgstr "Alle lêers"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:728
+#, c-format
+msgid "Could not remove color scheme \"%s\"."
+msgstr "Die kleurskema \"%s\" kon nie verwyder word nie."
+
+#: ../gedit/dialogs/gedit-preferences-dialog.c:947
+msgid "gedit Preferences"
+msgstr "gedit-voorkeure"
+
+#. ex:set ts=8 noet:
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:1
+msgid "Color Scheme"
+msgstr "Kleurskema"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:2
+msgid "Create a _backup copy of files before saving"
+msgstr "Maak 'n _rugsteunkopie van lêers voor gestoor word"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:3
+msgid "Display right _margin at column:"
+msgstr "Vertoon regter_marge by kolom:"
+
+#. ex:set ts=8 noet:
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:4
+#: ../gedit/gedit-print-preferences.ui.h:1
+msgid "Do not _split words over two lines"
+msgstr "Moenie woorde oor twee reëls _breek nie"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:5
+msgid "Editor"
+msgstr "Redigeerder"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:6
+msgid "Editor _font: "
+msgstr "Redigeer_font: "
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:7
+#: ../gedit/gedit-print-preferences.ui.h:2
+msgid "Enable text _wrapping"
+msgstr "Aktiveer teks_omvou"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:8
+msgid "File Saving"
+msgstr "Lêerstoor"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:9
+#: ../plugins/externaltools/org.gnome.gedit.plugins.externaltools.gschema.xml.in.in.h:2
+#: ../plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml.in.in.h:4
+msgid "Font"
+msgstr "Font"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:10
+msgid "Font & Colors"
+msgstr "Font en kleure"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:11
+msgid "Highlight current _line"
+msgstr "Ver_lig huidige reël"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:12
+msgid "Highlight matching _brackets"
+msgstr "Verlig passende _hakkies"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:13
+msgid "Highlighting"
+msgstr "Verligting"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:14
+msgid "Insert _spaces instead of tabs"
+msgstr "Voeg _spasies in plaas van keepkarakters in"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:15
+msgid "Pick the editor font"
+msgstr "Kies die redigeerfont"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:16
+msgid "Plugins"
+msgstr "Inproppe"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:17
+msgid "Preferences"
+msgstr "Voorkeure"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:18
+msgid "Tab Stops"
+msgstr "Keepstoppe"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:19
+#: ../gedit/gedit-print-preferences.ui.h:11
+msgid "Text Wrapping"
+msgstr "Omvou van teks"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:20
+msgid "View"
+msgstr "Bekyk"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:21
+msgid "_Add..."
+msgstr "_Voeg by..."
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:22
+msgid "_Autosave files every"
+msgstr "_Outostoor lêers elke"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:23 ../gedit/gedit-view.c:588
+msgid "_Display line numbers"
+msgstr "_Vertoon reëlnommers"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:24
+msgid "_Enable automatic indentation"
+msgstr "_Aktiveer outo-inkeping"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:25
+msgid "_Tab width:"
+msgstr "_Keepwydte:"
+
+#: ../gedit/dialogs/gedit-preferences-dialog.ui.h:26
+msgid "_minutes"
+msgstr "_minute"
+
+#: ../gedit/dialogs/gedit-replace-dialog.c:209
+#: ../gedit/dialogs/gedit-replace-dialog.ui.h:2 ../gedit/gedit-window.c:1590
+msgid "Replace"
+msgstr "Vervang"
+
+#: ../gedit/dialogs/gedit-replace-dialog.c:291
+msgid "Replace _All"
+msgstr "Vervang _almal"
+
+#: ../gedit/dialogs/gedit-replace-dialog.c:292
+#: ../gedit/gedit-commands-file.c:572
+msgid "_Replace"
+msgstr "_Vervang"
+
+#. ex:set ts=8 noet:
+#: ../gedit/dialogs/gedit-replace-dialog.ui.h:1
+msgid "Match _entire word only"
+msgstr "Soek slegs vir _volledige woord"
+
+#: ../gedit/dialogs/gedit-replace-dialog.ui.h:3
+msgid "Replace All"
+msgstr "Vervang almal"
+
+#: ../gedit/dialogs/gedit-replace-dialog.ui.h:4
+msgid "Replace _with: "
+msgstr "Vervang _met: "
+
+#: ../gedit/dialogs/gedit-replace-dialog.ui.h:5
+msgid "Search _backwards"
+msgstr "Deursoek _agteruit"
+
+#: ../gedit/dialogs/gedit-replace-dialog.ui.h:6
+msgid "_Match case"
+msgstr "Soek _kassensitief"
+
+#: ../gedit/dialogs/gedit-replace-dialog.ui.h:7
+msgid "_Search for: "
+msgstr "_Soek vir: "
+
+#: ../gedit/dialogs/gedit-replace-dialog.ui.h:8
+msgid "_Wrap around"
+msgstr "_Vou om"
+
+#: ../gedit/gedit-app.c:233
+msgid "There was an error displaying the help."
+msgstr "Daar was 'n fout met vertoon van hulp."
+
+#: ../gedit/gedit-command-line.c:231
+#, c-format
+msgid "%s: invalid encoding.\n"
+msgstr "%s: ongeldige enkodering.\n"
+
+#: ../gedit/gedit-command-line.c:255
+msgid "Show the application's version"
+msgstr "Vertoon die weergawe van die toepassing"
+
+#: ../gedit/gedit-command-line.c:261
+#, fuzzy
+msgid "Display list of possible values for the encoding option"
+msgstr "Vertoon lys van moontlike waardes vir die enkoderingsopsie"
+
+#: ../gedit/gedit-command-line.c:269
+msgid ""
+"Set the character encoding to be used to open the files listed on the "
+"command line"
+msgstr ""
+"Bepaal die karakterenkodering wat gebruik sal word om lêers oop te maak wat "
+"die opdraglyn gelys word"
+
+#: ../gedit/gedit-command-line.c:270
+msgid "ENCODING"
+msgstr "ENKODERING"
+
+#: ../gedit/gedit-command-line.c:277
+msgid "Create a new top-level window in an existing instance of gedit"
+msgstr "Skep 'n nuwe bovlakvenster in 'n bestaande instansie van gedit"
+
+#: ../gedit/gedit-command-line.c:285
+msgid "Create a new document in an existing instance of gedit"
+msgstr "Skep 'n nuwe dokument in 'n bestaande geval van gedit"
+
+#: ../gedit/gedit-command-line.c:293
+#, fuzzy
+msgid "Set the X geometry window size (WIDTHxHEIGHT+X+Y)"
+msgstr "Stel die X-meetkundige venstergrootte (BREEDTExHOOGTE+X+Y)"
+
+#: ../gedit/gedit-command-line.c:294
+#, fuzzy
+msgid "GEOMETRY"
+msgstr "MEETKUNDE"
+
+#: ../gedit/gedit-command-line.c:301
+msgid "Open files and block process until files are closed"
+msgstr "Maak lêers oop en blok proses totdat lêers gesluit is"
+
+#: ../gedit/gedit-command-line.c:309
+msgid "Run gedit in the background"
+msgstr "Laat gedit in agtergrond loop"
+
+#: ../gedit/gedit-command-line.c:317
+msgid "Run gedit in standalone mode"
+msgstr "Laat gedit in alleenstaanmodus loop"
+
+#: ../gedit/gedit-command-line.c:326
+msgid "[FILE...] [+LINE[:COLUMN]]"
+msgstr "[LÊER...] [+LYN[:KOLOM]]"
+
+#. Setup command line options
+#: ../gedit/gedit-command-line.c:333
+msgid "- Edit text files"
+msgstr "- Redigeer tekslêers"
+
+#: ../gedit/gedit-command-line.c:344
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Gebruik '%s --help' om 'n volledige lys opdraglynkeuses te sien.\n"
+
+#: ../gedit/gedit-commands-file.c:272
+#, c-format
+msgid "Loading file '%s'…"
+msgstr "Laai tans lêer '%s'…"
+
+#: ../gedit/gedit-commands-file.c:281
+#, c-format
+msgid "Loading %d file…"
+msgid_plural "Loading %d files…"
+msgstr[0] "Laai tans %d lêer…"
+msgstr[1] "Laai tans %d lêers…"
+
+#. Translators: "Open Files" is the title of the file chooser window
+#: ../gedit/gedit-commands-file.c:446
+msgid "Open Files"
+msgstr "Open lêers"
+
+#: ../gedit/gedit-commands-file.c:559
+#, c-format
+msgid "The file \"%s\" is read-only."
+msgstr "Die lêer \"%s\" is leesalleen."
+
+#: ../gedit/gedit-commands-file.c:564
+msgid "Do you want to try to replace it with the one you are saving?"
+msgstr "Wil jy dit probeer vervang met die een wat jy tans stoor?"
+
+#: ../gedit/gedit-commands-file.c:614
+msgid "Save the file using compression?"
+msgstr "Stoor die lêer saamgepers?"
+
+#: ../gedit/gedit-commands-file.c:615
+#, c-format
+msgid ""
+"The file \"%s\" was previously saved as plain text and will now be saved using "
+"compression."
+msgstr ""
+"Die lêer \"%s\" was voorheen as gewone teks gestoor en sal nou gestoor word "
+"met samepersing."
+
+#: ../gedit/gedit-commands-file.c:617
+msgid "_Save Using Compression"
+msgstr "_Stoor met samepersing"
+
+#: ../gedit/gedit-commands-file.c:621
+msgid "Save the file as plain text?"
+msgstr "Stoor die lêer as gewone teks?"
+
+#: ../gedit/gedit-commands-file.c:622
+#, c-format
+msgid ""
+"The file \"%s\" was previously saved using compression and will now be saved "
+"as plain text."
+msgstr ""
+"Die lêer \"%s\" was voorheen as gewone teks gestoor en sal nou gestoor word "
+"met samepersing."
+
+#: ../gedit/gedit-commands-file.c:624
+msgid "_Save As Plain Text"
+msgstr "_Stoor as gewone teks"
+
+#: ../gedit/gedit-commands-file.c:742 ../gedit/gedit-commands-file.c:961
+#, c-format
+msgid "Saving file '%s'…"
+msgstr "Stoor tans lêer '%s'…"
+
+#: ../gedit/gedit-commands-file.c:847
+msgid "Save As"
+msgstr "Stoor as"
+
+#: ../gedit/gedit-commands-file.c:1175
+#, c-format
+msgid "Reverting the document '%s'…"
+msgstr "Keer die dokument '%s' terug…"
+
+#: ../gedit/gedit-commands-file.c:1220
+#, c-format
+msgid "Revert unsaved changes to document '%s'?"
+msgstr "Keer ongestoorde wysigings in dokument '%s' terug?"
+
+#: ../gedit/gedit-commands-file.c:1229
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld second will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %ld seconds will be permanently "
+"lost."
+msgstr[0] ""
+"Wysigings aan die dokument van die afgelope %ld sekonde sal permanent "
+"verlore wees."
+msgstr[1] ""
+"Wysigings aan die dokument van die afgelope %ld sekondes sal permanent "
+"verlore wees."
+
+#: ../gedit/gedit-commands-file.c:1238
+msgid ""
+"Changes made to the document in the last minute will be permanently lost."
+msgstr ""
+"Wysigings aan die dokument van die afgelope minuut sal permanent verlore "
+"wees."
+
+#: ../gedit/gedit-commands-file.c:1244
+#, c-format
+msgid ""
+"Changes made to the document in the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] ""
+"Wysigings aan die dokument van die afgelope minuut en %ld sekonde sal "
+"permanent verlore wees."
+msgstr[1] ""
+"Wysigings aan die dokument van die afgelope minuut en %ld sekondes sal "
+"permanent verlore wees."
+
+#: ../gedit/gedit-commands-file.c:1254
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld minute will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %ld minutes will be permanently "
+"lost."
+msgstr[0] ""
+"Wysigings aan die dokument van die afgelope %ld minuut sal permanent verlore "
+"wees."
+msgstr[1] ""
+"Wysigings aan die dokument van die afgelope %ld minute sal permanent verlore "
+"wees."
+
+#: ../gedit/gedit-commands-file.c:1269
+msgid "Changes made to the document in the last hour will be permanently lost."
+msgstr ""
+"Wysigings aan die dokument van die afgelope uur sal permanent verlore wees."
+
+#: ../gedit/gedit-commands-file.c:1275
+#, c-format
+msgid ""
+"Changes made to the document in the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] ""
+"Wysigings aan die dokument van die afgelope uur en %d minuut sal permanent "
+"verlore wees."
+msgstr[1] ""
+"Wysigings aan die dokument van die afgelope uur en %d minute sal permanent "
+"verlore wees."
+
+#: ../gedit/gedit-commands-file.c:1290
+#, c-format
+msgid ""
+"Changes made to the document in the last %d hour will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %d hours will be permanently lost."
+msgstr[0] ""
+"Wysigings aan die dokument van die afgelope %d uur sal permanent verlore "
+"wees."
+msgstr[1] ""
+"Wysigings aan die dokument van die afgelope %d uur sal permanent verlore "
+"wees."
+
+#: ../gedit/gedit-commands-file.c:1316
+msgid "_Revert"
+msgstr "_Keer terug"
+
+#: ../gedit/gedit-commands-help.c:86
+msgid "gedit is a small and lightweight text editor for the GNOME Desktop"
+msgstr "gedit is 'n klein en liggewig-teksredigeerder vir die GNOME-werkskerm"
+
+#: ../gedit/gedit-commands-help.c:111
+msgid "translator-credits"
+msgstr ""
+"Friedel Wolff\n"
+"Petrus Potgieter"
+
+#: ../gedit/gedit-commands-search.c:112
+#, c-format
+msgid "Found and replaced %d occurrence"
+msgid_plural "Found and replaced %d occurrences"
+msgstr[0] "%d voorkoms gevind en vervang"
+msgstr[1] "%d voorkomste gevind en vervang"
+
+#: ../gedit/gedit-commands-search.c:121
+msgid "Found and replaced one occurrence"
+msgstr "Een voorkoms gevind en vervang"
+
+#. Translators: %s is replaced by the text
+#. entered by the user in the search box
+#: ../gedit/gedit-commands-search.c:144
+#, c-format, c-format
+msgid "\"%s\" not found"
+msgstr "\"%s\" nie gevind nie"
+
+#: ../gedit/gedit-document.c:1241 ../gedit/gedit-document.c:1267
+#, c-format
+msgid "Unsaved Document %d"
+msgstr "Ongestoorde dokument %d"
+
+#: ../gedit/gedit-documents-panel.c:118 ../gedit/gedit-documents-panel.c:132
+#: ../gedit/gedit-window.c:2403 ../gedit/gedit-window.c:2410
+msgid "Read-Only"
+msgstr "Leesalleen"
+
+#: ../gedit/gedit-documents-panel.c:1089 ../gedit/gedit-window.c:3835
+msgid "Documents"
+msgstr "Dokumente"
+
+#: ../gedit/gedit-encodings.c:142 ../gedit/gedit-encodings.c:184
+#: ../gedit/gedit-encodings.c:186 ../gedit/gedit-encodings.c:188
+#: ../gedit/gedit-encodings.c:190 ../gedit/gedit-encodings.c:192
+#: ../gedit/gedit-encodings.c:194 ../gedit/gedit-encodings.c:196
+msgid "Unicode"
+msgstr "Unicode"
+
+#: ../gedit/gedit-encodings.c:155 ../gedit/gedit-encodings.c:179
+#: ../gedit/gedit-encodings.c:229 ../gedit/gedit-encodings.c:272
+msgid "Western"
+msgstr "Westers"
+
+#: ../gedit/gedit-encodings.c:157 ../gedit/gedit-encodings.c:231
+#: ../gedit/gedit-encodings.c:268
+msgid "Central European"
+msgstr "Sentraal Europees"
+
+#: ../gedit/gedit-encodings.c:159
+msgid "South European"
+msgstr "Suid-Europees"
+
+#: ../gedit/gedit-encodings.c:161 ../gedit/gedit-encodings.c:175
+#: ../gedit/gedit-encodings.c:282
+msgid "Baltic"
+msgstr "Balties"
+
+#: ../gedit/gedit-encodings.c:163 ../gedit/gedit-encodings.c:233
+#: ../gedit/gedit-encodings.c:246 ../gedit/gedit-encodings.c:250
+#: ../gedit/gedit-encodings.c:252 ../gedit/gedit-encodings.c:270
+msgid "Cyrillic"
+msgstr "Cyrillies"
+
+#: ../gedit/gedit-encodings.c:165 ../gedit/gedit-encodings.c:239
+#: ../gedit/gedit-encodings.c:280
+msgid "Arabic"
+msgstr "Arabies"
+
+#: ../gedit/gedit-encodings.c:167 ../gedit/gedit-encodings.c:274
+msgid "Greek"
+msgstr "Grieks"
+
+#: ../gedit/gedit-encodings.c:169
+msgid "Hebrew Visual"
+msgstr "Hebreeus visueel"
+
+#: ../gedit/gedit-encodings.c:171 ../gedit/gedit-encodings.c:235
+#: ../gedit/gedit-encodings.c:276
+msgid "Turkish"
+msgstr "Turks"
+
+#: ../gedit/gedit-encodings.c:173
+msgid "Nordic"
+msgstr "Noors"
+
+#: ../gedit/gedit-encodings.c:177
+msgid "Celtic"
+msgstr "Kelties"
+
+#: ../gedit/gedit-encodings.c:181
+msgid "Romanian"
+msgstr "Roemeens"
+
+#: ../gedit/gedit-encodings.c:199
+msgid "Armenian"
+msgstr "Armeens"
+
+#: ../gedit/gedit-encodings.c:201 ../gedit/gedit-encodings.c:203
+#: ../gedit/gedit-encodings.c:217
+msgid "Chinese Traditional"
+msgstr "Sjinees tradisioneel"
+
+#: ../gedit/gedit-encodings.c:205
+msgid "Cyrillic/Russian"
+msgstr "Cyrillies/Russies"
+
+#: ../gedit/gedit-encodings.c:208 ../gedit/gedit-encodings.c:210
+#: ../gedit/gedit-encodings.c:212 ../gedit/gedit-encodings.c:242
+#: ../gedit/gedit-encodings.c:257
+msgid "Japanese"
+msgstr "Japans"
+
+#: ../gedit/gedit-encodings.c:215 ../gedit/gedit-encodings.c:244
+#: ../gedit/gedit-encodings.c:248 ../gedit/gedit-encodings.c:263
+msgid "Korean"
+msgstr "Koreaans"
+
+#: ../gedit/gedit-encodings.c:220 ../gedit/gedit-encodings.c:222
+#: ../gedit/gedit-encodings.c:224
+msgid "Chinese Simplified"
+msgstr "Sjinees vereenvoudig"
+
+#: ../gedit/gedit-encodings.c:226
+msgid "Georgian"
+msgstr "Georgies"
+
+#: ../gedit/gedit-encodings.c:237 ../gedit/gedit-encodings.c:278
+msgid "Hebrew"
+msgstr "Hebreeus"
+
+#: ../gedit/gedit-encodings.c:254
+msgid "Cyrillic/Ukrainian"
+msgstr "Cyrillies/Oekraïens"
+
+#: ../gedit/gedit-encodings.c:259 ../gedit/gedit-encodings.c:265
+#: ../gedit/gedit-encodings.c:284
+msgid "Vietnamese"
+msgstr "Viëtnamees"
+
+#: ../gedit/gedit-encodings.c:261
+msgid "Thai"
+msgstr "Thai"
+
+#: ../gedit/gedit-encodings.c:435
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: ../gedit/gedit-encodings-combo-box.c:310
+msgid "Automatically Detected"
+msgstr "Outomaties bespeur"
+
+#: ../gedit/gedit-encodings-combo-box.c:329
+#: ../gedit/gedit-encodings-combo-box.c:345
+#, c-format
+msgid "Current Locale (%s)"
+msgstr "Huidige lokaliteit (%s)"
+
+#: ../gedit/gedit-encodings-combo-box.c:397
+msgid "Add or Remove..."
+msgstr "Voeg by of verwyder..."
+
+#: ../gedit/gedit-file-chooser-dialog.c:53
+msgid "All Text Files"
+msgstr "Alle tekslêers"
+
+#: ../gedit/gedit-file-chooser-dialog.c:99
+msgid "C_haracter Encoding:"
+msgstr "K_arakterkodering:"
+
+#: ../gedit/gedit-file-chooser-dialog.c:158
+msgid "L_ine Ending:"
+msgstr "E_inde van lyn:"
+
+#: ../gedit/gedit-file-chooser-dialog.c:177
+msgid "Unix/Linux"
+msgstr "Unix/Linux"
+
+#: ../gedit/gedit-file-chooser-dialog.c:183
+msgid "Mac OS Classic"
+msgstr "Mac OS Classic"
+
+#: ../gedit/gedit-file-chooser-dialog.c:189
+msgid "Windows"
+msgstr "Windows"
+
+#: ../gedit/gedit-io-error-info-bar.c:182
+#: ../gedit/gedit-io-error-info-bar.c:497
+msgid "_Retry"
+msgstr "P_robeer weer"
+
+#: ../gedit/gedit-io-error-info-bar.c:203
+#, c-format
+msgid "Could not find the file %s."
+msgstr "Kon nie die lêer '%s' kry nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:205
+#: ../gedit/gedit-io-error-info-bar.c:248
+#: ../gedit/gedit-io-error-info-bar.c:255
+msgid "Please check that you typed the location correctly and try again."
+msgstr "Maak seker die ligging is reg ingetik en probeer weer."
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../gedit/gedit-io-error-info-bar.c:224
+#, c-format
+msgid "gedit cannot handle %s locations."
+msgstr "gedit kan nie %s-liggings hanteer nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:230
+msgid "gedit cannot handle this location."
+msgstr "gedit kan nie hierdie ligging hanteer nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:238
+msgid "The location of the file cannot be mounted."
+msgstr "Die ligging van die lêer kon nie geheg word nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:242
+msgid "The location of the file cannot be accessed because it is not mounted."
+msgstr ""
+"Toegang kon nie tot die ligging van die lêer verkry word nie aangesien die "
+"nie geheg is nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:246
+#, c-format
+msgid "%s is a directory."
+msgstr "%s is 'n gids."
+
+#: ../gedit/gedit-io-error-info-bar.c:253
+#, c-format
+msgid "%s is not a valid location."
+msgstr "%s is nie 'n geldige ligging nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:289
+#, c-format
+msgid ""
+"Host %s could not be found. Please check that your proxy settings are "
+"correct and try again."
+msgstr ""
+"Die gasheer \"%s\" kon nie gevind word nie. Maak seker dat die instellings vir "
+"instaanbedieners korrek is, en probeer gerus weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:304
+#, c-format
+msgid ""
+"Hostname was invalid. Please check that you typed the location correctly and "
+"try again."
+msgstr ""
+"Gasheernaam was nie geldig nie. Maak asseblief seker dat die ligging korrek "
+"ingetik is en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:312
+#, c-format
+msgid "%s is not a regular file."
+msgstr "%s is nie 'n gewone lêer nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:317
+msgid "Connection timed out. Please try again."
+msgstr "Verbinding het uitgetel. Probeer gerus weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:340
+msgid "The file is too big."
+msgstr "Die lêer is te groot."
+
+#: ../gedit/gedit-io-error-info-bar.c:381
+#, c-format
+msgid "Unexpected error: %s"
+msgstr "Onverwagse fout: %s"
+
+#: ../gedit/gedit-io-error-info-bar.c:417
+msgid "gedit cannot find the file. Perhaps it has recently been deleted."
+msgstr "gedit kan die lêer nie vind nie. Dalk is die lêer onlangs geskrap."
+
+#: ../gedit/gedit-io-error-info-bar.c:427
+#, c-format
+msgid "Could not revert the file %s."
+msgstr "Kon nie na die lêer %s terugkeer nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:454
+msgid "Ch_aracter Encoding:"
+msgstr "K_arakterkodering:"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../gedit/gedit-io-error-info-bar.c:506
+#: ../gedit/gedit-io-error-info-bar.c:782
+msgid "Edit Any_way"
+msgstr "_Redigeer in elkgeval"
+
+#: ../gedit/gedit-io-error-info-bar.c:608
+msgid ""
+"The number of followed links is limited and the actual file could not be "
+"found within this limit."
+msgstr ""
+"Die aantal gevolgde skakels is beperk en die eintlike lêer kon nie binne "
+"hierdie beperking gevind word nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:612
+msgid "You do not have the permissions necessary to open the file."
+msgstr "Jy het nie die nodige toestemming om hierdie lêer oop te maak nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:618
+msgid "gedit has not been able to detect the character encoding."
+msgstr "gedit kon nie die karakterenkodering bepaal nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:620
+#: ../gedit/gedit-io-error-info-bar.c:642
+msgid "Please check that you are not trying to open a binary file."
+msgstr "Kontroleer of u moontlik 'n binêre lêer probeer oopmaak."
+
+#: ../gedit/gedit-io-error-info-bar.c:621
+msgid "Select a character encoding from the menu and try again."
+msgstr "Kies 'n karakterkodering van die kieslys en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:627
+#, c-format
+msgid "There was a problem opening the file %s."
+msgstr "Daar was 'n probleem met die oopmaak van die lêer %s."
+
+#: ../gedit/gedit-io-error-info-bar.c:629
+msgid ""
+"The file you opened has some invalid characters. If you continue editing "
+"this file you could corrupt this document."
+msgstr ""
+"Die lêer wat oopgemaak is, het 'n paar ongeldige karakters. Indien jy "
+"voortgaan met die redigeer van die lêer kan die lêer korrupteer."
+
+#: ../gedit/gedit-io-error-info-bar.c:632
+msgid "You can also choose another character encoding and try again."
+msgstr "Jy kan ook 'n ander karakterenkodering kies en weer probeer."
+
+#: ../gedit/gedit-io-error-info-bar.c:639
+#, c-format
+msgid "Could not open the file %s using the %s character encoding."
+msgstr "Kon die lêer %s nie met die karakterenkodering %s oopmaak nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:643
+#: ../gedit/gedit-io-error-info-bar.c:717
+msgid "Select a different character encoding from the menu and try again."
+msgstr "Kies 'n ander karakterenkodering van die kieslys en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:653
+#, c-format
+msgid "Could not open the file %s."
+msgstr "Kon nie die lêer %s open nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:712
+#, c-format
+msgid "Could not save the file %s using the %s character encoding."
+msgstr "Kon die lêer %s nie met die karakterenkodering %s oopmaak nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:715
+msgid ""
+"The document contains one or more characters that cannot be encoded using "
+"the specified character encoding."
+msgstr ""
+"Die dokument bevat een of meer karakters wat nie met die gespesifiseerde "
+"kodering geënkodeer kan word nie."
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../gedit/gedit-io-error-info-bar.c:787
+msgid "D_on't Edit"
+msgstr "M_oenie redigeer nie"
+
+#: ../gedit/gedit-io-error-info-bar.c:801
+#, c-format
+msgid "This file (%s) is already open in another gedit window."
+msgstr "Hierdie lêer (%s) is reeds oop in 'n ander gedit-venster."
+
+#: ../gedit/gedit-io-error-info-bar.c:815
+msgid ""
+"gedit opened this instance of the file in a non-editable way. Do you want to "
+"edit it anyway?"
+msgstr ""
+"gedit het hierdie instansie van die lêer op 'n nie-redigeerbare manier "
+"oopgemaak. Wil u dit nogtans redigeer?"
+
+#: ../gedit/gedit-io-error-info-bar.c:873
+#: ../gedit/gedit-io-error-info-bar.c:971
+#: ../gedit/gedit-io-error-info-bar.c:1260
+msgid "S_ave Anyway"
+msgstr "St_oor in elk geval"
+
+#: ../gedit/gedit-io-error-info-bar.c:877
+#: ../gedit/gedit-io-error-info-bar.c:975
+#: ../gedit/gedit-io-error-info-bar.c:1264
+msgid "D_on't Save"
+msgstr "M_oenie stoor nie"
+
+#. FIXME: review this message, it's not clear since for the user the "modification"
+#. * could be interpreted as the changes he made in the document. beside "reading" is
+#. * not accurate (since last load/save)
+#.
+#: ../gedit/gedit-io-error-info-bar.c:895
+#, c-format
+msgid "The file %s has been modified since reading it."
+msgstr "Die lêer %s is verander sedert dit gelees is."
+
+#: ../gedit/gedit-io-error-info-bar.c:910
+msgid "If you save it, all the external changes could be lost. Save it anyway?"
+msgstr ""
+"Indien dit nou gestoor word, sal alle eksterne veranderinge verloor word. "
+"Stoor in elk geval?"
+
+#: ../gedit/gedit-io-error-info-bar.c:998
+#, c-format
+msgid "Could not create a backup file while saving %s"
+msgstr "Kon nie 'n rugsteunlêer skep terwyl %s gestoor is nie"
+
+#: ../gedit/gedit-io-error-info-bar.c:1003
+#, c-format, c-format
+msgid "Could not create a temporary backup file while saving %s"
+msgstr "Kon nie 'n tydelike rugsteunlêer skep terwyl %s gestoor word nie"
+
+#: ../gedit/gedit-io-error-info-bar.c:1020
+msgid ""
+"gedit could not back up the old copy of the file before saving the new one. "
+"You can ignore this warning and save the file anyway, but if an error occurs "
+"while saving, you could lose the old copy of the file. Save anyway?"
+msgstr ""
+"gedit kon nie die ou weergawe van die lêer rugsteun vóór die nuwe een "
+"gestoor word nie. Jy kan hierdie waarskuwing ignoreer en die lêer in elk "
+"geval stoor, maar indien 'n fout voorkom tydens die stoor, kan u dalk die ou "
+"weergawe van die lêer verloor. Nogtans stoor?"
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../gedit/gedit-io-error-info-bar.c:1080
+#, c-format
+msgid ""
+"gedit cannot handle %s locations in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr ""
+"gedit kan nie liggings %s hanteer in skryfmodus nie. Maak seker jy't die "
+"ligging reg ingetik en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:1088
+msgid ""
+"gedit cannot handle this location in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr ""
+"gedit kan nie hierdie ligging in skryfmodus hanteer nie. Maak seker dat die "
+"ligging reg ingetik is en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:1097
+#, c-format
+msgid ""
+"%s is not a valid location. Please check that you typed the location "
+"correctly and try again."
+msgstr ""
+"\"%s\" is nie 'n geldige ligging nie. Maak seker dat die ligging reg ingetik "
+"is en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:1104
+msgid ""
+"You do not have the permissions necessary to save the file. Please check "
+"that you typed the location correctly and try again."
+msgstr ""
+"Jy het nie die nodige toestemming om die lêer te stoor nie. Maak seker dat "
+"die ligging reg ingetik is en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:1110
+msgid ""
+"There is not enough disk space to save the file. Please free some disk space "
+"and try again."
+msgstr ""
+"Daar is nie voldoende skyfspasie om die lêer te stoor nie. Maak 'n bietjie "
+"spasie beskikbaar en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:1115
+msgid ""
+"You are trying to save the file on a read-only disk. Please check that you "
+"typed the location correctly and try again."
+msgstr ""
+"Jy probeer om 'n lêer te stoor op 'n leesalleen skyf. Maak seker dat die "
+"ligging reg ingetik is en probeer weer."
+
+#: ../gedit/gedit-io-error-info-bar.c:1121
+msgid "A file with the same name already exists. Please use a different name."
+msgstr "'n Lêer met daardie naam bestaan reeds. Kies asseblief 'n ander naam."
+
+#: ../gedit/gedit-io-error-info-bar.c:1126
+msgid ""
+"The disk where you are trying to save the file has a limitation on length of "
+"the file names. Please use a shorter name."
+msgstr ""
+"Die skyf waarheen jy die lêer probeer stoor, het 'n beperking op die lengte "
+"van lêername. Probeer 'n korter lêernaam."
+
+#: ../gedit/gedit-io-error-info-bar.c:1133
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes. Please try saving a smaller file or saving it to a disk that does not "
+"have this limitation."
+msgstr ""
+"Die skyf waarheen jy die lêer probeer stoor het 'n beperking op "
+"lêergroottes. Probeer 'n kleiner lêer stoor, of stoor dit op 'n skyf wat nie "
+"hierdie beperking het nie."
+
+#: ../gedit/gedit-io-error-info-bar.c:1149
+#, c-format
+msgid "Could not save the file %s."
+msgstr "Kon nie die lêer \"%s\" stoor nie."
+
+#. FIXME: review this message, it's not clear since for the user the "modification"
+#. * could be interpreted as the changes he made in the document. beside "reading" is
+#. * not accurate (since last load/save)
+#.
+#: ../gedit/gedit-io-error-info-bar.c:1194
+#, c-format
+msgid "The file %s changed on disk."
+msgstr "Die lêer %s het verander op die skyf."
+
+#: ../gedit/gedit-io-error-info-bar.c:1199
+msgid "Do you want to drop your changes and reload the file?"
+msgstr "Wil u die veranderinge laat vaar en die lêer nuut laai?"
+
+#: ../gedit/gedit-io-error-info-bar.c:1201
+msgid "Do you want to reload the file?"
+msgstr "Wil u die lêer herlaai?"
+
+#: ../gedit/gedit-io-error-info-bar.c:1206
+msgid "_Reload"
+msgstr "He_rlaai"
+
+#: ../gedit/gedit-io-error-info-bar.c:1278
+#, c-format
+msgid "Some invalid chars have been detected while saving %s"
+msgstr "Enkele ongeldige karakters is tydens die stoor van %s opgespoor"
+
+#: ../gedit/gedit-io-error-info-bar.c:1294
+msgid ""
+"If you continue saving this file you can corrupt the document.  Save anyway?"
+msgstr ""
+"Indien jy voortgaan met die stoor van hierdie lêer, kan die dokument dalk "
+"korrupteer. Nogtans stoor?"
+
+#: ../gedit/gedit-panel.c:339 ../gedit/gedit-panel.c:511
+msgid "Empty"
+msgstr "Leeg"
+
+#: ../gedit/gedit-panel.c:401
+msgid "Hide panel"
+msgstr "Versteek paneel"
+
+#: ../gedit/gedit-print-job.c:586
+#, c-format
+msgid "File: %s"
+msgstr "Lêer: %s"
+
+#: ../gedit/gedit-print-job.c:595
+msgid "Page %N of %Q"
+msgstr "Bladsy %N van %Q"
+
+#: ../gedit/gedit-print-job.c:857
+msgid "Preparing..."
+msgstr "Berei tans voor..."
+
+#: ../gedit/gedit-print-preferences.ui.h:3
+msgid "Fonts"
+msgstr "Fonte"
+
+#: ../gedit/gedit-print-preferences.ui.h:4
+msgid "He_aders and footers:"
+msgstr "K_oppe en voete:"
+
+#: ../gedit/gedit-print-preferences.ui.h:5
+msgid "Line Numbers"
+msgstr "Reëlnommers"
+
+#: ../gedit/gedit-print-preferences.ui.h:6
+msgid "Page header"
+msgstr "Bladsykopreël"
+
+#: ../gedit/gedit-print-preferences.ui.h:7
+msgid "Print line nu_mbers"
+msgstr "Druk reëlno_mmers"
+
+#: ../gedit/gedit-print-preferences.ui.h:8
+msgid "Print page _headers"
+msgstr "Druk bladsy_koppe"
+
+#: ../gedit/gedit-print-preferences.ui.h:9
+msgid "Print synta_x highlighting"
+msgstr "Druk _sintaksverligting"
+
+#: ../gedit/gedit-print-preferences.ui.h:10
+msgid "Syntax Highlighting"
+msgstr "Sinsverligting"
+
+#: ../gedit/gedit-print-preferences.ui.h:12
+msgid "_Body:"
+msgstr "_Lyf:"
+
+#: ../gedit/gedit-print-preferences.ui.h:13
+msgid "_Line numbers:"
+msgstr "_Reëlnommers:"
+
+#. 'Number every' from 'Number every 3 lines' in the 'Text Editor' tab of the print preferences.
+#: ../gedit/gedit-print-preferences.ui.h:15
+msgid "_Number every"
+msgstr "_Nommer elke"
+
+#: ../gedit/gedit-print-preferences.ui.h:16
+msgid "_Restore Default Fonts"
+msgstr "_Herverstel verstekfonte"
+
+#. 'lines' from 'Number every 3 lines' in the 'Text Editor' tab of the print preferences.
+#: ../gedit/gedit-print-preferences.ui.h:18
+msgid "lines"
+msgstr "reëls"
+
+#: ../gedit/gedit-print-preview.c:582
+msgid "Show the previous page"
+msgstr "Wys die vorige bladsy"
+
+#: ../gedit/gedit-print-preview.c:594
+msgid "Show the next page"
+msgstr "Wys die volgende bladsy"
+
+#: ../gedit/gedit-print-preview.c:610
+msgid "Current page (Alt+P)"
+msgstr "Huidige bladsy (Alt+P)"
+
+#. Translators: the "of" from "1 of 19" in print preview.
+#: ../gedit/gedit-print-preview.c:633
+msgid "of"
+msgstr "van"
+
+#: ../gedit/gedit-print-preview.c:641
+msgid "Page total"
+msgstr "Bladsytotaal"
+
+#: ../gedit/gedit-print-preview.c:642
+msgid "The total number of pages in the document"
+msgstr "Die totale aantal bladsye in die dokument"
+
+#: ../gedit/gedit-print-preview.c:659
+msgid "Show multiple pages"
+msgstr "Wys veelvuldige bladsye"
+
+#: ../gedit/gedit-print-preview.c:672
+msgid "Zoom 1:1"
+msgstr "Zoem 1:1"
+
+#: ../gedit/gedit-print-preview.c:681
+msgid "Zoom to fit the whole page"
+msgstr "Zoem om die hele blad te laat pas"
+
+#: ../gedit/gedit-print-preview.c:690
+msgid "Zoom the page in"
+msgstr "Zoem die bladsy in"
+
+#: ../gedit/gedit-print-preview.c:699
+msgid "Zoom the page out"
+msgstr "Zoem die bladsy uit"
+
+#: ../gedit/gedit-print-preview.c:711
+msgid "_Close Preview"
+msgstr "_Sluit voorskou"
+
+#: ../gedit/gedit-print-preview.c:714
+msgid "Close print preview"
+msgstr "Sluit drukvoorskou"
+
+#: ../gedit/gedit-print-preview.c:783
+#, c-format
+msgid "Page %d of %d"
+msgstr "Bladsy %d van %d"
+
+#: ../gedit/gedit-print-preview.c:967
+msgid "Page Preview"
+msgstr "Bladsyvoorskou"
+
+#: ../gedit/gedit-print-preview.c:968
+msgid "The preview of a page in the document to be printed"
+msgstr "Die voorskou van 'n bladsy in die dokument wat gedruk gaan word"
+
+#: ../gedit/gedit-statusbar.c:69 ../gedit/gedit-statusbar.c:75
+#, fuzzy
+msgid "OVR"
+msgstr "OVR"
+
+#: ../gedit/gedit-statusbar.c:69 ../gedit/gedit-statusbar.c:75
+#, fuzzy
+msgid "INS"
+msgstr "INS"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an abbreviation for "Column". Please,
+#. use abbreviations if possible to avoid space problems.
+#: ../gedit/gedit-statusbar.c:247
+#, c-format
+msgid "  Ln %d, Col %d"
+msgstr "  Reël %d, kol %d"
+
+#: ../gedit/gedit-statusbar.c:346
+#, c-format
+msgid "There is a tab with errors"
+msgid_plural "There are %d tabs with errors"
+msgstr[0] "Daar is 'n keep met foute"
+msgstr[1] "Daar is %d kepe met foute"
+
+#: ../gedit/gedit-style-scheme-manager.c:206
+#, c-format
+msgid "Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgstr ""
+"Die gids '%s' kon nie geskep word nie: g_mkdir_with_parents() het misluk: %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../gedit/gedit-tab.c:744
+#, c-format
+msgid "Reverting %s from %s"
+msgstr "Stel %s uit %s terug"
+
+#: ../gedit/gedit-tab.c:751
+#, c-format
+msgid "Reverting %s"
+msgstr "Stel %s terug"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../gedit/gedit-tab.c:767
+#, c-format
+msgid "Loading %s from %s"
+msgstr "Laai %s vanaf %s"
+
+#: ../gedit/gedit-tab.c:774
+#, c-format
+msgid "Loading %s"
+msgstr "Laai tans %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../gedit/gedit-tab.c:855
+#, c-format
+msgid "Saving %s to %s"
+msgstr "Stoor %s na %s"
+
+#: ../gedit/gedit-tab.c:862
+#, c-format
+msgid "Saving %s"
+msgstr "Stoor tans %s"
+
+#. Read only
+#: ../gedit/gedit-tab.c:1832
+msgid "RO"
+msgstr "LA"
+
+#: ../gedit/gedit-tab.c:1879
+#, c-format
+msgid "Error opening file %s"
+msgstr "Fout met die stoor van lêer %s"
+
+#: ../gedit/gedit-tab.c:1884
+#, c-format
+msgid "Error reverting file %s"
+msgstr "Fout met die terugstel van lêer %s"
+
+#: ../gedit/gedit-tab.c:1889
+#, c-format
+msgid "Error saving file %s"
+msgstr "Kon nie lêer %s stoor nie"
+
+#: ../gedit/gedit-tab.c:1910
+msgid "Unicode (UTF-8)"
+msgstr "Unikode (UTF-8)"
+
+#: ../gedit/gedit-tab.c:1917
+msgid "Name:"
+msgstr "Naam:"
+
+#: ../gedit/gedit-tab.c:1918
+msgid "MIME Type:"
+msgstr "MIME-soort:"
+
+#: ../gedit/gedit-tab.c:1919
+msgid "Encoding:"
+msgstr "Enkodering:"
+
+#: ../gedit/gedit-tab-label.c:280
+msgid "Close document"
+msgstr "Sluit dokument"
+
+#. Toplevel
+#: ../gedit/gedit-ui.h:47
+msgid "_File"
+msgstr "_Lêer"
+
+#: ../gedit/gedit-ui.h:48
+msgid "_Edit"
+msgstr "R_edigeer"
+
+#: ../gedit/gedit-ui.h:49
+msgid "_View"
+msgstr "_Bekyk"
+
+#: ../gedit/gedit-ui.h:50
+msgid "_Search"
+msgstr "Deur_soek"
+
+#: ../gedit/gedit-ui.h:51
+msgid "_Tools"
+msgstr "N_utsgoed"
+
+#: ../gedit/gedit-ui.h:52
+msgid "_Documents"
+msgstr "_Dokumente"
+
+#: ../gedit/gedit-ui.h:53
+msgid "_Help"
+msgstr "_Hulp"
+
+#: ../gedit/gedit-ui.h:57
+msgid "Create a new document"
+msgstr "Skep 'n nuwe dokument"
+
+#: ../gedit/gedit-ui.h:58
+msgid "_Open..."
+msgstr "_Open..."
+
+#: ../gedit/gedit-ui.h:59 ../gedit/gedit-window.c:1518
+msgid "Open a file"
+msgstr "Open 'n lêer"
+
+#. Edit menu
+#: ../gedit/gedit-ui.h:62
+msgid "Pr_eferences"
+msgstr "Vo_orkeure"
+
+#: ../gedit/gedit-ui.h:63
+msgid "Configure the application"
+msgstr "Stel die toepassing op"
+
+#. Help menu
+#: ../gedit/gedit-ui.h:66
+msgid "_Contents"
+msgstr "_Inhoud"
+
+#: ../gedit/gedit-ui.h:67
+msgid "Open the gedit manual"
+msgstr "Open die gedit-handleiding"
+
+#: ../gedit/gedit-ui.h:69
+msgid "About this application"
+msgstr "Aangaande dié toepassing"
+
+#: ../gedit/gedit-ui.h:73
+msgid "Leave fullscreen mode"
+msgstr "Verlaat volskermmodus"
+
+#: ../gedit/gedit-ui.h:81
+msgid "Save the current file"
+msgstr "Stoor die huidige lêer"
+
+#: ../gedit/gedit-ui.h:82
+msgid "Save _As..."
+msgstr "Stoor _as..."
+
+#: ../gedit/gedit-ui.h:83
+msgid "Save the current file with a different name"
+msgstr "Stoor die huidige lêer onder 'n ander naam"
+
+#: ../gedit/gedit-ui.h:85
+msgid "Revert to a saved version of the file"
+msgstr "Keer terug na 'n gestoorde weergawe van die lêer"
+
+#: ../gedit/gedit-ui.h:86
+msgid "Print Previe_w"
+msgstr "Druk_voorskou"
+
+#: ../gedit/gedit-ui.h:87
+msgid "Print preview"
+msgstr "Drukvoorskou"
+
+#: ../gedit/gedit-ui.h:88
+msgid "_Print..."
+msgstr "_Druk..."
+
+#: ../gedit/gedit-ui.h:89
+msgid "Print the current page"
+msgstr "Druk die huidige bladsy"
+
+#: ../gedit/gedit-ui.h:93
+msgid "Undo the last action"
+msgstr "Ontdoen die jongste aksie"
+
+#: ../gedit/gedit-ui.h:95
+msgid "Redo the last undone action"
+msgstr "Herdoen die ongedane aksie"
+
+#: ../gedit/gedit-ui.h:97
+msgid "Cut the selection"
+msgstr "Knip die seleksie"
+
+#: ../gedit/gedit-ui.h:99
+msgid "Copy the selection"
+msgstr "Kopieer die seleksie"
+
+#: ../gedit/gedit-ui.h:101
+msgid "Paste the clipboard"
+msgstr "Plak die knipbord"
+
+#: ../gedit/gedit-ui.h:103
+msgid "Delete the selected text"
+msgstr "Skrap die gemerkte teks"
+
+#: ../gedit/gedit-ui.h:104
+msgid "Select _All"
+msgstr "Merk _alles"
+
+#: ../gedit/gedit-ui.h:105
+msgid "Select the entire document"
+msgstr "Merk die hele dokument"
+
+#. View menu
+#: ../gedit/gedit-ui.h:108
+msgid "_Highlight Mode"
+msgstr "_Verligmodus"
+
+#. Search menu
+#: ../gedit/gedit-ui.h:111
+msgid "_Find..."
+msgstr "_Vind..."
+
+#: ../gedit/gedit-ui.h:112
+msgid "Search for text"
+msgstr "Soek vir teks"
+
+#: ../gedit/gedit-ui.h:113
+msgid "Find Ne_xt"
+msgstr "Vind vo_lgende"
+
+#: ../gedit/gedit-ui.h:114
+msgid "Search forwards for the same text"
+msgstr "Soek vorentoe vir dieselfde teks"
+
+#: ../gedit/gedit-ui.h:115
+msgid "Find Pre_vious"
+msgstr "Vind vo_rige"
+
+#: ../gedit/gedit-ui.h:116
+msgid "Search backwards for the same text"
+msgstr "Soek agteruit vir dieselfde teks"
+
+#: ../gedit/gedit-ui.h:118 ../gedit/gedit-ui.h:121
+msgid "_Replace..."
+msgstr "Ve_rvang..."
+
+#: ../gedit/gedit-ui.h:119 ../gedit/gedit-ui.h:122
+msgid "Search for and replace text"
+msgstr "Soek en vervang teks"
+
+#: ../gedit/gedit-ui.h:124
+msgid "_Clear Highlight"
+msgstr "Verligting s_koonmaak"
+
+#: ../gedit/gedit-ui.h:125
+msgid "Clear highlighting of search matches"
+msgstr "Verligting van soekpassings skoonmaak"
+
+#: ../gedit/gedit-ui.h:126
+msgid "Go to _Line..."
+msgstr "Gaan na _reël..."
+
+#: ../gedit/gedit-ui.h:127
+msgid "Go to a specific line"
+msgstr "Gaan na 'n spesifieke reël"
+
+#. Documents menu
+#: ../gedit/gedit-ui.h:130
+msgid "_Save All"
+msgstr "_Stoor almal"
+
+#: ../gedit/gedit-ui.h:131
+msgid "Save all open files"
+msgstr "Stoor alle oop lêers"
+
+#: ../gedit/gedit-ui.h:132
+msgid "_Close All"
+msgstr "Slui_t almal"
+
+#: ../gedit/gedit-ui.h:133
+msgid "Close all open files"
+msgstr "Sluit alle oop lêers af"
+
+#: ../gedit/gedit-ui.h:134
+msgid "_New Tab Group"
+msgstr "_Nuwe groep kepe"
+
+#: ../gedit/gedit-ui.h:135
+msgid "Create a new tab group"
+msgstr "Skep 'n nuwe groep kepe"
+
+#: ../gedit/gedit-ui.h:136
+msgid "P_revious Tab Group"
+msgstr "Vo_rige groep kepe"
+
+#: ../gedit/gedit-ui.h:137
+msgid "Switch to the previous tab group"
+msgstr "Skakel na die vorige keepgroep oor"
+
+#: ../gedit/gedit-ui.h:138
+msgid "Nex_t Tab Group"
+msgstr "Vo_lgende groep kepe"
+
+#: ../gedit/gedit-ui.h:139
+msgid "Switch to the next tab group"
+msgstr "Skakel na die volgende keepgroep oor"
+
+#: ../gedit/gedit-ui.h:140
+msgid "_Previous Document"
+msgstr "Vo_rige dokument"
+
+#: ../gedit/gedit-ui.h:141
+msgid "Activate previous document"
+msgstr "Aktiveer vorige dokument"
+
+#: ../gedit/gedit-ui.h:142
+msgid "N_ext Document"
+msgstr "Vo_lgende dokument"
+
+#: ../gedit/gedit-ui.h:143
+msgid "Activate next document"
+msgstr "Aktiveer volgende dokument"
+
+#: ../gedit/gedit-ui.h:144
+msgid "_Move to New Window"
+msgstr "Skuif na nuwe _venster"
+
+#: ../gedit/gedit-ui.h:145
+msgid "Move the current document to a new window"
+msgstr "Verskuif die huidige dokument na 'n nuwe venster"
+
+#: ../gedit/gedit-ui.h:152
+msgid "Close the current file"
+msgstr "Sluit die huidige lêer"
+
+#: ../gedit/gedit-ui.h:159
+msgid "Quit the program"
+msgstr "Sluit die program af"
+
+#: ../gedit/gedit-ui.h:164
+msgid "_Toolbar"
+msgstr "Nu_tsbalk"
+
+#: ../gedit/gedit-ui.h:165
+msgid "Show or hide the toolbar in the current window"
+msgstr "Wys of versteek die nutsbalk in die huidige venster"
+
+#: ../gedit/gedit-ui.h:167
+msgid "_Statusbar"
+msgstr "_Statusbalk"
+
+#: ../gedit/gedit-ui.h:168
+msgid "Show or hide the statusbar in the current window"
+msgstr "Wys of versteek die statusbalk in die huidige venster"
+
+#: ../gedit/gedit-ui.h:171
+msgid "Edit text in fullscreen"
+msgstr "Redigeer teks in volskermmodus"
+
+#: ../gedit/gedit-ui.h:178
+msgid "Side _Panel"
+msgstr "Kant_paneel"
+
+#: ../gedit/gedit-ui.h:179
+msgid "Show or hide the side panel in the current window"
+msgstr "Wys of versteek die nutsbalk in die huidige venster"
+
+#: ../gedit/gedit-ui.h:181
+msgid "_Bottom Panel"
+msgstr "_Onderste paneel"
+
+#: ../gedit/gedit-ui.h:182
+msgid "Show or hide the bottom panel in the current window"
+msgstr "Wys of versteek die onderste paneel in die huidige venster"
+
+#: ../gedit/gedit-utils.c:1017
+msgid "Please check your installation."
+msgstr "Gaan asseblief die installasie na."
+
+#: ../gedit/gedit-utils.c:1087
+#, c-format
+msgid "Unable to open UI file %s. Error: %s"
+msgstr "Kan nie koppeelvlaklêer %s oopmaak nie. Fout: %s"
+
+#: ../gedit/gedit-utils.c:1107
+#, c-format
+msgid "Unable to find the object '%s' inside file %s."
+msgstr "Kon nie die vereiste voorwerp '%s' binne lêer %s vind nie."
+
+#. Translators: '/ on <remote-share>'
+#: ../gedit/gedit-utils.c:1252
+#, c-format
+msgid "/ on %s"
+msgstr "/ op %s"
+
+#. create "Wrap Around" menu item.
+#: ../gedit/gedit-view-frame.c:596
+msgid "_Wrap Around"
+msgstr "_Vou om"
+
+#. create "Match Entire Word Only" menu item.
+#: ../gedit/gedit-view-frame.c:606
+msgid "Match _Entire Word Only"
+msgstr "Soek slegs vir _volledige woord"
+
+#. create "Match Case" menu item.
+#: ../gedit/gedit-view-frame.c:616
+msgid "_Match Case"
+msgstr "_Soek kassensitief"
+
+#: ../gedit/gedit-view-frame.c:875
+msgid "String you want to search for"
+msgstr "String om voor te soek"
+
+#: ../gedit/gedit-view-frame.c:884
+msgid "Line you want to move the cursor to"
+msgstr "Lyn waarheen die loper moet gaan"
+
+#: ../gedit/gedit-window.c:1021
+#, c-format
+msgid "Use %s highlight mode"
+msgstr "Gebruik %s-verligting-modus"
+
+#. add the "Plain Text" item before all the others
+#. Translators: "Plain Text" means that no highlight mode is selected in the
+#. * "View->Highlight Mode" submenu and so syntax highlighting is disabled
+#: ../gedit/gedit-window.c:1088 ../gedit/gedit-window.c:2100
+#: ../plugins/externaltools/tools/manager.py:120
+#: ../plugins/externaltools/tools/manager.py:416
+#: ../plugins/externaltools/tools/manager.py:527
+#: ../plugins/externaltools/tools/manager.py:846
+msgid "Plain Text"
+msgstr "Skoonteks"
+
+#: ../gedit/gedit-window.c:1089
+msgid "Disable syntax highlighting"
+msgstr "Deaktiveer sintaksverligting"
+
+#. Translators: %s is a URI
+#: ../gedit/gedit-window.c:1411
+#, c-format
+msgid "Open '%s'"
+msgstr "Open '%s'"
+
+#: ../gedit/gedit-window.c:1520
+msgid "Open a recently used file"
+msgstr "Open 'n onlangs gebruikte lêer"
+
+#: ../gedit/gedit-window.c:1526
+msgid "Open"
+msgstr "Open"
+
+#: ../gedit/gedit-window.c:1584
+msgid "Save"
+msgstr "Stoor"
+
+#: ../gedit/gedit-window.c:1586
+msgid "Print"
+msgstr "Druk"
+
+#: ../gedit/gedit-window.c:1588
+msgid "Find"
+msgstr "Vind"
+
+#. Translators: %s is a URI
+#: ../gedit/gedit-window.c:1745
+#, c-format
+msgid "Activate '%s'"
+msgstr "Aktiveer '%s'"
+
+#: ../gedit/gedit-window.c:2078
+msgid "Use Spaces"
+msgstr "Gebruik spasies"
+
+#: ../gedit/gedit-window.c:2151
+msgid "Tab Width"
+msgstr "Keepwydte"
+
+#: ../gedit/gedit-window.c:2260
+msgid "Bracket match is out of range"
+msgstr "Passende hakie is buite strekking"
+
+#: ../gedit/gedit-window.c:2265
+msgid "Bracket match not found"
+msgstr "Passende hakie nie gevind nie"
+
+#: ../gedit/gedit-window.c:2270
+#, c-format
+msgid "Bracket match found on line: %d"
+msgstr "Passende hakie gevind op lyn: %d"
+
+#: ../gedit/gedit-window.c:4041
+msgid "About gedit"
+msgstr "Aangaande gedit"
+
+#. ex:set ts=8 noet:
+#: ../plugins/changecase/changecase.plugin.desktop.in.h:1
+msgid "Change Case"
+msgstr "Verander letterkas"
+
+#: ../plugins/changecase/changecase.plugin.desktop.in.h:2
+msgid "Changes the case of selected text."
+msgstr "Verander die letterkas van die gemerkte teks."
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:242
+msgid "C_hange Case"
+msgstr "Ver_ander letterkas"
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:243
+msgid "All _Upper Case"
+msgstr "Alles _hoofletters"
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:244
+msgid "Change selected text to upper case"
+msgstr "Verander die gemerkte teks na hoofletters"
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:246
+msgid "All _Lower Case"
+msgstr "Alles _kleinletters"
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:247
+msgid "Change selected text to lower case"
+msgstr "Verander die gemerkte teks na kleinletters"
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:249
+msgid "_Invert Case"
+msgstr "Keer letterkas _om"
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:250
+msgid "Invert the case of selected text"
+msgstr "Keer die letterkas van die gemerkte teks om"
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:252
+msgid "_Title Case"
+msgstr "_Titelkas"
+
+#: ../plugins/changecase/gedit-changecase-plugin.c:253
+msgid "Capitalize the first letter of each selected word"
+msgstr "Maak die eerste letter van elke gemerkte woord 'n hoofletter"
+
+#. ex:set ts=8 noet:
+#: ../plugins/checkupdate/checkupdate.plugin.desktop.in.h:1
+msgid "Check for latest version of gedit"
+msgstr "Kontroleer vir die jongste weergawe van gedit"
+
+#: ../plugins/checkupdate/checkupdate.plugin.desktop.in.h:2
+msgid "Check update"
+msgstr "Gaan opdatering na"
+
+#: ../plugins/checkupdate/gedit-check-update-plugin.c:270
+msgid "There was an error displaying the URI."
+msgstr "Daar was 'n fout by vertoon van die URI."
+
+#: ../plugins/checkupdate/gedit-check-update-plugin.c:307
+msgid "_Download"
+msgstr "_Laai af"
+
+#: ../plugins/checkupdate/gedit-check-update-plugin.c:315
+msgid "_Ignore Version"
+msgstr "_Ignoreer weergawe"
+
+#: ../plugins/checkupdate/gedit-check-update-plugin.c:330
+msgid "There is a new version of gedit"
+msgstr "Daar is 'n nuwe weergawe van gedit"
+
+#: ../plugins/checkupdate/gedit-check-update-plugin.c:334
+msgid ""
+"You can download the new version of gedit by clicking on the download button "
+"or ignore that version and wait for a new one"
+msgstr ""
+"Laai gerus die nuwe weergawe van gedit af deur op dei aflaaiknoppie te klik, "
+"of ignoreer die weergawe en wag vir 'n nuwe een"
+
+#. ex:set ts=8 noet:
+#: ../plugins/checkupdate/org.gnome.gedit.plugins.checkupdate.gschema.xml.in.in.h:1
+msgid "Version to Ignore"
+msgstr "Weergawe om te ignoreer"
+
+#. This is releated to the next gedit version to be released
+#: ../plugins/checkupdate/org.gnome.gedit.plugins.checkupdate.gschema.xml.in.in.h:3
+msgid "Version to ignore until a newer version is released."
+msgstr ""
+
+#: ../plugins/docinfo/docinfo.plugin.desktop.in.h:1
+msgid ""
+"Analyzes the current document and reports the number of words, lines, "
+"characters and non-space characters in it."
+msgstr ""
+"Analiseer die huidige dokument en bepaal die aantal woorde, reëls, karakters "
+"en niespasie-karakters daarin."
+
+#: ../plugins/docinfo/docinfo.plugin.desktop.in.h:2
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:6
+msgid "Document Statistics"
+msgstr "Dokumentstatistiek"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:2
+msgid "Bytes"
+msgstr "Grepe"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:3
+msgid "Characters (no spaces)"
+msgstr "Karakters (sonder spasies)"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:4
+msgid "Characters (with spaces)"
+msgstr "Karakters (met spasies)"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:5
+msgid "Document"
+msgstr "Dokument"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:7
+msgid "File Name"
+msgstr "Lêernaam"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:8
+msgid "Lines"
+msgstr "Reëls"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:9
+msgid "Selection"
+msgstr "Seleksie"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:10
+msgid "Words"
+msgstr "Woorde"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.ui.h:11
+msgid "_Update"
+msgstr "_Bywerk"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.c:451
+msgid "_Document Statistics"
+msgstr "_Dokumentstatistiek"
+
+#: ../plugins/docinfo/gedit-docinfo-plugin.c:453
+msgid "Get statistical information on the current document"
+msgstr "Kry statistiese inligting oor huidige dokument"
+
+#. ex:set ts=8 noet:
+#: ../plugins/externaltools/data/open-terminal-here-osx.desktop.in.h:1
+#: ../plugins/externaltools/data/open-terminal-here.desktop.in.h:1
+msgid "Open a terminal in the document location"
+msgstr "Maak 'n terminaal oop waar die dokument lê"
+
+#: ../plugins/externaltools/data/open-terminal-here-osx.desktop.in.h:2
+#: ../plugins/externaltools/data/open-terminal-here.desktop.in.h:2
+msgid "Open terminal here"
+msgstr "Open terminaal hier"
+
+#: ../plugins/externaltools/externaltools.plugin.desktop.in.h:1
+msgid "Execute external commands and shell scripts."
+msgstr ""
+
+#: ../plugins/externaltools/externaltools.plugin.desktop.in.h:2
+msgid "External Tools"
+msgstr "Eksterne gereedskap"
+
+#: ../plugins/externaltools/org.gnome.gedit.plugins.externaltools.gschema.xml.in.in.h:1
+#: ../plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml.in.in.h:1
+msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+msgstr "'n Pango-fontnaam, byvoorbeeld \"Sans 12\" of \"Monospace Bold 14\"."
+
+#: ../plugins/externaltools/org.gnome.gedit.plugins.externaltools.gschema.xml.in.in.h:3
+msgid ""
+"If true, the external tools will use the desktop-global standard font if "
+"it's monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+
+#: ../plugins/externaltools/org.gnome.gedit.plugins.externaltools.gschema.xml.in.in.h:4
+#: ../plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml.in.in.h:8
+msgid "Whether to use the system font"
+msgstr "Of die stelselfont gebruik moet word"
+
+#: ../plugins/externaltools/tools/capture.py:92
+#, python-format
+msgid "Could not execute command: %s"
+msgstr "Kon nie die bevel uitvoer nie: %s"
+
+#: ../plugins/externaltools/tools/functions.py:159
+msgid "You must be inside a word to run this command"
+msgstr "Jy moet binne 'n woord wees om hierdie bevel te laat uitvoer"
+
+#: ../plugins/externaltools/tools/functions.py:265
+msgid "Running tool:"
+msgstr ""
+
+#: ../plugins/externaltools/tools/functions.py:294
+msgid "Done."
+msgstr "Klaar."
+
+#: ../plugins/externaltools/tools/functions.py:296
+msgid "Exited"
+msgstr "Uitgegaan"
+
+#: ../plugins/externaltools/tools/manager.py:118
+msgid "All languages"
+msgstr "Alle tale"
+
+#: ../plugins/externaltools/tools/manager.py:516
+#: ../plugins/externaltools/tools/manager.py:520
+#: ../plugins/externaltools/tools/manager.py:844
+#: ../plugins/externaltools/tools/tools.ui.h:2
+msgid "All Languages"
+msgstr "Alle tale"
+
+#: ../plugins/externaltools/tools/manager.py:627
+msgid "New tool"
+msgstr "Nuwe gereedskap"
+
+#: ../plugins/externaltools/tools/manager.py:758
+#, python-format
+msgid "This accelerator is already bound to %s"
+msgstr ""
+
+#: ../plugins/externaltools/tools/manager.py:809
+msgid "Type a new accelerator, or press Backspace to clear"
+msgstr ""
+
+#: ../plugins/externaltools/tools/manager.py:811
+msgid "Type a new accelerator"
+msgstr ""
+
+#: ../plugins/externaltools/tools/outputpanel.py:120
+msgid "Stopped."
+msgstr "Gestop."
+
+#: ../plugins/externaltools/tools/tools.ui.h:3
+msgid "All documents"
+msgstr "Alle dokumente"
+
+#: ../plugins/externaltools/tools/tools.ui.h:4
+msgid "All documents except untitled ones"
+msgstr "Alle dokumente behalwe naamloses"
+
+#: ../plugins/externaltools/tools/tools.ui.h:5
+msgid "Append to current document"
+msgstr "Voeg agteraan huidige dokument"
+
+#: ../plugins/externaltools/tools/tools.ui.h:6
+msgid "Create new document"
+msgstr "Skep nuwe dokument"
+
+#: ../plugins/externaltools/tools/tools.ui.h:7
+msgid "Current document"
+msgstr "Huidige dokument"
+
+#: ../plugins/externaltools/tools/tools.ui.h:8
+msgid "Current line"
+msgstr "Huidige reël"
+
+#: ../plugins/externaltools/tools/tools.ui.h:9
+msgid "Current selection"
+msgstr "Huidige seleksie"
+
+#: ../plugins/externaltools/tools/tools.ui.h:10
+msgid "Current selection (default to document)"
+msgstr "Huidige seleksie (dokument-verstek)"
+
+#: ../plugins/externaltools/tools/tools.ui.h:11
+msgid "Current word"
+msgstr "Huidige woord"
+
+#: ../plugins/externaltools/tools/tools.ui.h:12
+msgid "Display in bottom pane"
+msgstr "Vertoon in onderste paneel"
+
+#: ../plugins/externaltools/tools/tools.ui.h:13
+msgid "External Tools Manager"
+msgstr "Eksterne gereedskapbestuurder"
+
+#: ../plugins/externaltools/tools/tools.ui.h:14
+msgid "Insert at cursor position"
+msgstr "Voeg in by merkerposisie"
+
+#: ../plugins/externaltools/tools/tools.ui.h:15
+msgid "Local files only"
+msgstr "Slegs plaaslike lêers"
+
+#: ../plugins/externaltools/tools/tools.ui.h:16
+msgid "Nothing"
+msgstr "Niks"
+
+#: ../plugins/externaltools/tools/tools.ui.h:17
+msgid "Remote files only"
+msgstr "Slegs afgeleë lêers"
+
+#: ../plugins/externaltools/tools/tools.ui.h:18
+msgid "Replace current document"
+msgstr "Vervang huidige dokument"
+
+#: ../plugins/externaltools/tools/tools.ui.h:19
+msgid "Replace current selection"
+msgstr "Vervang huidige seleksie"
+
+#: ../plugins/externaltools/tools/tools.ui.h:20
+msgid "Untitled documents only"
+msgstr "Slegs naamlose dokumente"
+
+#: ../plugins/externaltools/tools/tools.ui.h:21
+msgid "_Applicability:"
+msgstr "Toep_asbaarheid:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:22
+#: ../plugins/snippets/snippets/snippets.ui.h:11
+msgid "_Edit:"
+msgstr "R_edigeer:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:23
+msgid "_Input:"
+msgstr "_Toevoer:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:24
+msgid "_Output:"
+msgstr "_Afvoer:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:25
+msgid "_Save:"
+msgstr "_Stoor:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:26
+msgid "_Shortcut Key:"
+msgstr "Kortpad_sleutel:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:27
+msgid "_Tools:"
+msgstr "Nu_tsgoed:"
+
+#: ../plugins/externaltools/tools/windowactivatable.py:175
+msgid "Manage _External Tools..."
+msgstr "Bestuur _eksterne gereedskap..."
+
+#: ../plugins/externaltools/tools/windowactivatable.py:176
+msgid "Opens the External Tools Manager"
+msgstr "Open die bestuurder vir eksterne gereedskap"
+
+#: ../plugins/externaltools/tools/windowactivatable.py:179
+msgid "External _Tools"
+msgstr "Eks_terne gereedskap"
+
+#: ../plugins/externaltools/tools/windowactivatable.py:180
+msgid "External tools"
+msgstr "Eksterne gereedskap"
+
+#: ../plugins/externaltools/tools/windowactivatable.py:214
+msgid "Shell Output"
+msgstr ""
+
+#. ex:ts=4:et:
+#: ../plugins/externaltools/data/build.desktop.in.h:1
+msgid "Build"
+msgstr "Bou"
+
+#: ../plugins/externaltools/data/build.desktop.in.h:2
+msgid "Run \"make\" in the document directory"
+msgstr "Voer \"make\" uit in die dokumentgids"
+
+#: ../plugins/externaltools/data/remove-trailing-spaces.desktop.in.h:1
+msgid "Remove trailing spaces"
+msgstr "Verwyder spasies agteraan"
+
+#: ../plugins/externaltools/data/remove-trailing-spaces.desktop.in.h:2
+msgid "Remove useless trailing spaces in your file"
+msgstr "Verwyder nuttelose volgende spasies in die lêer"
+
+#: ../plugins/externaltools/data/run-command.desktop.in.h:1
+msgid "Execute a custom command and put its output in a new document"
+msgstr "Voer 'n pasgemaakte bevel uit en plaas die afvoer in 'n nuwe dokument"
+
+#: ../plugins/externaltools/data/run-command.desktop.in.h:2
+msgid "Run command"
+msgstr "Loop bevel"
+
+#: ../plugins/filebrowser/filebrowser.plugin.desktop.in.h:1
+msgid "Easy file access from the side panel"
+msgstr "Maklike lêertoegang van die kantpaneel"
+
+#: ../plugins/filebrowser/filebrowser.plugin.desktop.in.h:2
+msgid "File Browser Panel"
+msgstr "Lêerblaaierpaneel"
+
+#: ../plugins/filebrowser/gedit-file-bookmarks-store.c:243
+msgid "File System"
+msgstr "Lêerstelsel"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:585
+msgid "_Set root to active document"
+msgstr "_Stel aktiewe dokument as wortel"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:587
+msgid "Set the root to the active document location"
+msgstr "Stel die ligging van die aktiewe dokument as wortel"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:592
+msgid "_Open terminal here"
+msgstr "_Open terminaal hier"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:594
+msgid "Open a terminal at the currently opened directory"
+msgstr "Maak 'n terminaal oop by die huidige geopende gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:732
+msgid "File Browser"
+msgstr "Lêerblaaier"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:875
+msgid "An error occurred while creating a new directory"
+msgstr "'n Fout het voorgekom tydens die skep van 'n nuwe gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:878
+msgid "An error occurred while creating a new file"
+msgstr "'n Fout het voorgekom tydens die skep van 'n nuwe lêer"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:881
+msgid "An error occurred while renaming a file or directory"
+msgstr "'n Fout het voorgekom tydens die skep van 'n nuwe lêer of gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:884
+msgid "An error occurred while deleting a file or directory"
+msgstr "'n Fout het voorgekom tydens die wis van 'n lêer of gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:887
+msgid "An error occurred while opening a directory in the file manager"
+msgstr "'n Fout het voorgekom met die oopmaak van 'n gids in die lêerbestuurder"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:890
+msgid "An error occurred while setting a root directory"
+msgstr "'n Fout het voorgekom tydens stel van 'n wortelgids"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:893
+msgid "An error occurred while loading a directory"
+msgstr "'n Fout het voorgekom tydens die laai van 'n gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:896
+msgid "An error occurred"
+msgstr "'n Fout het voortgekom"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:1105
+msgid ""
+"Cannot move file to trash, do you\n"
+"want to delete permanently?"
+msgstr ""
+"Kan die lêer nie na die asblik skuif\n"
+"nie. Wil jy dit permanent skrap?"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:1110
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash."
+msgstr "Die lêer \"%s\" kan nie na die asblik geskuif word nie."
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:1115
+msgid "The selected files cannot be moved to the trash."
+msgstr "Die geselekteerde lêers kan nie na die asblik geskuif word nie."
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:1147
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "Wil u definitief \"%s\" permanent uitvee?"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:1152
+msgid "Are you sure you want to permanently delete the selected files?"
+msgstr "Wil u definitief die geselekteerde lêers permanent wil skrap?"
+
+#: ../plugins/filebrowser/gedit-file-browser-plugin.c:1155
+msgid "If you delete an item, it is permanently lost."
+msgstr "As u 'n item skrap, sal dit permanent verlore wees."
+
+#: ../plugins/filebrowser/gedit-file-browser-store.c:1728
+msgid "(Empty)"
+msgstr "(Leeg)"
+
+#: ../plugins/filebrowser/gedit-file-browser-store.c:3474
+msgid ""
+"The renamed file is currently filtered out.You need to adjust your filter "
+"settings to make the file visible"
+msgstr ""
+"Die hernoemde lêer is tans uitgefilter. Jy moet jou filter verstel om die "
+"lêer sigbaar te maak."
+
+#. Translators: This is the default name of new files created by the file browser pane.
+#: ../plugins/filebrowser/gedit-file-browser-store.c:3718
+msgid "file"
+msgstr "lêer"
+
+#: ../plugins/filebrowser/gedit-file-browser-store.c:3746
+msgid ""
+"The new file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr ""
+"Die nuwe lêer is tans uitgefilter. Jy moet jou filter verstel om die lêer "
+"sigbaar te maak."
+
+#. Translators: This is the default name of new directories created by the file browser pane.
+#: ../plugins/filebrowser/gedit-file-browser-store.c:3777
+msgid "directory"
+msgstr "gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-store.c:3802
+msgid ""
+"The new directory is currently filtered out. You need to adjust your filter "
+"settings to make the directory visible"
+msgstr ""
+"Die nuwe gids is tans uitgefilter. Jy moet jou filter verstel om die gids "
+"sigbaar te maak."
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:743
+msgid "Bookmarks"
+msgstr "Boekmerke"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:831
+msgid "_Filter"
+msgstr "_Filter"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:836
+msgid "_Move to Trash"
+msgstr "Skuif na ge_mors"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:837
+msgid "Move selected file or folder to trash"
+msgstr "Skuif gemerkte lêer of gids na die asblik"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:839
+msgid "_Delete"
+msgstr "_Skrap"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:840
+msgid "Delete selected file or folder"
+msgstr "Skrap gemerkte boodskap of gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:847
+msgid "Open selected file"
+msgstr "Maak geselekteerde lêer oop"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:853
+msgid "Up"
+msgstr "Op"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:854
+msgid "Open the parent folder"
+msgstr "Open die ouergids"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:859
+msgid "_New Folder"
+msgstr "_Nuwe gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:860
+msgid "Add new empty folder"
+msgstr "Voeg nuwe leë vouer by"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:862
+msgid "New F_ile"
+msgstr "Nuwe lê_er"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:863
+msgid "Add new empty file"
+msgstr "Voeg nuwe leë lêer by"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:868
+msgid "_Rename"
+msgstr "He_rnoem"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:869
+msgid "Rename selected file or folder"
+msgstr "Hernoem die gemerkte lêer of gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:875
+msgid "_Previous Location"
+msgstr "Vo_rige ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:877
+msgid "Go to the previous visited location"
+msgstr "Gaan na die vorige besoekte ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:879
+msgid "_Next Location"
+msgstr "Vo_lgende ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:880
+msgid "Go to the next visited location"
+msgstr "Gaan na die volgende besoekte ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:881
+msgid "Re_fresh View"
+msgstr "Verf_ris aansig"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:882
+msgid "Refresh the view"
+msgstr "Verfris die aansig"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:883
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:901
+msgid "_View Folder"
+msgstr "_Bekyk gids"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:884
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:902
+msgid "View folder in file manager"
+msgstr "Beskou vouer in lêerbestuurder"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:891
+msgid "Show _Hidden"
+msgstr "Wys _versteektes"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:892
+msgid "Show hidden files and folders"
+msgstr "Wys versteekte lêers en gidse"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:894
+msgid "Show _Binary"
+msgstr "Wys _binêre lêers"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:895
+msgid "Show binary files"
+msgstr "Wys binêre lêers"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1028
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1037
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1058
+msgid "Previous location"
+msgstr "Vorige ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1030
+msgid "Go to previous location"
+msgstr "Gaan na vorige ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1032
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1053
+msgid "Go to a previously opened location"
+msgstr "Gaan na 'n vantevore geopende ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1049
+msgid "Next location"
+msgstr "Volgende ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1051
+msgid "Go to next location"
+msgstr "Gaan na volgende ligging"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:1261
+msgid "_Match Filename"
+msgstr "Vind passende lêernaa_m"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:2185
+#, c-format
+msgid "No mount object for mounted volume: %s"
+msgstr "Geen gehegte objek vir die gehegte volume nie: %s"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:2262
+#, c-format, c-format
+msgid "Could not open media: %s"
+msgstr "Kon nie die media open nie: %s"
+
+#: ../plugins/filebrowser/gedit-file-browser-widget.c:2309
+#, c-format, c-format
+msgid "Could not mount volume: %s"
+msgstr "Kon nie die volume heg nie: %s"
+
+#. ex:ts=8:noet:
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:1
+msgid "Enable Restore of Remote Locations"
+msgstr "Maak herstel vanaf afgeleë liggings moontlik"
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:2
+msgid "File Browser Filter Mode"
+msgstr "Lêerblaaier se filtermodus"
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:3
+msgid "File Browser Filter Pattern"
+msgstr "Lêerblaaier se filterpatroon"
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:4
+msgid "File Browser Root Directory"
+msgstr "Lêerblaaier se wortelgids"
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:5
+msgid "File Browser Virtual Root Directory"
+msgstr "Lêerblaaier se virtuele wortelgids"
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:6
+msgid ""
+"If TRUE the file browser plugin will view the directory of the first opened "
+"document given that the file browser hasn't been used yet. (Thus this "
+"generally applies to opening a document from the command line or opening it "
+"with Nautilus, etc.)"
+msgstr ""
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:7
+msgid "Open With Tree View"
+msgstr "Maak oop met boomaansig"
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:8
+msgid ""
+"Open the tree view when the file browser plugin gets loaded instead of the "
+"bookmarks view"
+msgstr ""
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:9
+msgid "Set Location to First Document"
+msgstr ""
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:10
+msgid "Sets whether to enable restoring of remote locations."
+msgstr ""
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:11
+msgid ""
+"The file browser root directory to use when loading the file browser plugin "
+"and onload/tree_view is TRUE."
+msgstr ""
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:12
+msgid ""
+"The file browser virtual root directory to use when loading the file browser "
+"plugin when onload/tree_view is TRUE. The virtual root must always be below "
+"the actual root."
+msgstr ""
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:13
+msgid ""
+"The filter pattern to filter the file browser with. This filter works on top "
+"of the filter_mode."
+msgstr ""
+
+#: ../plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml.in.in.h:14
+msgid ""
+"This value determines what files get filtered from the file browser. Valid "
+"values are: none (filter nothing), hide-hidden (filter hidden files) and "
+"hide-binary (filter binary files)."
+msgstr ""
+
+#: ../plugins/modelines/modelines.plugin.desktop.in.h:1
+msgid "Emacs, Kate and Vim-style modelines support for gedit."
+msgstr ""
+
+#: ../plugins/modelines/modelines.plugin.desktop.in.h:2
+msgid "Modelines"
+msgstr ""
+
+#: ../plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml.in.in.h:2
+msgid "Command Color Text"
+msgstr ""
+
+#: ../plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml.in.in.h:3
+msgid "Error Color Text"
+msgstr ""
+
+#: ../plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml.in.in.h:5
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it's "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+
+#: ../plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml.in.in.h:6
+msgid "The command color text"
+msgstr ""
+
+#: ../plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml.in.in.h:7
+msgid "The error color text"
+msgstr ""
+
+#: ../plugins/pythonconsole/pythonconsole.plugin.desktop.in.h:1
+msgid "Interactive Python console standing in the bottom panel"
+msgstr ""
+
+#: ../plugins/pythonconsole/pythonconsole.plugin.desktop.in.h:2
+#: ../plugins/pythonconsole/pythonconsole/__init__.py:52
+msgid "Python Console"
+msgstr "Python-konsole"
+
+#. ex:et:ts=4:
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:1
+#, fuzzy
+msgid "C_ommand color:"
+msgstr "_Bevelkleur:"
+
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:2
+#, fuzzy
+msgid "_Error color:"
+msgstr "_Foutkleur:"
+
+#. ex:ts=8:et:
+#: ../plugins/quickopen/quickopen/popup.py:31
+#: ../plugins/quickopen/quickopen.plugin.desktop.in.h:1
+msgid "Quick Open"
+msgstr "Vinnige oopmaak"
+
+#: ../plugins/quickopen/quickopen.plugin.desktop.in.h:2
+msgid "Quickly open files"
+msgstr "Open alle lêers vinnig"
+
+#: ../plugins/snippets/snippets.plugin.desktop.in.h:1
+msgid "Insert often-used pieces of text in a fast way"
+msgstr "Kits-invoeg van veelgebruikte stukkies teks"
+
+#: ../plugins/snippets/snippets.plugin.desktop.in.h:2
+#: ../plugins/snippets/snippets/document.py:54
+msgid "Snippets"
+msgstr "Flenters"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:2
+msgid "Activation"
+msgstr "Aktivering"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:3
+msgid "Create new snippet"
+msgstr "Skep nuwe flenter"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:4
+#: ../plugins/snippets/snippets/manager.py:398
+msgid "Delete selected snippet"
+msgstr "Wis geselekteerde flenter"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:5
+msgid "Export selected snippets"
+msgstr "Voer geselekteerde flenters uit"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:6
+#: ../plugins/snippets/snippets/manager.py:769
+msgid "Import snippets"
+msgstr "Voer flenters in"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:7
+msgid "S_hortcut key:"
+msgstr "Kortpad_sleutel:"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:8
+msgid "Shortcut key with which the snippet is activated"
+msgstr "Kortpadsleutel vir aktivering van die flenter"
+
+#. self['hbox_tab_trigger'].set_spacing(0)
+#: ../plugins/snippets/snippets/snippets.ui.h:9
+#: ../plugins/snippets/snippets/manager.py:657
+msgid "Single word the snippet is activated with after pressing Tab"
+msgstr "Enkele woord wat die flenter aktiveer ná Tab gedruk word"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:10
+msgid "_Drop targets:"
+msgstr ""
+
+#: ../plugins/snippets/snippets/snippets.ui.h:12
+msgid "_Snippets:"
+msgstr "_Flenters:"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:13
+msgid "_Tab trigger:"
+msgstr ""
+
+#: ../plugins/snippets/snippets/windowactivatable.py:141
+msgid "Manage _Snippets..."
+msgstr "Bestuur _flenters..."
+
+#: ../plugins/snippets/snippets/windowactivatable.py:142
+msgid "Manage snippets"
+msgstr "Bestuur flenters"
+
+#: ../plugins/snippets/snippets/manager.py:43
+msgid "Snippets archive"
+msgstr "Flenterargief"
+
+#: ../plugins/snippets/snippets/manager.py:65
+msgid "Add a new snippet..."
+msgstr "Voeg nuwe flenter by..."
+
+#: ../plugins/snippets/snippets/manager.py:118
+msgid "Global"
+msgstr "Globaal"
+
+#: ../plugins/snippets/snippets/manager.py:395
+msgid "Revert selected snippet"
+msgstr "Stel geselekteerde flenter terug"
+
+#. self['hbox_tab_trigger'].set_spacing(3)
+#: ../plugins/snippets/snippets/manager.py:650
+msgid ""
+"This is not a valid Tab trigger. Triggers can either contain letters or a "
+"single (non-alphanumeric) character like: {, [, etc."
+msgstr ""
+
+#: ../plugins/snippets/snippets/manager.py:748
+#, python-format
+msgid "The following error occurred while importing: %s"
+msgstr ""
+
+#: ../plugins/snippets/snippets/manager.py:755
+msgid "Import successfully completed"
+msgstr "Invoer suksesvol voltooi"
+
+#: ../plugins/snippets/snippets/manager.py:774
+#: ../plugins/snippets/snippets/manager.py:860
+#: ../plugins/snippets/snippets/manager.py:923
+msgid "All supported archives"
+msgstr "Alle ondersteunde argiewe"
+
+#: ../plugins/snippets/snippets/manager.py:775
+#: ../plugins/snippets/snippets/manager.py:861
+#: ../plugins/snippets/snippets/manager.py:924
+msgid "Gzip compressed archive"
+msgstr "Met gzip gekompakteerde argief"
+
+#: ../plugins/snippets/snippets/manager.py:776
+#: ../plugins/snippets/snippets/manager.py:862
+#: ../plugins/snippets/snippets/manager.py:925
+msgid "Bzip2 compressed archive"
+msgstr "Met bzip2 gekompakteerde argief"
+
+#: ../plugins/snippets/snippets/manager.py:777
+#, fuzzy
+msgid "Single snippets file"
+msgstr "Enkele flenterslêer"
+
+#: ../plugins/snippets/snippets/manager.py:778
+#: ../plugins/snippets/snippets/manager.py:864
+#: ../plugins/snippets/snippets/manager.py:927
+msgid "All files"
+msgstr "Alle lêers"
+
+#: ../plugins/snippets/snippets/manager.py:790
+#, python-format
+msgid "The following error occurred while exporting: %s"
+msgstr "Die volgende fout het tydens uitvoer voorgekom: %s"
+
+#: ../plugins/snippets/snippets/manager.py:794
+msgid "Export successfully completed"
+msgstr "Uitvoer suksesvol voltooi"
+
+#. Ask if system snippets should also be exported
+#: ../plugins/snippets/snippets/manager.py:834
+#: ../plugins/snippets/snippets/manager.py:901
+msgid "Do you want to include selected <b>system</b> snippets in your export?"
+msgstr "Wil jy <b>stelsel</b>-flenters in die uitvoer insluit?"
+
+#: ../plugins/snippets/snippets/manager.py:849
+#: ../plugins/snippets/snippets/manager.py:919
+msgid "There are no snippets selected to be exported"
+msgstr "Geen flenters is vir uitvoer geselekteer nie"
+
+#: ../plugins/snippets/snippets/manager.py:854
+#: ../plugins/snippets/snippets/manager.py:892
+msgid "Export snippets"
+msgstr "Voer flenters uit"
+
+#: ../plugins/snippets/snippets/manager.py:1031
+msgid "Type a new shortcut, or press Backspace to clear"
+msgstr "Tik 'n nuwe kortpad, of druk Backspace om skoon te maak"
+
+#: ../plugins/snippets/snippets/manager.py:1033
+msgid "Type a new shortcut"
+msgstr "Tik 'n nuwe kortpad in"
+
+#: ../plugins/snippets/snippets/exporter.py:82
+#, python-format
+msgid "The archive \"%s\" could not be created"
+msgstr "Die argief \"%s\" kon nie geskep word nie"
+
+#: ../plugins/snippets/snippets/exporter.py:99
+#, python-format
+msgid "Target directory \"%s\" does not exist"
+msgstr "Die teikengids \"%s\" bestana nie"
+
+#: ../plugins/snippets/snippets/exporter.py:102
+#, python-format
+msgid "Target directory \"%s\" is not a valid directory"
+msgstr "Die teikengids \"%s\" is nie 'n geldige gids nie"
+
+#: ../plugins/snippets/snippets/importer.py:46
+#: ../plugins/snippets/snippets/importer.py:100
+#, python-format
+msgid "File \"%s\" does not exist"
+msgstr "Die lêer \"%s\" bestaan nie"
+
+#: ../plugins/snippets/snippets/importer.py:49
+#, python-format
+msgid "File \"%s\" is not a valid snippets file"
+msgstr "Die lêer \"%s\" is nie 'n geldige flenterslêer nie"
+
+#: ../plugins/snippets/snippets/importer.py:59
+#, python-format
+msgid "Imported file \"%s\" is not a valid snippets file"
+msgstr "Die ingevoerde lêer \"%s\" is nie 'n geldige flenterslêer nie"
+
+#: ../plugins/snippets/snippets/importer.py:69
+#, python-format
+msgid "The archive \"%s\" could not be extracted"
+msgstr "Die argief \"%s\" kon nie onttrek word nie"
+
+#: ../plugins/snippets/snippets/importer.py:87
+#, python-format
+msgid "The following files could not be imported: %s"
+msgstr "Die volgende lêers kon nie ingevoer word nie: %s"
+
+#: ../plugins/snippets/snippets/importer.py:103
+#: ../plugins/snippets/snippets/importer.py:116
+#, python-format
+msgid "File \"%s\" is not a valid snippets archive"
+msgstr "Die lêer \"%s\" is nie 'n geldige flentersargief nie"
+
+#: ../plugins/snippets/snippets/placeholder.py:594
+#, python-format
+msgid ""
+"Execution of the Python command (%s) exceeds the maximum time, execution "
+"aborted."
+msgstr ""
+
+#: ../plugins/snippets/snippets/placeholder.py:602
+#, python-format
+msgid "Execution of the Python command (%s) failed: %s"
+msgstr ""
+
+#: ../plugins/sort/gedit-sort-plugin.c:88
+msgid "S_ort..."
+msgstr "S_orteer..."
+
+#: ../plugins/sort/gedit-sort-plugin.c:90
+msgid "Sort the current document or selection"
+msgstr "Sorteer die huidige dokument of seleksie"
+
+#. ex:ts=8:noet:
+#: ../plugins/sort/gedit-sort-plugin.ui.h:1
+msgid "R_emove duplicates"
+msgstr "V_erwyder duplikate"
+
+#: ../plugins/sort/gedit-sort-plugin.ui.h:2
+msgid "S_tart at column:"
+msgstr "B_egin by kolom:"
+
+#: ../plugins/sort/gedit-sort-plugin.ui.h:3
+#: ../plugins/sort/sort.plugin.desktop.in.h:1
+msgid "Sort"
+msgstr "Sorteer"
+
+#: ../plugins/sort/gedit-sort-plugin.ui.h:4
+msgid "You cannot undo a sort operation"
+msgstr "Jy kan nie 'n sorteerbewerking ontdoen nie"
+
+#: ../plugins/sort/gedit-sort-plugin.ui.h:5
+msgid "_Ignore case"
+msgstr "_Ignoreer kas"
+
+#: ../plugins/sort/gedit-sort-plugin.ui.h:6
+msgid "_Reverse order"
+msgstr "_Keer volgorde om"
+
+#: ../plugins/sort/gedit-sort-plugin.ui.h:7
+msgid "_Sort"
+msgstr "_Sorteer"
+
+#: ../plugins/sort/sort.plugin.desktop.in.h:2
+msgid "Sorts a document or selected text."
+msgstr "Sorteer 'n dokument of gemerkte teks."
+
+#. Translators: Displayed in the "Check Spelling" dialog if there are no suggestions for the current misspelled word
+#. Translators: Displayed in the "Check Spelling" dialog if there are no suggestions
+#. * for the current misspelled word
+#: ../plugins/spell/gedit-automatic-spell-checker.c:420
+#: ../plugins/spell/gedit-spell-checker-dialog.c:451
+msgid "(no suggested words)"
+msgstr "(geen voorgestelde woorde nie)"
+
+#: ../plugins/spell/gedit-automatic-spell-checker.c:444
+msgid "_More..."
+msgstr "_Meer..."
+
+#. Ignore all
+#: ../plugins/spell/gedit-automatic-spell-checker.c:499
+msgid "_Ignore All"
+msgstr "_Ignoreer alles"
+
+#. + Add to Dictionary
+#: ../plugins/spell/gedit-automatic-spell-checker.c:514
+msgid "_Add"
+msgstr "_Voeg by"
+
+#: ../plugins/spell/gedit-automatic-spell-checker.c:553
+msgid "_Spelling Suggestions..."
+msgstr "_Spelvoorstelle..."
+
+#: ../plugins/spell/gedit-spell-checker-dialog.c:271
+msgid "Check Spelling"
+msgstr "Kontroleer spelling"
+
+#: ../plugins/spell/gedit-spell-checker-dialog.c:282
+msgid "Suggestions"
+msgstr "Voorstelle"
+
+#. Translators: Displayed in the "Check Spelling" dialog if the current word isn't misspelled
+#: ../plugins/spell/gedit-spell-checker-dialog.c:558
+msgid "(correct spelling)"
+msgstr "(korrekte spelling)"
+
+#: ../plugins/spell/gedit-spell-checker-dialog.c:699
+msgid "Completed spell checking"
+msgstr "Speltoets voltooi"
+
+#. Translators: the first %s is the language name, and
+#. * the second %s is the locale name. Example:
+#. * "French (France)"
+#.
+#: ../plugins/spell/gedit-spell-checker-language.c:285
+#: ../plugins/spell/gedit-spell-checker-language.c:291
+#, c-format
+msgctxt "language"
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#. Translators: this refers to an unknown language code
+#. * (one which isn't in our built-in list).
+#.
+#: ../plugins/spell/gedit-spell-checker-language.c:300
+#, c-format, c-format
+msgctxt "language"
+msgid "Unknown (%s)"
+msgstr "Onbekend (%s)"
+
+#. Translators: this refers the Default language used by the
+#. * spell checker
+#.
+#: ../plugins/spell/gedit-spell-checker-language.c:406
+msgctxt "language"
+msgid "Default"
+msgstr "Verstek"
+
+#: ../plugins/spell/gedit-spell-language-dialog.c:142
+#: ../plugins/spell/languages-dialog.ui.h:2
+msgid "Set language"
+msgstr "Stel taal"
+
+#: ../plugins/spell/gedit-spell-language-dialog.c:196
+msgid "Languages"
+msgstr "Tale"
+
+#: ../plugins/spell/gedit-spell-plugin.c:105
+msgid "_Check Spelling..."
+msgstr "Kontroleer _spelling..."
+
+#: ../plugins/spell/gedit-spell-plugin.c:107
+msgid "Check the current document for incorrect spelling"
+msgstr "Kontroleer die huidige dokument vir verkeerde spelling"
+
+#: ../plugins/spell/gedit-spell-plugin.c:113
+msgid "Set _Language..."
+msgstr "Stel _taal..."
+
+#: ../plugins/spell/gedit-spell-plugin.c:115
+msgid "Set the language of the current document"
+msgstr "Stel die taal van die huidige dokument"
+
+#: ../plugins/spell/gedit-spell-plugin.c:124
+msgid "_Highlight Misspelled Words"
+msgstr "_Verlig spelfoute"
+
+#: ../plugins/spell/gedit-spell-plugin.c:126
+msgid "Automatically spell-check the current document"
+msgstr "Kontroleer die huidige dokument se spelling outomaties"
+
+#: ../plugins/spell/gedit-spell-plugin.c:817
+msgid "The document is empty."
+msgstr "Die dokument is leeg."
+
+#: ../plugins/spell/gedit-spell-plugin.c:842
+msgid "No misspelled words"
+msgstr "Geen spelfoute nie"
+
+#. ex:ts=8:noet:
+#: ../plugins/spell/languages-dialog.ui.h:1
+msgid "Select the _language of the current document."
+msgstr "Kies die _taal van die huidige dokument."
+
+#: ../plugins/spell/spell-checker.ui.h:1
+msgid "Add w_ord"
+msgstr "Voeg w_oord by"
+
+#: ../plugins/spell/spell-checker.ui.h:2
+msgid "Cha_nge"
+msgstr "Wy_sig"
+
+#: ../plugins/spell/spell-checker.ui.h:3
+msgid "Change A_ll"
+msgstr "Wysig al_mal"
+
+#: ../plugins/spell/spell-checker.ui.h:4
+msgid "Change _to:"
+msgstr "Wysig _na:"
+
+#: ../plugins/spell/spell-checker.ui.h:5
+msgid "Check _Word"
+msgstr "Kontroleer _woord"
+
+#: ../plugins/spell/spell-checker.ui.h:6
+msgid "Check spelling"
+msgstr "Kontroleer spelling"
+
+#: ../plugins/spell/spell-checker.ui.h:7
+msgid "Ignore _All"
+msgstr "Ignoreer _almal"
+
+#: ../plugins/spell/spell-checker.ui.h:8
+msgid "Language"
+msgstr "Taal"
+
+#: ../plugins/spell/spell-checker.ui.h:9
+msgid "Language:"
+msgstr "Taal:"
+
+#: ../plugins/spell/spell-checker.ui.h:10
+msgid "Misspelled word:"
+msgstr "Verkeerd gespelde woord:"
+
+#: ../plugins/spell/spell-checker.ui.h:11
+msgid "User dictionary:"
+msgstr "Gebuikerwoordeboek:"
+
+#: ../plugins/spell/spell-checker.ui.h:12
+msgid "_Ignore"
+msgstr "_Ignoreer"
+
+#: ../plugins/spell/spell-checker.ui.h:13
+msgid "_Suggestions:"
+msgstr "_Voorstelle:"
+
+#: ../plugins/spell/spell-checker.ui.h:14
+msgid "word"
+msgstr "woord"
+
+#: ../plugins/spell/spell.plugin.desktop.in.h:1
+msgid "Checks the spelling of the current document."
+msgstr "Gaan die huidige dokument se spelling na."
+
+#: ../plugins/spell/spell.plugin.desktop.in.h:2
+msgid "Spell Checker"
+msgstr "Speltoetser"
+
+#: ../plugins/time/gedit-time-plugin.c:188
+msgid "In_sert Date and Time..."
+msgstr "Vo_eg datum en tyd in..."
+
+#: ../plugins/time/gedit-time-plugin.c:190
+msgid "Insert current date and time at the cursor position"
+msgstr "Voeg die huidige datum en tyd by die wyserposisie in"
+
+#: ../plugins/time/gedit-time-plugin.c:551
+msgid "Available formats"
+msgstr "Beskikbare formate"
+
+#. ex:ts=8:noet:
+#: ../plugins/time/time.plugin.desktop.in.h:1
+msgid "Insert Date/Time"
+msgstr "Voeg datum/tyd in"
+
+#: ../plugins/time/time.plugin.desktop.in.h:2
+msgid "Inserts current date and time at the cursor position."
+msgstr "Voeg huidige datum en tyd by die wyserposisie in."
+
+#: ../plugins/time/org.gnome.gedit.plugins.time.gschema.xml.in.in.h:1
+msgid "Custom Format"
+msgstr "Pasgemaakte formaat"
+
+#: ../plugins/time/org.gnome.gedit.plugins.time.gschema.xml.in.in.h:2
+msgid ""
+"If the user should be prompted for a format or if the selected or custom "
+"format should be used."
+msgstr ""
+
+#: ../plugins/time/org.gnome.gedit.plugins.time.gschema.xml.in.in.h:3
+msgid "Prompt Type"
+msgstr ""
+
+#: ../plugins/time/org.gnome.gedit.plugins.time.gschema.xml.in.in.h:4
+msgid "Selected Format"
+msgstr ""
+
+#: ../plugins/time/org.gnome.gedit.plugins.time.gschema.xml.in.in.h:5
+msgid "The custom format used when inserting the date/time."
+msgstr ""
+
+#: ../plugins/time/org.gnome.gedit.plugins.time.gschema.xml.in.in.h:6
+msgid "The selected format used when inserting the date/time."
+msgstr ""
+
+#. Translators: Use the more common date format in your locale
+#: ../plugins/time/gedit-time-dialog.ui.h:3
+#: ../plugins/time/gedit-time-setup-dialog.ui.h:4
+#, no-c-format
+msgid "%d/%m/%Y %H:%M:%S"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+#. Translators: This example should follow the date format defined in the entry above
+#: ../plugins/time/gedit-time-dialog.ui.h:4
+#: ../plugins/time/gedit-time-setup-dialog.ui.h:6
+msgid "01/11/2009 17:52:00"
+msgstr "2009-11-01 17:52:00"
+
+#: ../plugins/time/gedit-time-dialog.ui.h:5
+msgid "Insert Date and Time"
+msgstr "Voeg datum en tyd in"
+
+#: ../plugins/time/gedit-time-dialog.ui.h:6
+#: ../plugins/time/gedit-time-setup-dialog.ui.h:8
+msgid "Use the _selected format"
+msgstr "Gebruik die ge_selekteerde formaat"
+
+#: ../plugins/time/gedit-time-dialog.ui.h:7
+msgid "_Insert"
+msgstr "Voeg _in"
+
+#: ../plugins/time/gedit-time-dialog.ui.h:8
+#: ../plugins/time/gedit-time-setup-dialog.ui.h:11
+msgid "_Use custom format"
+msgstr "Gebr_uik doelgemaakte formaat"
+
+#: ../plugins/time/gedit-time-setup-dialog.ui.h:7
+msgid "Configure date/time plugin"
+msgstr "Stel datum/tyd-inprop op"
+
+#: ../plugins/time/gedit-time-setup-dialog.ui.h:9
+msgid "When inserting date/time..."
+msgstr "Wanneer datum/tyd ingevoeg word..."
+
+#: ../plugins/time/gedit-time-setup-dialog.ui.h:10
+msgid "_Prompt for a format"
+msgstr "_Vra vir 'n formaat"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:1
+msgid "Logs access and leave event for documents used with gedit"
+msgstr ""
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:2
+msgid "Zeitgeist dataprovider"
+msgstr ""
+
+#~ msgid "Auto Detected Encodings"
+#~ msgstr "Outobespeurde enkoderings"
+
+#~ msgid "Auto Save"
+#~ msgstr "Outostoor"
+
+#~ msgid "Auto Save Interval"
+#~ msgstr "Outostoor-interval"
+
+#~ msgid "Auto indent"
+#~ msgstr "Outokeep"
+
+#~ msgid "Backup Copy Extension"
+#~ msgstr "Rugsteunkopie-uitbreiding"
+
+#~ msgid "Bottom Panel is Visible"
+#~ msgstr "Onderste paneel is sigbaar"
+
+#~ msgid ""
+#~ "Extension or suffix to use for backup file names. This will only take effect "
+#~ "if the \"Create Backup Copies\" option is turned on."
+#~ msgstr ""
+#~ "Uitbreiding of agtervoegsel om vir rugsteunlêername te gebruik. Dit sal eers "
+#~ "in werking tree as die \"Maak rugsteunkopieë\"-opsie in werking gestel word."
+
+#~ msgid "Highlight Matching Bracket"
+#~ msgstr "Verlig passende hakkie"
+
+#~ msgid ""
+#~ "List of encodings shown in Character Coding menu in open/save file selector. "
+#~ "Only recognized encodings are used."
+#~ msgstr ""
+#~ "Lys enkoderings vertoon in karakterenkodering-kieslys in open/stoor-"
+#~ "lêerkieser. Slegs herkende enkoderings word gebruik."
+
+#~ msgid "Max Number of Undo Actions"
+#~ msgstr "Maksimum aantal ontdoen-aksies"
+
+#~ msgid "Monospace 12"
+#~ msgstr "Monospace 12"
+
+#~ msgid "Monospace 9"
+#~ msgstr "Monospace 9"
+
+#~ msgid ""
+#~ "Number of minutes after which gedit will automatically save modified files. "
+#~ "This will only take effect if the \"Auto Save\" option is turned on."
+#~ msgstr ""
+#~ "Getal minute na gedit gewysigde lêers outomaties sal stoor. Dit sal eers in "
+#~ "werking tree as die \"Outostoor\"-opsie in werking gestel word."
+
+#~ msgid "Sans 11"
+#~ msgstr "Sans 11"
+
+#~ msgid "Sans 8"
+#~ msgstr "Sans 8"
+
+#, fuzzy
+#~ msgid "Side Pane is Visible"
+#~ msgstr "Statusstaaf is sigbaar"
+
+#, fuzzy
+#~ msgid ""
+#~ "Sorted list of encodings used by gedit for auto-detecting the encoding of a "
+#~ "file. \"CURRENT\" represents the current locale encoding. Only recognized "
+#~ "encodings are used."
+#~ msgstr ""
+#~ "Gesorteerde lys enkoderings deur gedit gebruik om die enkodering van 'n lêer "
+#~ "te outospeur. \"CURRENT\" is die huidige lokaliteit se enkodering. Slegs "
+#~ "herkende enkoderings word gebruik."
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for no "
+#~ "wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+#~ "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+#~ "the values are case-sensitive, so make sure they appear exactly as mentioned "
+#~ "here."
+#~ msgstr ""
+#~ "Spesifiseer hoe lang reëls gevou word vir drukwerk. Gebruik \"GTK_WRAP_NONE"
+#~ "\" vir geen omvou, \"GTK_WRAP_WORD\" vir omvou by woordgrense, en "
+#~ "\"GTK_WRAP_CHAR\" vir omvou by individuele karakters se grense. Let op dat "
+#~ "die waardes kas-sensitief is.  Maak dus seker hulle verskyn presies soos "
+#~ "hierbo vermeld."
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE\" "
+#~ "for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+#~ "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+#~ "the values are case-sensitive, so make sure they appear exactly as mentioned "
+#~ "here."
+#~ msgstr ""
+#~ "Spesifiseer hoe om lang reëls in die redigeerbare streek te vou. Gebruik "
+#~ "\"GTK_WRAP_NONE\" vir geen omvou, \"GTK_WRAP_WORD\" vir omvou by "
+#~ "woordgrense, en \"GTK_WRAP_CHAR\" vir omvou by individuele karakters se "
+#~ "grense. Let op dat die waardes kas-sensitief is.  Maak dus seker hulle "
+#~ "verskyn presies soos hierbo vermeld."
+
+#~ msgid ""
+#~ "Style for the toolbar buttons. Possible values are \"GEDIT_TOOLBAR_SYSTEM\" "
+#~ "to use the system's default style, \"GEDIT_TOOLBAR_ICONS\" to display icons "
+#~ "only, \"GEDIT_TOOLBAR_ICONS_AND_TEXT\" to display both icons and text, and "
+#~ "\"GEDIT_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons. "
+#~ "Note that the values are case-sensitive, so make sure they appear exactly as "
+#~ "mentioned here."
+#~ msgstr ""
+#~ "Styl vir nutsbalkknoppies. Moontlike waardes is \"GEDIT_TOOLBAR_SYSTEM\" vir "
+#~ "die stelsel se verstekstyl, \"GEDIT_TOOLBAR_ICONS\" om net ikone te vertoon, "
+#~ "\"GEDIT_TOOLBAR_ICONS_AND_TEXT\" om beide ikone en teks te vertoon, en "
+#~ "\"GEDIT_TOOLBAR_ICONS_BOTH_HORIZ\" om geprioritiseerde teks langs ikone te "
+#~ "vertoon. Let op dat die waardes kas-sensitief is.  Maak dus seker hulle "
+#~ "verskyn presies soos hierbo vermeld."
+
+#~ msgid "Toolbar Buttons Style"
+#~ msgstr "Nutsbalkknoppiestyl"
+
+#~ msgid ""
+#~ "Whether gedit should automatically save modified files after a time "
+#~ "interval. You can set the time interval with the \"Auto Save Interval\" "
+#~ "option."
+#~ msgstr ""
+#~ "Of gedit gewysigde lêers outomaties na 'n sekere interval moet stoor. Jy kan "
+#~ "die interval met die \"Outostoorinterval\"-opsie stel."
+
+#~ msgid "Whether gedit should enable auto indentation."
+#~ msgstr "Of gedit outo-inkeping moet aktiveer."
+
+#, fuzzy
+#~ msgid "Whether gedit should highlight matching bracket."
+#~ msgstr "Of gedit bypassende hakie moet verlig."
+
+#, fuzzy
+#~ msgid ""
+#~ "Whether the bottom panel at the bottom of editing windows should be visible."
+#~ msgstr "Of die statusstaaf onderaan redigeervensters sigbaar moet wees."
+
+#, fuzzy
+#~ msgid ""
+#~ "Whether the side pane at the left of the editing window should be visible."
+#~ msgstr "Of die statusstaaf onderaan redigeervensters sigbaar moet wees."
+
+#~ msgid "Logout _without Saving"
+#~ msgstr "Meld af _sonder om te stoor"
+
+#~ msgid "Character Codings"
+#~ msgstr "Karakterkoderings"
+
+#~ msgid "Character codings"
+#~ msgstr "Karakterkoderings"
+
+#~ msgid "Push this button to select the font to be used by the editor"
+#~ msgstr ""
+#~ "Druk dié knoppie om die font te kies wat gebruik moet word deur die "
+#~ "redigeerder"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "<b>Automatic Indentation</b>"
+#~ msgstr "<b>Outo-inkeping</b>"
+
+#~ msgid "<b>Bracket Matching</b>"
+#~ msgstr "<b>Hakkie-passing</b>"
+
+#~ msgid "<b>Current Line</b>"
+#~ msgstr "<b>Huidige reël</b>"
+
+#~ msgid "<b>File Saving</b>"
+#~ msgstr "<b>Stoor van lêers</b>"
+
+#~ msgid "<b>Font</b>"
+#~ msgstr "<b>Font</b>"
+
+#~ msgid "<b>Line Numbers</b>"
+#~ msgstr "<b>Reëlnommers</b>"
+
+#~ msgid "<b>Right Margin</b>"
+#~ msgstr "<b>Regterkantlyn</b>"
+
+#~ msgid "<b>Tab Stops</b>"
+#~ msgstr "<b>Kepe</b>"
+
+#~ msgid "<b>Text Wrapping</b>"
+#~ msgstr "<b>Teksomvou</b>"
+
+#~ msgid "<span weight=\"bold\">Color Scheme</span>"
+#~ msgstr "<span weight=\"bold\">Kleurskema</span>"
+
+#~ msgid "Display right _margin"
+#~ msgstr "V_ertoon regterkantlyn"
+
+#~ msgid "Highlight matching _bracket"
+#~ msgstr "Verlig passende _hakkie"
+
+#~ msgid "_Right margin at column:"
+#~ msgstr "_Regterkantlyn by kolom:"
+
+#~ msgid "Create a new toplevel window in an existing instance of gedit"
+#~ msgstr "Skep 'n nuwe bovlakvenster in 'n bestaande geval van gedit"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[LÊER...]"
+
+#~ msgid "Save As…"
+#~ msgstr "Stoor as…"
+
+#~ msgid "Read Only"
+#~ msgstr "Leesalleen"
+
+#~ msgid "Auto Detected"
+#~ msgstr "Outobespeur"
+
+#~ msgid "Add or _Remove..."
+#~ msgstr "Voeg by of _verwyder..."
+
+#~ msgid "C_haracter Coding:"
+#~ msgstr "K_arakterkodering:"
+
+#~ msgid "There was an error displaying help."
+#~ msgstr "Daar was 'n fout by vertoon van hulp."
+
+#, c-format
+#~ msgid ""
+#~ "Host name was invalid. Please check that you typed the location correctly "
+#~ "and try again."
+#~ msgstr ""
+#~ "Gasheernaaam was ongeldig. Maak seker jy't die ligging reg ingetik en "
+#~ "probeer weer."
+
+#~ msgid "Ch_aracter Coding:"
+#~ msgstr "K_arakterkodering:"
+
+#~ msgid "gedit has not been able to detect the character coding."
+#~ msgstr "gedit kon nie die karakterkodering bepaal nie."
+
+#~ msgid "Select a character coding from the menu and try again."
+#~ msgstr "Kies 'n karakterkodering van die kieslys en probeer weer."
+
+#, fuzzy, c-format
+#~ msgid "Could not open the file %s using the %s character coding."
+#~ msgstr "Kon nie die lêer \"%s\" met die karakterkodering %s open nie."
+
+#~ msgid "Select a different character coding from the menu and try again."
+#~ msgstr "Kies 'n ander karakterkodering van die kieslys en probeer weer."
+
+#, c-format
+#~ msgid "Could not save the file %s using the %s character coding."
+#~ msgstr "Kon nie die lêer \"%s\" stoor met die karakterkodering %s nie."
+
+#~ msgid ""
+#~ "The document contains one or more characters that cannot be encoded using "
+#~ "the specified character coding."
+#~ msgstr ""
+#~ "Die dokument bevat een of meer karakters wat nie met die gespesifiseerde "
+#~ "kodering geënkodeer kan word nie."
+
+#~ msgid ""
+#~ "gedit could not backup the old copy of the file before saving the new one. "
+#~ "You can ignore this warning and save the file anyway, but if an error occurs "
+#~ "while saving, you could lose the old copy of the file. Save anyway?"
+#~ msgstr ""
+#~ "gedit kon nie 'n rugsteunkopie van die lêer maak voordat die nuwe weergawe "
+#~ "gestoor is, nie. Dit staan jou vry om hierdie waarskuwing te ignoreer en die "
+#~ "lêer in iedere geval te stoor, maar indien 'n fout tydens die stoor sou "
+#~ "voorkom, kan dit gebeur dat die ou weergawe verlore raak. Nogtans voortgaan "
+#~ "en stoor?"
+
+#~ msgid ""
+#~ "The disk where you are trying to save the file has a limitation on file "
+#~ "sizes.  Please try saving a smaller file or saving it to a disk that does "
+#~ "not have this limitation."
+#~ msgstr ""
+#~ "Die skyf waarheen jy die lêer probeer stoor het 'n beperking op "
+#~ "lêergroottes.  Probeer 'n kleiner lêer stoor, of stoor dit op 'n skyf wat "
+#~ "nie hierdie beperking het nie."
+
+#, fuzzy
+#~ msgid "Could not obtain backup filename"
+#~ msgstr "Kon nie rugsteunlêernaam verkry nie"
+
+#~ msgid "Plugin"
+#~ msgstr "Inprop"
+
+#~ msgid "Enabled"
+#~ msgstr "Geaktiveer"
+
+#~ msgid "_About"
+#~ msgstr "_Aangaande"
+
+#~ msgid "C_onfigure"
+#~ msgstr "_Opstelling"
+
+#~ msgid "A_ctivate"
+#~ msgstr "A_ktiveer"
+
+#~ msgid "Ac_tivate All"
+#~ msgstr "Aktiveer _almal"
+
+#~ msgid "_Deactivate All"
+#~ msgstr "_Deaktiveer almal"
+
+#, fuzzy
+#~ msgid "Active _Plugins:"
+#~ msgstr "Aktiewe inproppe"
+
+#~ msgid "_About Plugin"
+#~ msgstr "_Aangaande inprop"
+
+#~ msgid "C_onfigure Plugin"
+#~ msgstr "S_tel inprop op"
+
+#~ msgid "Cannot initialize preferences manager."
+#~ msgstr "Kon nie voorkeurebestuurder inisialiseer nie."
+
+#, c-format
+#~ msgid "Expected `%s' got `%s' for key %s"
+#~ msgstr "`%s' verwag, `%s' gekry vir sleutel %s"
+
+#~ msgid "<b>Fonts</b>"
+#~ msgstr "<b>Fonte</b>"
+
+#~ msgid "<b>Page header</b>"
+#~ msgstr "<b>Bladsykop</b>"
+
+#~ msgid "<b>Syntax Highlighting</b>"
+#~ msgstr "<b>Sintaksverligting</b>"
+
+#~ msgid "Page Set_up..."
+#~ msgstr "Bladsyops_telling..."
+
+#~ msgid "Setup the page settings"
+#~ msgstr "Stel die bladsyinstelling op"
+
+#~ msgid "_Incremental Search..."
+#~ msgstr "_Inkrementele soektog"
+
+#~ msgid "Incrementally search for text"
+#~ msgstr "Inkrementele soektog vir teks"
+
+#~ msgid "_Next Document"
+#~ msgstr "V_olgende dokument"
+
+#, fuzzy
+#~ msgid "Edit text at fullscreen"
+#~ msgstr "Redigeer tekslêers in volskermmodus"
+
+#, fuzzy
+#~ msgid "Side _Pane"
+#~ msgstr "Sy_paneel"
+
+#~ msgid "Show or hide the side pane in the current window"
+#~ msgstr "Wys of versteek die sypaneel in die huidige venster"
+
+#, fuzzy
+#~ msgid "Show or hide the bottom pane in the current window"
+#~ msgstr "Wys of versteek die onderste paneel in die huidige venster"
+
+#, fuzzy, c-format
+#~ msgid "Unable to open ui file %s. Error: %s"
+#~ msgstr "Kon nie ui-lêer %s oopmaak nie. Fout: %s"
+
+#, fuzzy
+#~ msgid "There was an error displaying the url."
+#~ msgstr "Daar was 'n fout met die vertoon van die URL."
+
+#~ msgid ""
+#~ "You can download the new version of gedit by pressing on the download button"
+#~ msgstr ""
+#~ "Die nuwe weergawe van gedit kan afgelaai word deur op die aflaai-knoppie te "
+#~ "druk"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "<span weight=\"bold\">File Name</span>"
+#~ msgstr "<span weight=\"bold\">Lêernaam</span>"
+
+#~ msgid "Get statistic info on current document"
+#~ msgstr "Kry statistiek oor huidige dokument"
+
+#~ msgid "Easy file access from the side pane"
+#~ msgstr "Maklike lêertoegang uit die sypa"
+
+#~ msgid "File Browser Pane"
+#~ msgstr "Lêerblaaierpaneel"
+
+#~ msgid "_Move To Trash"
+#~ msgstr "_Skuif na gemors"
+
+#~ msgid "_Indent"
+#~ msgstr "_Keep"
+
+#~ msgid "Indent selected lines"
+#~ msgstr "Keep gemerkte reëls"
+
+#~ msgid "U_nindent"
+#~ msgstr "Ont_keep"
+
+#~ msgid "Unindent selected lines"
+#~ msgstr "Ontkeep gemerkte reëls"
+
+#~ msgid "Indent Lines"
+#~ msgstr "Keep reëls"
+
+#~ msgid "Indents or un-indents selected lines."
+#~ msgstr "Keep of ontkeep gemerkte reëls."
+
+#~ msgid "Interactive python console standing in the bottom panel"
+#~ msgstr "Interaktiewe python-konsole in die onderste paneel"
+
+#~ msgid "Quickly open documents"
+#~ msgstr "Open dokumente vinnig"
+
+#~ msgid "Insert often used pieces of text in a fast way"
+#~ msgstr "Voeg dikwels gebruikte flenters teks op 'n vinnige manier in"
+
+#~ msgid "Single word with which the snippet is activated after pressing tab"
+#~ msgstr ""
+#~ "Enkele woord wat die flenter aktiveer ná dat die keepsleutel (Tab) gedruk "
+#~ "word"
+
+#~ msgid "Snippets Manager"
+#~ msgstr "Flentersbestuurder"
+
+#, python-format
+#~ msgid "The archive `%s` could not be created"
+#~ msgstr "Die argief `%s` kon nie geskep word nie"
+
+#, python-format
+#~ msgid "Target directory `%s` does not exist"
+#~ msgstr "Die teikengids `%s` bestaan nie"
+
+#, python-format
+#~ msgid "Target directory `%s` is not a valid directory"
+#~ msgstr "Teikengids `%s` is nie 'n geldige gids nie"
+
+#, fuzzy, python-format
+#~ msgid "File `%s` does not exist"
+#~ msgstr "Lêer `%s` bestaan nie"
+
+#, python-format
+#~ msgid "File `%s` is not a valid snippets file"
+#~ msgstr "Lêer `%s` is nie 'n geldige flenterslêer nie"
+
+#, python-format
+#~ msgid "Imported file `%s` is not a valid snippets file"
+#~ msgstr "Ingevoerde lêer `%s` is nie 'n geldige flenterslêer nie"
+
+#, python-format
+#~ msgid "The archive `%s` could not be extracted"
+#~ msgstr "Die argief `%s` kon nie uitgepak word nie"
+
+#, python-format
+#~ msgid "File `%s` is not a valid snippets archive"
+#~ msgstr "Lêer `%s` is nie 'n geldige flentersargief nie"
+
+#, python-format
+#~ msgid ""
+#~ "Execution of the python command (%s) exceeds the maximum time, execution "
+#~ "aborted."
+#~ msgstr ""
+#~ "Uitvoer van die python-bevel (%s) oorskry die maksimale tyd, uitvoer "
+#~ "afgelas."
+
+#, python-format
+#~ msgid "Execution of the python command (%s) failed: %s"
+#~ msgstr "Uitvoer van die python-bevel (%s) het misluk: %s"
+
+#~ msgid "_Autocheck Spelling"
+#~ msgstr "_Gaan spelling outomaties na"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Language</b>"
+#~ msgstr "<b>Taal</b>"
+
+#~ msgid "<b>word</b>"
+#~ msgstr "<b>woord</b>"
+
+#~ msgid "Tags"
+#~ msgstr "Merkers"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Kies die groep merkers wat jy wil gebruik"
+
+#~ msgid "_Preview"
+#~ msgstr "_Voorskou"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "Beskikbare merkerlyste"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "Afgekorte vorm"
+
+#~ msgid "Abbreviation"
+#~ msgstr "Afkorting"
+
+#~ msgid "Acronym"
+#~ msgstr "Akroniem"
+
+#~ msgid "Align"
+#~ msgstr "Belyn"
+
+#~ msgid "Alignment character"
+#~ msgstr "Belyningskarakter"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternatief"
+
+#~ msgid "Anchor"
+#~ msgstr "Anker"
+
+#~ msgid "Anchor URI"
+#~ msgstr "Anker-URI"
+
+#~ msgid "Author info"
+#~ msgstr "Outeurinligting"
+
+#~ msgid "Background color"
+#~ msgstr "Agtergrondkleur"
+
+#~ msgid "Background texture tile"
+#~ msgstr "Tekstuurteël vir agtergrond"
+
+#~ msgid "Base URI"
+#~ msgstr "Basis-URI"
+
+#~ msgid "Base font"
+#~ msgstr "Basis-font"
+
+#~ msgid "Bold"
+#~ msgstr "Vetdruk"
+
+#~ msgid "Border"
+#~ msgstr "Rand"
+
+#~ msgid "Border color"
+#~ msgstr "Randkleur"
+
+#~ msgid "Center"
+#~ msgstr "Middel"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "Karakterkodering van geskakelde hulpbron"
+
+#~ msgid "Checked (state)"
+#~ msgstr "Gemerk (status)"
+
+#~ msgid "Checked state"
+#~ msgstr "Gemerkte status"
+
+#~ msgid "Citation"
+#~ msgstr "Aanhaling"
+
+#, fuzzy
+#~ msgid "Class list"
+#~ msgstr "Merkerlys"
+
+#, fuzzy
+#~ msgid "Color of selected links"
+#~ msgstr "Kopieer gemerkte reëls"
+
+#, fuzzy
+#~ msgid "Column span"
+#~ msgstr "Kolomoorspanning:"
+
+#~ msgid "Columns"
+#~ msgstr "Kolomme"
+
+#~ msgid "Comment"
+#~ msgstr "Kommentaar"
+
+#, fuzzy
+#~ msgid "Content scheme"
+#~ msgstr "_Inhoud"
+
+#, fuzzy
+#~ msgid "Content type"
+#~ msgstr "_Inhoud"
+
+#~ msgid "Coordinates"
+#~ msgstr "Koördinate"
+
+#, fuzzy
+#~ msgid "Defer attribute"
+#~ msgstr "Minder attribute"
+
+#, fuzzy
+#~ msgid "Definition description"
+#~ msgstr "_Beskrywing"
+
+#, fuzzy
+#~ msgid "Definition list"
+#~ msgstr "Definisielys"
+
+#, fuzzy
+#~ msgid "Deleted text"
+#~ msgstr "Skrap die gemerkte teks"
+
+#, fuzzy
+#~ msgid "Direction"
+#~ msgstr "Bretons"
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr "Geaktiveer"
+
+#, fuzzy
+#~ msgid "Document base"
+#~ msgstr "_Dokumente"
+
+#, fuzzy
+#~ msgid "Document body"
+#~ msgstr "_Dokumente"
+
+#, fuzzy
+#~ msgid "Document head"
+#~ msgstr "_Dokumente"
+
+#, fuzzy
+#~ msgid "Document title"
+#~ msgstr "Dokumentstatistiek"
+
+#, fuzzy
+#~ msgid "Document type"
+#~ msgstr "_Dokumente"
+
+#, fuzzy
+#~ msgid "Element ID"
+#~ msgstr "Elemente"
+
+#, fuzzy
+#~ msgid "Emphasis"
+#~ msgstr "&Benadruk"
+
+#, fuzzy
+#~ msgid "Font face"
+#~ msgstr "Fontnaam"
+
+#, fuzzy
+#~ msgid "For label"
+#~ msgstr "etiket"
+
+#, fuzzy
+#~ msgid "Form"
+#~ msgstr "Normaal"
+
+#~ msgid "Frame"
+#~ msgstr "Raam"
+
+#, fuzzy
+#~ msgid "Frameset"
+#~ msgstr "Färoërs"
+
+#, fuzzy
+#~ msgid "Frameset columns"
+#~ msgstr "B_egin by kolom:"
+
+#, fuzzy
+#~ msgid "Generic span"
+#~ msgstr "Algemeen"
+
+#, fuzzy
+#~ msgid "Heading"
+#~ msgstr "Kop 1"
+
+#~ msgid "Heading 1"
+#~ msgstr "Kop 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "Kop 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "Kop 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Kop 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Kop 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Kop 6"
+
+#, fuzzy
+#~ msgid "Height"
+#~ msgstr "Hoogte:"
+
+#, fuzzy
+#~ msgid "Horizontal rule"
+#~ msgstr "Horisontale streep"
+
+#, fuzzy
+#~ msgid "Horizontal space"
+#~ msgstr "Horisontale streep"
+
+#~ msgid "Image"
+#~ msgstr "Prent"
+
+#~ msgid "Image map"
+#~ msgstr "Prentkaart"
+
+#~ msgid "Image map area"
+#~ msgstr "Prentkaartarea"
+
+#~ msgid "Image map name"
+#~ msgstr "Prentkaartnaam"
+
+#~ msgid "Image source"
+#~ msgstr "Prentbron"
+
+#~ msgid "Inserted text"
+#~ msgstr "Ingevoegde teks"
+
+#~ msgid "Italic text"
+#~ msgstr "Skuins teks"
+
+#~ msgid "Label"
+#~ msgstr "Etiket"
+
+#~ msgid "Language code"
+#~ msgstr "Taalkode"
+
+#~ msgid "Large text style"
+#~ msgstr "Groot teksstyl"
+
+#~ msgid "Layer"
+#~ msgstr "Laag"
+
+#~ msgid "Link color"
+#~ msgstr "Skakelkleur"
+
+#, fuzzy
+#~ msgid "List item"
+#~ msgstr "Lysitem"
+
+#, fuzzy
+#~ msgid "Local change to font"
+#~ msgstr "Kies die redigeerfont"
+
+#, fuzzy
+#~ msgid "Long description link"
+#~ msgstr "_Beskrywing"
+
+#~ msgid "Long quotation"
+#~ msgstr "Lang aanhaling"
+
+#~ msgid "Mail link"
+#~ msgstr "Posskakel"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "Naam:"
+
+#, fuzzy
+#~ msgid "No embedded objects"
+#~ msgstr "Vertoon ingebedde objekte"
+
+#, fuzzy
+#~ msgid "No resize"
+#~ msgstr "Vertoon grootte"
+
+#, fuzzy
+#~ msgid "Note"
+#~ msgstr "Aantekeninge"
+
+#, fuzzy
+#~ msgid "Object applet file"
+#~ msgstr "Open 'n lêer"
+
+#, fuzzy
+#~ msgid "OnChange event"
+#~ msgstr "Wy_sig"
+
+#, fuzzy
+#~ msgid "Option group"
+#~ msgstr "Opsiegroep"
+
+#, fuzzy
+#~ msgid "Option selector"
+#~ msgstr "Fontseleksie"
+
+#, fuzzy
+#~ msgid "Ordered list"
+#~ msgstr "Onderstreep"
+
+#, fuzzy
+#~ msgid "Output media"
+#~ msgstr "Afvoerlêers"
+
+#~ msgid "Paragraph"
+#~ msgstr "Paragraaf"
+
+#, fuzzy
+#~ msgid "Preformatted text"
+#~ msgstr "Voorskouteks"
+
+#, fuzzy
+#~ msgid "Push button"
+#~ msgstr "button1"
+
+#, fuzzy
+#~ msgid "Quote"
+#~ msgstr "Afsluit"
+
+#, fuzzy
+#~ msgid "Range"
+#~ msgstr "Wy_sig"
+
+#, fuzzy
+#~ msgid "Reverse link"
+#~ msgstr "_Keer volgorde om"
+
+#~ msgid "Rows"
+#~ msgstr "Rye"
+
+#, fuzzy
+#~ msgid "Script language name"
+#~ msgstr "Stel taal op"
+
+#, fuzzy
+#~ msgid "Selectable option"
+#~ msgstr "Kies 'n lêer om te open"
+
+#, fuzzy
+#~ msgid "Selected"
+#~ msgstr "_Stoor geselekteerde(s)"
+
+#, fuzzy
+#~ msgid "Shape"
+#~ msgstr "Stoor"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Keepgrootte"
+
+#, fuzzy
+#~ msgid "Small text style"
+#~ msgstr "Alle tekslêers"
+
+#~ msgid "Sound"
+#~ msgstr "Klank"
+
+#~ msgid "Source"
+#~ msgstr "Bron"
+
+#, fuzzy
+#~ msgid "Spacer"
+#~ msgstr "Vervang"
+
+#~ msgid "Square root"
+#~ msgstr "Vierkantswortel"
+
+#, fuzzy
+#~ msgid "Starting sequence number"
+#~ msgstr "Druk _reëlnommers"
+
+#, fuzzy
+#~ msgid "Strike-through text"
+#~ msgstr "Deurhaal"
+
+#, fuzzy
+#~ msgid "Strike-through text style"
+#~ msgstr "Deurhaal"
+
+#, fuzzy
+#~ msgid "Strong emphasis"
+#~ msgstr "Sterk beklemtoning"
+
+#~ msgid "Style info"
+#~ msgstr "Stylinligting"
+
+#~ msgid "Subscript"
+#~ msgstr "Onderskrif"
+
+#, fuzzy
+#~ msgid "Superscript"
+#~ msgstr "Boskrif"
+
+#~ msgid "Table"
+#~ msgstr "Tabel"
+
+#~ msgid "Table body"
+#~ msgstr "Tabelliggaam"
+
+#, fuzzy
+#~ msgid "Table caption"
+#~ msgstr "Tabelbyskrif"
+
+#~ msgid "Table row"
+#~ msgstr "Tabelry"
+
+#, fuzzy
+#~ msgid "Table summary"
+#~ msgstr "Tabelopsomming:"
+
+#~ msgid "Text"
+#~ msgstr "Teks"
+
+#, fuzzy
+#~ msgid "Text color"
+#~ msgstr "Tekskleur"
+
+#, fuzzy
+#~ msgid "Text entered by user"
+#~ msgstr "Teks deur die gebruiker ingevoer"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Topmargin in pixels"
+#~ msgstr "Boonste kantruimte in pixel"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#, fuzzy
+#~ msgid "Underlined text style"
+#~ msgstr "Onderstreep"
+
+#, fuzzy
+#~ msgid "Unordered list"
+#~ msgstr "Onderstreep"
+
+#~ msgid "Use image map"
+#~ msgstr "Gebruik prentkaart"
+
+#~ msgid "Value"
+#~ msgstr "Waarde"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "Vertikale selbelyning"
+
+#, fuzzy
+#~ msgid "Vertical space"
+#~ msgstr "Voeg spasies in"
+
+#, fuzzy
+#~ msgid "Visited link color"
+#~ msgstr "Kies die merkkleur"
+
+#~ msgid "Width"
+#~ msgstr "Wydte"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Verwysings (cite)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "Verwysings (item)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Verwysings (shortcite)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Verwysings (thebibliography)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "Hakies ()"
+
+#~ msgid "Brackets <>"
+#~ msgstr "Hakies <>"
+
+#~ msgid "Brackets []"
+#~ msgstr "Hakies {}"
+
+#~ msgid "Brackets {}"
+#~ msgstr "Hakies {}"
+
+#~ msgid "File input"
+#~ msgstr "Intrek van lêer"
+
+#, fuzzy
+#~ msgid "Footnote"
+#~ msgstr "Voetnoot"
+
+#~ msgid "Function cosin"
+#~ msgstr "Funksie cosinus"
+
+#~ msgid "Function e^"
+#~ msgstr "Funksie e^x"
+
+#~ msgid "Function exp"
+#~ msgstr "Funksie exp"
+
+#~ msgid "Function log"
+#~ msgstr "Funksie log"
+
+#~ msgid "Function log10"
+#~ msgstr "Funksie log10"
+
+#~ msgid "Function sine"
+#~ msgstr "Funksie sinus"
+
+#~ msgid "Greek alpha"
+#~ msgstr "Griekse alfa"
+
+#~ msgid "Greek beta"
+#~ msgstr "Griekse beta"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "Griekse epsilon"
+
+#~ msgid "Greek gamma"
+#~ msgstr "Griekse gamma"
+
+#, fuzzy
+#~ msgid "Greek lambda"
+#~ msgstr "Griekse lambda"
+
+#, fuzzy
+#~ msgid "Greek rho"
+#~ msgstr "Griekse rho"
+
+#, fuzzy
+#~ msgid "Greek tau"
+#~ msgstr "Griekse tau"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "Koptitel 0 (chapter)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "Koptitel 0 (chapter*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "Koptitel 1 (section)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "Koptitel 1 (section*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "Koptitel 2 (subsection)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "Koptitel 2 (subsection*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "Koptitel 3 (subsubsection)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "Koptitel 3 (subsubsection*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "Koptitel 4 (paragraph)"
+
+#~ msgid "Header appendix"
+#~ msgstr "Koptitel appendix"
+
+#~ msgid "Item"
+#~ msgstr "Item"
+
+#~ msgid "Item with label"
+#~ msgstr "Item met etiket"
+
+#~ msgid "Latex - Tags"
+#~ msgstr "LaTeX - merkers"
+
+#, fuzzy
+#~ msgid "List description"
+#~ msgstr "Lys \"description\""
+
+#, fuzzy
+#~ msgid "List enumerate"
+#~ msgstr "Lys \"enumerate\""
+
+#, fuzzy
+#~ msgid "List itemize"
+#~ msgstr "Lys \"itemize\""
+
+#~ msgid "Maths (display)"
+#~ msgstr "Wiskunde (vertoon)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "Wiskunde (inlyn)"
+
+#, fuzzy
+#~ msgid "Operator fraction"
+#~ msgstr "Operator: breuk"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "Operator: integraal (vertoon)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Operator: integraal (inlyn)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "Operator: som (vertoon)"
+
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Operator: som (inlyn)"
+
+#, fuzzy
+#~ msgid "Reference label"
+#~ msgstr "Verwysing \"label\""
+
+#, fuzzy
+#~ msgid "Reference ref"
+#~ msgstr "Verwysing \"ref\""
+
+#~ msgid "Symbol <<"
+#~ msgstr "Simbool <<"
+
+#~ msgid "Symbol <="
+#~ msgstr "Simbool >="
+
+#~ msgid "Symbol >="
+#~ msgstr "Simbool >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "Simbool >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "Simbool en"
+
+#~ msgid "Symbol const"
+#~ msgstr "Simbool konstante"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "Simbool d/dt"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "Simbool parsiële d/dt"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "Simbool parsiële d2/dt2"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "Simbool dolk (\"dagger\")"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "Simbool \"equiv\""
+
+#~ msgid "Symbol hyphen --"
+#~ msgstr "Simbool strepie --"
+
+#~ msgid "Symbol hyphen ---"
+#~ msgstr "Simbool strepie ---"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "Simbool oneindig"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "Simbool mathspace ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "Simbool mathspace ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "Simbool mathspace _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "Simbool mathspace __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "Simbool \"simeq\""
+
+#~ msgid "Symbol star"
+#~ msgstr "Simbool sterretjie \"star\""
+
+#~ msgid "Typeface bold"
+#~ msgstr "Lettertipe vet gedruk"
+
+#~ msgid "Typeface italic"
+#~ msgstr "Lettertipe kursief"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "Lettertipe skuins"
+
+#~ msgid "Typeface type"
+#~ msgstr "Lettertipe tik"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "Onbreekbare teks"
+
+#, fuzzy
+#~ msgid ""
+#~ "Provides a method to easily insert into a document commonly used "
+#~ "tags/strings without having to type them."
+#~ msgstr ""
+#~ "Die merkerlys-inprop verskaf 'n metode om algemeen gebruikte merkers/stringe "
+#~ "maklik in 'n dokument in te voeg sonder om hulle te tik."
+
+#~ msgid "Tag list"
+#~ msgstr "Merkerlys"
+
+#, fuzzy
+#~ msgid "XSLT - Elements"
+#~ msgstr "Elemente"
+
+#, fuzzy
+#~ msgid "attribute"
+#~ msgstr "Attribuut"
+
+#, fuzzy
+#~ msgid "namespace"
+#~ msgstr "Voeg spasies in"
+
+#, fuzzy
+#~ msgid "parent"
+#~ msgstr "Open"
+
+#~ msgid "Configure insert date/time plugin..."
+#~ msgstr "Stel datum/tyd-invoeg-inprop op..."
+
+#~ msgid "<span size=\"small\">01/11/2002 17:52:00</span>"
+#~ msgstr "<span size=\"small\">01/11/2002 17:52:00</span>"
+
+#~ msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+#~ msgstr "<span weight=\"bold\"> Wanneer die datum/tyd ingevoeg word...</span>"
+
+#~ msgid "Open Location"
+#~ msgstr "Open ligging"
+
+#~ msgid "Ch_aracter coding:"
+#~ msgstr "K_arakterkodering:"
+
+#~ msgid "Enter the _location (URI) of the file you would like to open:"
+#~ msgstr "Tik die _ligging (URI) van die lêer in wat jy wil open:"
+
+#~ msgid "The entered location is not valid."
+#~ msgstr "Die gegewe ligging is nie geldig nie."
+
+#~ msgid "The file contains corrupted data."
+#~ msgstr "Die lêer bevat korrupte data."
+
+#~ msgid "The file contains data in an invalid format."
+#~ msgstr "Die lêer bevat data in 'n ongeldige formaat."
+
+#, fuzzy
+#~ msgid ""
+#~ "There are too many open files. Please close some applications and try "
+#~ "again."
+#~ msgstr ""
+#~ "Kon nie die lêer \"%s\" open nie want daar is te veel lêers oop.\n"
+#~ "\n"
+#~ "Sluit 'n paar oop lêers en probeer gerus weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "Not enough available memory to open the file. Please close some running "
+#~ "applications and try again."
+#~ msgstr ""
+#~ "Nie voldoende geheue om die lêer \"%s\" te open nie. Sluit 'n paar "
+#~ "toepassings af en probeer gerus weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "Host name was empty. Please check that your proxy settings are correct "
+#~ "and try again."
+#~ msgstr ""
+#~ "Kon nie die lêer \"%s\" open nie want die gasheernaam is leeg.\n"
+#~ "\n"
+#~ "Maak seker dat jou instaanbedieneropstelling korrek is, en probeer gerus "
+#~ "weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "Attempt to log in failed. Please check that you typed the location "
+#~ "correctly and try again."
+#~ msgstr ""
+#~ "Kon nie die lêer \"%s\" vind nie.\n"
+#~ "\n"
+#~ "Maak seker jy't die ligging reg ingetik en probeer weer."
+
+#~ msgid "The file you are trying to open is not a regular file."
+#~ msgstr "Die lêer wat u probeer open is nie 'n gewone lêer nie."
+
+#, fuzzy
+#~ msgid ""
+#~ "%s is a directory. Please check that you typed the location correctly and "
+#~ "try again."
+#~ msgstr ""
+#~ "\"%s\" is 'n gids.\n"
+#~ "\n"
+#~ "Maak seker jy't die ligging reg ingetik en probeer weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "Not enough available memory to save the file. Please close some running "
+#~ "applications and try again."
+#~ msgstr ""
+#~ "Nie voldoende geheue om die lêer \"%s\" te open nie. Sluit 'n paar "
+#~ "toepassings af en probeer gerus weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "%s is not a regular file. Please check that you typed the location "
+#~ "correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" is nie 'n geldige ligging nie.\n"
+#~ "\n"
+#~ "Maak seker jy't die ligging reg ingetik en probeer weer."
+
+#~ msgid "Open _Location..."
+#~ msgstr "Open _ligging..."
+
+#~ msgid "Open a file from a specified location"
+#~ msgstr "Open 'n lêer van 'n gespesifiseerde ligging"
+
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#~ msgid "Co_mmand(s):"
+#~ msgstr "B_evel(e):"
+
+#, fuzzy
+#~ msgid "_Description:"
+#~ msgstr "_Beskrywing"
+
+#~ msgid "on"
+#~ msgstr "aan"
+
+#~ msgid "Recent Files"
+#~ msgstr "Onlangse lêers"
+
+#~ msgid "Insert User Na_me"
+#~ msgstr "Voeg gebruikern_aam in"
+
+#~ msgid "Insert the user name at the cursor position"
+#~ msgstr "Voeg die gebruikernaam by die wyserposisie in"
+
+#~ msgid "Inserts the user name at the cursor position."
+#~ msgstr "Voeg die gebruikernaam by die wyserposisie in."
+
+#~ msgid "User name"
+#~ msgstr "Gebuikernaam"
+
+#~ msgid "language|%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "language|Unknown (%s)"
+#~ msgstr "Onbekend (%s)"
+
+#~ msgid "language|Default"
+#~ msgstr "Verstek"
+
+#~ msgid "Background Color"
+#~ msgstr "Agtergrondkleur"
+
+#~ msgid ""
+#~ "Background color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Agtergrondkleur vir gemerkte teks in redigeerbare streek. Dit sal eers in "
+#~ "werking tree as die \"Gebruik verstekkleure\"-opsie buite werking gestel "
+#~ "word."
+
+#~ msgid ""
+#~ "Background color for unselected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Agtergrondkleur vir ongemerkte teks in redigeerbare streek. Dit sal eers "
+#~ "in werking tree as die \"Gebruik verstekkleure\"-opsie buite werking "
+#~ "gestel word."
+
+#~ msgid ""
+#~ "Foreground color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Voorgrondkleur vir gemerkte teks in redigeerbare streek. Dit sal eers in "
+#~ "werking tree as die \"Gebruik verstekkleure\"-opsie buite werking gestel "
+#~ "word."
+
+#~ msgid ""
+#~ "Foreground color for the unselected text in the editing area. This will "
+#~ "only take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Voorgrondkleur vir die ongemerkte teks in die redigeerbare streek. Dit "
+#~ "sal eers in werking tree as die \"Gebruik verstekkleure\"-opsie buite "
+#~ "werking gestel word."
+
+#, fuzzy
+#~ msgid "Monospace Regular 9"
+#~ msgstr "Sans Regular 12"
+
+#, fuzzy
+#~ msgid "Sans Regular 11"
+#~ msgstr "Sans Regular 12"
+
+#, fuzzy
+#~ msgid "Sans Regular 8"
+#~ msgstr "Sans Regular 12"
+
+#~ msgid "Selected Text Color"
+#~ msgstr "Geselekteerde tekskleur"
+
+#~ msgid "Selection Color"
+#~ msgstr "Seleksiekleur"
+
+#, fuzzy
+#~ msgid ""
+#~ "Specifies the font to use for a document's body when printing documents. "
+#~ "This is a gnome-print font name and replaced by print_font_body_pango."
+#~ msgstr ""
+#~ "Spesifiseer watter font vir 'n dokument se lyf gebruik moet word wanneer "
+#~ "dokumente gedruk word."
+
+#, fuzzy
+#~ msgid ""
+#~ "Specifies the font to use for line numbers when printing. This will only "
+#~ "take effect if the \"Print Line Numbers\" option is non-zero. This is a "
+#~ "gnome-print font name and replaced by print_font_numbers_pango."
+#~ msgstr ""
+#~ "Spesifiseer watter font vir reëlnommers gebruik moet word by drukwerk. "
+#~ "Dit sal slegs in werking tree wanneer die \"Druk reëlnommers\"-opsie nie-"
+#~ "nul is."
+
+#, fuzzy
+#~ msgid ""
+#~ "Specifies the font to use for page headers when printing a document. This "
+#~ "will only take effect if the \"Print Header\" option is turned on. This "
+#~ "is a gnome-print font name and replaced by print_font_header_pango."
+#~ msgstr ""
+#~ "Spesifiseer watter font vir bladsykoppe gebruik moet word by drukwerk. "
+#~ "Dit sal eers in werking tree as die \"Druk kop\"-opsie in werking gestel "
+#~ "word."
+
+#~ msgid "Text Color"
+#~ msgstr "Tekskleur"
+
+#~ msgid "Use Default Colors"
+#~ msgstr "Gebruik verstekkleure"
+
+#~ msgid ""
+#~ "Whether to use the system's default colors for the editing area. If this "
+#~ "option is turned off, then the colors of the editing area will be those "
+#~ "specified in the \"Background Color\", \"Text Color\", \"Selected Text "
+#~ "Color\", and \"Selection Color\" options."
+#~ msgstr ""
+#~ "Of die stelsel se verstekkleure vir die redigeerbare streek gebruik moet "
+#~ "word. As hierdie opsie afgeskakel is, sal die kleure van die redigeerbare "
+#~ "streek dié wees wat in die \"Agtergrondkleur\"-, \"Tekskleur\"-, "
+#~ "\"Geselekteerde tekskleur\"- en \"Seleksiekleur\"-opsies gespesifiseer is."
+
+#~ msgid "Page Setup"
+#~ msgstr "Bladsyopstelling"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid "Push this button to configure text color"
+#~ msgstr "Druk dié knoppie om die tekskleur op te stel"
+
+#~ msgid "Push this button to configure background color"
+#~ msgstr "Druk dié knoppie om die agtergrondkleur op te stel"
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "appear"
+#~ msgstr ""
+#~ "Druk dié knoppie om die kleur waarin die gemerkte teks moet verskyn, op "
+#~ "te stel"
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "be marked"
+#~ msgstr ""
+#~ "Druk dié knoppie om die kleur waarin die gemerkte teks gemerk moet word, "
+#~ "op te stel"
+
+#~ msgid "Elements"
+#~ msgstr "Elemente"
+
+#~ msgid "<b>Elements</b>"
+#~ msgstr "<b>Elemente</b>"
+
+#~ msgid "Highlight _mode:"
+#~ msgstr "Verlig_modus:"
+
+#~ msgid "Italic"
+#~ msgstr "Skuinsdruk"
+
+#~ msgid "Normal _text color:"
+#~ msgstr "Normale_teks-kleur:"
+
+#~ msgid "Pick a color"
+#~ msgstr "Kies 'n kleur"
+
+#~ msgid "Pick the background color"
+#~ msgstr "Kies die agtergrondkleur"
+
+#~ msgid "Pick the normal text color"
+#~ msgstr "Kies die normaleteks-kleur"
+
+#~ msgid "Pick the selected text color"
+#~ msgstr "Kies die gemerkteteks-kleur"
+
+#~ msgid "Pick the selection color"
+#~ msgstr "Kies die merkkleur"
+
+#~ msgid "Se_lection color:"
+#~ msgstr "M_erkkleur:"
+
+#~ msgid "Selecte_d text color:"
+#~ msgstr "Gemerkte_teks-kleur:"
+
+#~ msgid "Strikethrough"
+#~ msgstr "Deurhaal"
+
+#~ msgid "U_se default theme colors"
+#~ msgstr "G_ebruik verstektema-kleure"
+
+#~ msgid "Underline"
+#~ msgstr "Onderstreep"
+
+#~ msgid "_Background:"
+#~ msgstr "_Agtergrond:"
+
+#~ msgid "_Foreground:"
+#~ msgstr "_Voorgrond:"
+
+#~ msgid "_Reset to Default "
+#~ msgstr "_Herverstel na verstek "
+
+#~ msgid "_Use default theme font"
+#~ msgstr "_Gebruik verstektemafont"
+
+#, fuzzy
+#~ msgid "gedit cannot handle <i>%s:</i> locations."
+#~ msgstr "gedit kan nie met %s:-liggings in skryfmodus werk nie."
+
+#, fuzzy
+#~ msgid "<small>Ch_aracter Coding:</small>"
+#~ msgstr "K_arakterkodering:"
+
+#, fuzzy
+#~ msgid "The file %s is already open."
+#~ msgstr "Die lêer \"%s\" is leesalleen.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "gedit cannot handle <i>%s:</i> locations in write mode. Please, check "
+#~ "that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" is nie 'n geldige ligging nie.\n"
+#~ "\n"
+#~ "Maak seker jy't die ligging reg ingetik en probeer weer."
+
+#, fuzzy
+#~ msgid "Number of pages vertically"
+#~ msgstr "_Nommer elke"
+
+#, fuzzy
+#~ msgid "Error opening file <i>%s</i>."
+#~ msgstr "Kon nie lêer \"%s\" laai nie"
+
+#, fuzzy
+#~ msgid "Error reverting file <i>%s</i>."
+#~ msgstr "Fout by terugkering van dokument \"%s\"."
+
+#, fuzzy
+#~ msgid "Error saving file <i>%s</i>."
+#~ msgstr "Kon nie lêer \"%s\" laai nie"
+
+#~ msgid "Rendering page %d of %d..."
+#~ msgstr "Verbeeld tans bladsy %d van %d..."
+
+#~ msgid "Normal"
+#~ msgstr "Normaal"
+
+#~ msgid "Use Normal highlight mode"
+#~ msgstr "Gebruik normaleverligting-modus"
+
+#, fuzzy
+#~ msgid "Amharic"
+#~ msgstr "Arabies"
+
+#, fuzzy
+#~ msgid "Bengali"
+#~ msgstr "Balties"
+
+#~ msgid "Breton"
+#~ msgstr "Bretons"
+
+#~ msgid "Catalan"
+#~ msgstr "Katalaans"
+
+#~ msgid "Czech"
+#~ msgstr "Tsjeggies"
+
+#~ msgid "Danish"
+#~ msgstr "Deens"
+
+#, fuzzy
+#~ msgid "German (Austria)"
+#~ msgstr "Duits (Duitsland)"
+
+#~ msgid "German (Germany)"
+#~ msgstr "Duits (Duitsland)"
+
+#~ msgid "German (Swiss)"
+#~ msgstr "Duits (Switserland)"
+
+#~ msgid "English (American)"
+#~ msgstr "Engels (Amerikaans)"
+
+#~ msgid "English (British)"
+#~ msgstr "Engels (Brits)"
+
+#~ msgid "English (Canadian)"
+#~ msgstr "Engels (Kanadees)"
+
+#~ msgid "Esperanto"
+#~ msgstr "Esperanto"
+
+#~ msgid "Spanish"
+#~ msgstr "Spaans"
+
+#, fuzzy
+#~ msgid "Estonian"
+#~ msgstr "Romeens"
+
+#, fuzzy
+#~ msgid "Persian"
+#~ msgstr "Druk"
+
+#, fuzzy
+#~ msgid "Finnish"
+#~ msgstr "Deens"
+
+#~ msgid "Faroese"
+#~ msgstr "Färoërs"
+
+#~ msgid "French (France)"
+#~ msgstr "Frans (Frankryk)"
+
+#~ msgid "French (Swiss)"
+#~ msgstr "Frans (Switserland)"
+
+#, fuzzy
+#~ msgid "Irish"
+#~ msgstr "Turks"
+
+#, fuzzy
+#~ msgid "Gallegan"
+#~ msgstr "Georgies"
+
+#, fuzzy
+#~ msgid "Hindi"
+#~ msgstr "Vind"
+
+#, fuzzy
+#~ msgid "Croatian"
+#~ msgstr "Katalaans"
+
+#~ msgid "Italian"
+#~ msgstr "Italiaans"
+
+#, fuzzy
+#~ msgid "Kurdish"
+#~ msgstr "Turks"
+
+#, fuzzy
+#~ msgid "Latin"
+#~ msgstr "Reëls"
+
+#, fuzzy
+#~ msgid "Macedonian"
+#~ msgstr "gedit"
+
+#, fuzzy
+#~ msgid "Norwegian Bokmal"
+#~ msgstr "Noors"
+
+#~ msgid "Dutch"
+#~ msgstr "Nederlands"
+
+#, fuzzy
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "Noors"
+
+#~ msgid "Norwegian"
+#~ msgstr "Noors"
+
+#~ msgid "Polish"
+#~ msgstr "Pools"
+
+#~ msgid "Portuguese (Portugal)"
+#~ msgstr "Portugees (Portugal)"
+
+#~ msgid "Portuguese (Brazilian)"
+#~ msgstr "Portugees (Brasilië)"
+
+#~ msgid "Russian"
+#~ msgstr "Russies"
+
+#, fuzzy
+#~ msgid "Sardinian"
+#~ msgstr "Oekraïens"
+
+#~ msgid "Swedish"
+#~ msgstr "Sweeds"
+
+#, fuzzy
+#~ msgid "Tamil"
+#~ msgstr "Thais"
+
+#~ msgid "Ukrainian"
+#~ msgstr "Oekraïens"
+
+#~ msgid "Double-click on a tag to insert it in the current document"
+#~ msgstr "Dubbelkliek op 'n merker om dit in die huidige dokument in te voeg"
+
+#, fuzzy
+#~ msgid "Space"
+#~ msgstr "Stoor"
+
+#~ msgid "Gedit View"
+#~ msgstr "Gedit-aansig"
+
+#~ msgid "Gedit View."
+#~ msgstr "Gedit-aansig."
+
+#~ msgid "Gedit viewer factory"
+#~ msgstr "Gedit-aansigfabriek"
+
+#~ msgid "gedit application"
+#~ msgstr "gedit-toepassing"
+
+#~ msgid "gedit automation factory"
+#~ msgstr "gedit-outomeerfabriek"
+
+#~ msgid "Go to Line"
+#~ msgstr "Gaan na reël"
+
+#~ msgid "_Go to Line"
+#~ msgstr "_Gaan na reël"
+
+#~ msgid "The text \"%s\" was not found."
+#~ msgstr "Die teks \"%s\" kon nie gevind word nie."
+
+#~ msgid "Set program location..."
+#~ msgstr "Stel programligging op..."
+
+#~ msgid ""
+#~ "The %s plugin uses an external program, called <tt>%s</tt>, to perform "
+#~ "its task.\n"
+#~ "\n"
+#~ "Please, specify the location of the <tt>%s</tt> program."
+#~ msgstr ""
+#~ "Die %s inprop gebruik 'n buiteprogram genaamd <tt>%s</tt> om die taak uit "
+#~ "te voer.\n"
+#~ "\n"
+#~ "Spesifiseer asseblief die ligging van die <tt>%s</tt> program."
+
+#~ msgid "Goto Line"
+#~ msgstr "Gaan na reël"
+
+#~ msgid "_Line number:"
+#~ msgstr "_Reëlnommer:"
+
+#~ msgid "button1"
+#~ msgstr "button1"
+
+#~ msgid "dialog1"
+#~ msgstr "dialog1"
+
+#~ msgid "Browse for program location..."
+#~ msgstr "Blaai vir programligging..."
+
+#~ msgid "label"
+#~ msgstr "etiket"
+
+#~ msgid "Open from URI"
+#~ msgstr "Open vanuit URI"
+
+#~ msgid "Invalid UTF-8 data"
+#~ msgstr "Ongeldige UTF-8-data"
+
+#~ msgid "Could not read symbolic link information for %s"
+#~ msgstr "Kon nie simboliese skakel se inligting vir %s lees nie"
+
+#~ msgid "The file has too many symbolic links."
+#~ msgstr "Die lêer het te veel simboliese skakels."
+
+#~ msgid "gedit cannot handle %s: locations in write mode."
+#~ msgstr "gedit kan nie met %s:-liggings in skryfmodus werk nie."
+
+#~ msgid "gedit cannot handle this kind of location in write mode."
+#~ msgstr "gedit kan nie met hierdie soort ligging in skryfmodus werk nie."
+
+#~ msgid "Invalid filename."
+#~ msgstr "Ongeldige lêernaam."
+
+#~ msgid "A file named \"%s\" already exists.\n"
+#~ msgstr "n Lêer genaamd \"%s\" bestaan reeds.\n"
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "Wil jy dit vervang met die een wat jy tans stoor?"
+
+#~ msgid "Select a file to open"
+#~ msgstr "Kies 'n lêer om te open"
+
+#~ msgid "Select files to open"
+#~ msgstr "Kies lêers om te open"
+
+#~ msgid "Select a filename to save"
+#~ msgstr "Kies 'n lêernaam om te stoor"
+
+#~ msgid "Saving document \"%s\"..."
+#~ msgstr "Stoor dokument \"%s\"..."
+
+#~ msgid "The document \"%s\" has not been saved."
+#~ msgstr "Die dokument \"%s\" is nie gestoor nie."
+
+#~ msgid "The document \"%s\" has been saved."
+#~ msgstr "Die dokument \"%s\" is gestoor."
+
+#~ msgid "Save as..."
+#~ msgstr "Stoor as..."
+
+#~ msgid "The document \"%s\" has not been reverted."
+#~ msgstr "Daar is nie na die dokument \"%s\" teruggekeer nie."
+
+#~ msgid "The document \"%s\" has been reverted."
+#~ msgstr "Daar is na die dokument \"%s\" teruggekeer."
+
+#~ msgid "Could not read data from stdin."
+#~ msgstr "Kon nie data van stdin lees nie."
+
+#~ msgid "Reverting file:"
+#~ msgstr "Keer terug tans terug na lêer:"
+
+#~ msgid "Loading file:"
+#~ msgstr "Laai tans lêer:"
+
+#~ msgid "Loaded file \"%s\""
+#~ msgstr "Het lêer \"%s\" gelaai"
+
+#~ msgid "Loaded %d file"
+#~ msgid_plural "Loaded %d files"
+#~ msgstr[0] "Het lêer %d gelaai"
+#~ msgstr[1] "Het lêers %d gelaai"
+
+#, fuzzy
+#~ msgid "Created file \"%s\""
+#~ msgstr "Het lêer \"%s\" gelaai"
+
+#, fuzzy
+#~ msgid ""
+#~ "there are too many open files. Please, close some open files and try "
+#~ "again."
+#~ msgstr ""
+#~ "Kon nie die lêer \"%s\" open nie want daar is te veel lêers oop.\n"
+#~ "\n"
+#~ "Sluit 'n paar oop lêers en probeer gerus weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "gedit was not able to automatically detect the character coding. Please, "
+#~ "check that you are not trying to open a binary file and try again "
+#~ "selecting a character coding in the 'Open File...' (or 'Open Location') "
+#~ "dialog."
+#~ msgstr ""
+#~ "Kon nie die lêer \"%s\" open nie want gedit kon nie die karakterkodering "
+#~ "outomaties vasstel nie.\n"
+#~ "\n"
+#~ "Maak seker dat jy nie 'n binêre lêer probeer open nie, en wanneer jy weer "
+#~ "probeer, kies 'n karakterkodering in die 'Open lêer...'- (of 'Open "
+#~ "ligging'-) dialoog."
+
+#, fuzzy
+#~ msgid ""
+#~ "Please, check that you are not trying to open a binary file and that you "
+#~ "selected the right character coding in the 'Open File... ' (or 'Open "
+#~ "Location') dialog and try again."
+#~ msgstr ""
+#~ "Kon nie die lêer \"%s\" met die %s karakterkodering open nie.\n"
+#~ "\n"
+#~ "Maak seker dat jy nie 'n binêre lêer probeer open nie, en dat jy die "
+#~ "korrekte karakterkodering in die 'Open lêer...'- (of 'Open ligging'-) "
+#~ "dialoog gekies het, en probeer gerus weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "The file contains data in an invalid format. Probably, you are trying to "
+#~ "open a binary file."
+#~ msgstr ""
+#~ "Kon nie die lêer \"%s\" open nie want dit bevat ongeldige data.\n"
+#~ "\n"
+#~ "Jy het waarskynlik 'n binêre lêer probeer open."
+
+#, fuzzy
+#~ msgid ""
+#~ "Not enough available memory. Please, close some running applications and "
+#~ "try again."
+#~ msgstr ""
+#~ "Nie voldoende geheue om die lêer \"%s\" te open nie. Sluit 'n paar "
+#~ "toepassings af en probeer gerus weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "The host name was empty. Please, check that your proxy settings are "
+#~ "correct and try again."
+#~ msgstr ""
+#~ "Kon nie die lêer \"%s\" open nie want die gasheernaam is leeg.\n"
+#~ "\n"
+#~ "Maak seker dat jou instaanbedieneropstelling korrek is, en probeer gerus "
+#~ "weer."
+
+#, fuzzy
+#~ msgid ""
+#~ "The file contains invalid UTF-8 data. Probably, you are trying to revert "
+#~ "a binary file."
+#~ msgstr ""
+#~ "Kon nie na die lêer \"%s\" terugkeer nie want dit bevat ongeldige UTF-8-"
+#~ "data.\n"
+#~ "\n"
+#~ "Jy probeer waarskynlik 'n binêre lêer open."
+
+#~ msgid "It is not possible to revert an Untitled document."
+#~ msgstr "Dis nie moontlik om na 'n naamlose dokument terug te keer nie."
+
+#, fuzzy
+#~ msgid "The file \"%s\" already exists"
+#~ msgstr "Die lêer \"%s\" bestaan reeds."
+
+#, fuzzy
+#~ msgid "Please, check that you typed the location correctly."
+#~ msgstr ""
+#~ "\"%s\" is 'n gids.\n"
+#~ "\n"
+#~ "Maak seker jy't die ligging reg ingetik."
+
+#, fuzzy
+#~ msgid "Could not create the file \"%s\""
+#~ msgstr "Kon nie die lêer \"%s\" skep nie."
+
+#, fuzzy
+#~ msgid "Make sure you have the appropriate write permissions."
+#~ msgstr ""
+#~ "Kan nie die lêer \"%s\" skep nie.\n"
+#~ "\n"
+#~ "Maak seker jy beskik oor voldoende skryftoestemming."
+
+#, fuzzy
+#~ msgid "The file name is too long."
+#~ msgstr ""
+#~ "Kan nie die lêer \"%s\" skep nie.\n"
+#~ "\n"
+#~ "Die lêernaam is te lank."
+
+#, fuzzy
+#~ msgid ""
+#~ "A directory component in the file name does not exist or is a dangling "
+#~ "symbolic link."
+#~ msgstr ""
+#~ "Kan nie die lêer \"%s\" skep nie.\n"
+#~ "\n"
+#~ "'n Gidskomponent in die lêernaam bestaan nie of is 'n hangende simboliese "
+#~ "skakel."
+
+#, fuzzy
+#~ msgid ""
+#~ "There is not enough disk space to create the file. Please free some disk "
+#~ "space and try again."
+#~ msgstr ""
+#~ "Daar is nie voldoende skyfspasie om die lêer \"%s\" te skep nie.\n"
+#~ "\n"
+#~ "Maak 'n bietjie spasie beskikbaar en probeer weer."
+
+#~ msgid "Close the output window"
+#~ msgstr "Sluit die afvoervenster af"
+
+#~ msgid "Copy selected lines"
+#~ msgstr "Kopieer gemerkte reëls"
+
+#~ msgid "Clear the output window"
+#~ msgstr "Maak die afvoervenster skoon"
+
+#~ msgid "Output Lines"
+#~ msgstr "Afvoerlêers"
+
+#~ msgid "Preparing pages..."
+#~ msgstr "Berei bladsye voor..."
+
+#~ msgid "Printing page %d of %d..."
+#~ msgstr "Druk tans bladsy %d van %d..."
+
+#~ msgid "Change the visibility of the output window in the current window"
+#~ msgstr "Verander die sigbaarheid van afvoervenster in die huidige venster"
+
+#~ msgid "Close"
+#~ msgstr "Afsluit"
+
+#~ msgid "Copy"
+#~ msgstr "Kopieer"
+
+#~ msgid "Cu_t"
+#~ msgstr "Kn_ip"
+
+#~ msgid "Cut"
+#~ msgstr "Knip"
+
+#~ msgid "Delete"
+#~ msgstr "Skrap"
+
+#~ msgid "Find Previous"
+#~ msgstr "Vind vorige"
+
+#~ msgid "Main toolbar"
+#~ msgstr "Hoofnutsbalk"
+
+#~ msgid "New"
+#~ msgstr "Nuwe"
+
+#~ msgid "Open Location..."
+#~ msgstr "Open ligging..."
+
+#~ msgid "Paste"
+#~ msgstr "Plak"
+
+#~ msgid "Print Previe_w..."
+#~ msgstr "Drukvoors_kou..."
+
+#~ msgid "Quit"
+#~ msgstr "Afsluit"
+
+#~ msgid "Redo"
+#~ msgstr "Herdoen"
+
+#~ msgid "Revert"
+#~ msgstr "Keer terug"
+
+#~ msgid "Select All"
+#~ msgstr "Merk alles"
+
+#~ msgid ""
+#~ "Set toolbar button style according to desktop Menu and Toolbar Preferences"
+#~ msgstr ""
+#~ "Stel nutsbalkknoppiestyl volgens die werkskerm se kieslys-en-"
+#~ "nutsbalkvoorkeure"
+
+#~ msgid "Show only icons in the toolbar"
+#~ msgstr "Wys net ikone in die nutsbalk"
+
+#~ msgid "Show text below every icon in the toolbar"
+#~ msgstr "Wys teks onder elke ikoon in die nutsbalk"
+
+#~ msgid "Show text only beside important icons in the toolbar"
+#~ msgstr "Wys teks net langs belangrike ikone in die nutsbalk"
+
+#~ msgid "T_ext for Important Icons"
+#~ msgstr "T_eks vir belangrike ikone"
+
+#~ msgid "Undo"
+#~ msgstr "Ontdoen"
+
+#~ msgid "_Close"
+#~ msgstr "_Sluit"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopieer"
+
+#~ msgid "_Customize Toolbar"
+#~ msgstr "_Doelmaak nutsbalk"
+
+#~ msgid "_Desktop Default"
+#~ msgstr "_Werkareaverstek"
+
+#~ msgid "_Icons Only"
+#~ msgstr "_Net ikone"
+
+#~ msgid "_New"
+#~ msgstr "_Nuwe"
+
+#~ msgid "_Output Window"
+#~ msgstr "_Afvoervenster"
+
+#~ msgid "_Paste"
+#~ msgstr "_Plak"
+
+#~ msgid "_Quit"
+#~ msgstr "_Afsluit"
+
+#~ msgid "_Redo"
+#~ msgstr "_Herdoen"
+
+#~ msgid "_Text for All Icons"
+#~ msgstr "_Teks vir alle ikone"
+
+#~ msgid "_Undo"
+#~ msgstr "_Ontdoen"
+
+#~ msgid "Quit an existing instance of gedit"
+#~ msgstr "Sluit 'n bestaande geval van gedit af"
+
+#~ msgid "Update"
+#~ msgstr "Bywerk"
+
+#~ msgid "gedit: Document Info plugin"
+#~ msgstr "gedit: Dokumentinfo-inprop"
+
+#, fuzzy
+#~ msgid "Sa_ve Copy..."
+#~ msgstr "_Kopieer"
+
+#, fuzzy
+#~ msgid "Save a copy of the current document"
+#~ msgstr "Stel die taal van die huidige dokument op"
+
+#, fuzzy
+#~ msgid "Could not save a copy of the file to \"%s\""
+#~ msgstr "Kon nie die lêer \"%s\" stoor nie."
+
+#, fuzzy
+#~ msgid "Save Copy..."
+#~ msgstr "Stoor _geen"
+
+#, fuzzy
+#~ msgid "Save a Copy"
+#~ msgstr "Stoor alle oop lêers"
+
+#, fuzzy
+#~ msgid "Saves a copy of the current document to a local or remote location."
+#~ msgstr "Sorteer die huidige dokument of seleksie."
+
+#~ msgid "_Run Command..."
+#~ msgstr "_Loop bevel..."
+
+#~ msgid "Run a command"
+#~ msgstr "Loop 'n bevel"
+
+#~ msgid "_Run"
+#~ msgstr "_Loop"
+
+#~ msgid "Failed"
+#~ msgstr "Gefaal"
+
+#~ msgid ""
+#~ "The shell command entry is empty.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Die dopbevelinskrywing is leeg.\n"
+#~ "\n"
+#~ "Tik asseblief 'n geldige dopbevel in."
+
+#~ msgid ""
+#~ "Error parsing the shell command.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Kon nie die dopbevel ontleed nie.\n"
+#~ "\n"
+#~ "Tik asseblief 'n geldige dopbevel in."
+
+#~ msgid "Executing command"
+#~ msgstr "Voer tans bevel uit"
+
+#, fuzzy
+#~ msgid "An error occurred while running the selected command."
+#~ msgstr "'n Fout het plaasgevind tydens loop van geselekteerde bevel."
+
+#, fuzzy
+#~ msgid ""
+#~ "Executes an external program and, if required, displays its output in the "
+#~ "output window."
+#~ msgstr ""
+#~ "Laat 'n buiteprogram loop en gryp eindelik sy afvoer in die afvoervenster."
+
+#~ msgid "Shell command"
+#~ msgstr "Dopbevel"
+
+#~ msgid "Select the working directory..."
+#~ msgstr "Kies die werksgids..."
+
+#~ msgid "_Show results in Output Window"
+#~ msgstr "_Toon resultate in afvoervenster"
+
+#~ msgid "_Working directory:"
+#~ msgstr "_Werksgids:"
+
+#~ msgid "gedit: Shell Output plugin"
+#~ msgstr "gedit: dopafvoerinprop"
+
+#, fuzzy
+#~ msgid "The selected text does not contain misspelled words."
+#~ msgstr "Die gemerkte teks bevat nie verkeerd gespelde woorde nie."
+
+#, fuzzy
+#~ msgid "The document does not contain misspelled words."
+#~ msgstr "Die dokument bevat nie verkeerd gespelde woorde nie."
+
+#~ msgid "Tag list plugin"
+#~ msgstr "Merkerlys-inprop"
+
+#~ msgid "Tag _List"
+#~ msgstr "Merker_lys"
+
+#~ msgid "Show the tag list window"
+#~ msgstr "Wys die merkerlys-venster"
